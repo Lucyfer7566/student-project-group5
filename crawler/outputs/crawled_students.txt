@@ -1,0 +1,1111 @@
+==========================================================================================
+DỮ LIỆU SINH VIÊN CRAWL BẰNG SELENIUM
+==========================================================================================
+Thời gian: 2026-01-06 21:43:45
+Tổng số sinh viên crawl được: 100
+API URL: http://localhost:8000
+==========================================================================================
+
+[1] MÃ SINH VIÊN: SV001
+    ID Database: 101
+    Họ: Active
+    Tên: Shine
+    Email: shineactive68@gmail.com
+    Ngày sinh: 2008-01-02
+    Quê quán: Cam Khe
+    Điểm toán: 2.0
+    Điểm văn: 3.0
+    Điểm anh: 3.94
+
+[2] MÃ SINH VIÊN: SV002
+    ID Database: 2
+    Họ: Cao
+    Tên: Thi AB
+    Email: cao002@student.edu.vn
+    Ngày sinh: 2002-06-13
+    Quê quán: Tuyen Quang
+    Điểm toán: 7.09
+    Điểm văn: 5.49
+    Điểm anh: 7.79
+
+[3] MÃ SINH VIÊN: SV003
+    ID Database: 3
+    Họ: Ta
+    Tên: Thi H
+    Email: ta003@student.edu.vn
+    Ngày sinh: 2005-07-05
+    Quê quán: Tien Giang
+    Điểm toán: 9.7
+    Điểm văn: 9.87
+    Điểm anh: 7.86
+
+[4] MÃ SINH VIÊN: SV004
+    ID Database: 4
+    Họ: Ly
+    Tên: Thi AL
+    Email: ly004@student.edu.vn
+    Ngày sinh: 2004-10-14
+    Quê quán: Phu Quoc
+    Điểm toán: 7.71
+    Điểm văn: 4.44
+    Điểm anh: 7.28
+
+[5] MÃ SINH VIÊN: SV005
+    ID Database: 5
+    Họ: Nguyen
+    Tên: Thi T
+    Email: nguyen005@student.edu.vn
+    Ngày sinh: 2002-07-14
+    Quê quán: Dong Thap
+    Điểm toán: 8.26
+    Điểm văn: 5.45
+    Điểm anh: 4.72
+
+[6] MÃ SINH VIÊN: SV006
+    ID Database: 6
+    Họ: Kieu
+    Tên: Van P
+    Email: kieu006@student.edu.vn
+    Ngày sinh: 2004-05-27
+    Quê quán: Tra Vinh
+    Điểm toán: 4.18
+    Điểm văn: 9.26
+    Điểm anh: 4.0
+
+[7] MÃ SINH VIÊN: SV007
+    ID Database: 7
+    Họ: Vo
+    Tên: Van AI
+    Email: vo007@student.edu.vn
+    Ngày sinh: 2007-12-30
+    Quê quán: Ha Tinh
+    Điểm toán: 6.43
+    Điểm văn: 8.49
+    Điểm anh: 7.3
+
+[8] MÃ SINH VIÊN: SV008
+    ID Database: 8
+    Họ: Kieu
+    Tên: Thi H
+    Email: kieu008@student.edu.vn
+    Ngày sinh: 2003-03-18
+    Quê quán: Can Tho
+    Điểm toán: 7.89
+    Điểm văn: 4.46
+    Điểm anh: 5.82
+
+[9] MÃ SINH VIÊN: SV009
+    ID Database: 9
+    Họ: Ta
+    Tên: Thi AL
+    Email: ta009@student.edu.vn
+    Ngày sinh: 2005-12-23
+    Quê quán: Ben Tre
+    Điểm toán: 7.29
+    Điểm văn: 8.13
+    Điểm anh: 4.07
+
+[10] MÃ SINH VIÊN: SV010
+    ID Database: 10
+    Họ: Vu
+    Tên: Thi AL
+    Email: vu010@student.edu.vn
+    Ngày sinh: 2005-01-07
+    Quê quán: Tuyen Quang
+    Điểm toán: 5.29
+    Điểm văn: 9.72
+    Điểm anh: 4.71
+
+[11] MÃ SINH VIÊN: SV011
+    ID Database: 11
+    Họ: Dang
+    Tên: Van B
+    Email: dang011@student.edu.vn
+    Ngày sinh: 2007-11-08
+    Quê quán: Thua Thien Hue
+    Điểm toán: 4.16
+    Điểm văn: 9.5
+    Điểm anh: 9.95
+
+[12] MÃ SINH VIÊN: SV012
+    ID Database: 12
+    Họ: Thai
+    Tên: Thi AR
+    Email: thai012@student.edu.vn
+    Ngày sinh: 2002-06-09
+    Quê quán: Ha Tinh
+    Điểm toán: 6.04
+    Điểm văn: 5.9
+    Điểm anh: 6.58
+
+[13] MÃ SINH VIÊN: SV013
+    ID Database: 13
+    Họ: Ly
+    Tên: Thi AZ
+    Email: ly013@student.edu.vn
+    Ngày sinh: 2005-01-21
+    Quê quán: Bac Lieu
+    Điểm toán: 9.51
+    Điểm văn: 8.63
+    Điểm anh: 4.05
+
+[14] MÃ SINH VIÊN: SV014
+    ID Database: 14
+    Họ: Cao
+    Tên: Van E
+    Email: cao014@student.edu.vn
+    Ngày sinh: 2003-01-18
+    Quê quán: TP. Ho Chi Minh
+    Điểm toán: 8.31
+    Điểm văn: 6.81
+    Điểm anh: 7.36
+
+[15] MÃ SINH VIÊN: SV015
+    ID Database: 15
+    Họ: Vo
+    Tên: Van AM
+    Email: vo015@student.edu.vn
+    Ngày sinh: 2006-07-26
+    Quê quán: Thanh Hoa
+    Điểm toán: 8.76
+    Điểm văn: 7.08
+    Điểm anh: 9.0
+
+[16] MÃ SINH VIÊN: SV016
+    ID Database: 16
+    Họ: Nguyen
+    Tên: Thi K
+    Email: nguyen016@student.edu.vn
+    Ngày sinh: 2005-01-28
+    Quê quán: Quang Ngai
+    Điểm toán: 7.72
+    Điểm văn: 7.98
+    Điểm anh: 8.45
+
+[17] MÃ SINH VIÊN: SV017
+    ID Database: 17
+    Họ: Hoang
+    Tên: Van B
+    Email: hoang017@student.edu.vn
+    Ngày sinh: 2005-06-14
+    Quê quán: Yen Bai
+    Điểm toán: 6.27
+    Điểm văn: 9.29
+    Điểm anh: 9.18
+
+[18] MÃ SINH VIÊN: SV018
+    ID Database: 18
+    Họ: Vo
+    Tên: Thi Z
+    Email: vo018@student.edu.vn
+    Ngày sinh: 2003-01-27
+    Quê quán: An Giang
+    Điểm toán: 8.57
+    Điểm văn: 7.48
+    Điểm anh: 6.32
+
+[19] MÃ SINH VIÊN: SV019
+    ID Database: 19
+    Họ: To
+    Tên: Thi AN
+    Email: to019@student.edu.vn
+    Ngày sinh: 2006-07-17
+    Quê quán: Phu Quoc
+    Điểm toán: 9.76
+    Điểm văn: 7.07
+    Điểm anh: 6.76
+
+[20] MÃ SINH VIÊN: SV020
+    ID Database: 20
+    Họ: Vo
+    Tên: Van A
+    Email: vo020@student.edu.vn
+    Ngày sinh: 2006-10-27
+    Quê quán: Son La
+    Điểm toán: 5.23
+    Điểm văn: 4.05
+    Điểm anh: 3.31
+
+[21] MÃ SINH VIÊN: SV021
+    ID Database: 21
+    Họ: Ly
+    Tên: Thi H
+    Email: ly021@student.edu.vn
+    Ngày sinh: 2007-11-01
+    Quê quán: Binh Dinh
+    Điểm toán: 7.09
+    Điểm văn: 6.88
+    Điểm anh: 4.77
+
+[22] MÃ SINH VIÊN: SV022
+    ID Database: 22
+    Họ: Vu
+    Tên: Thi AJ
+    Email: vu022@student.edu.vn
+    Ngày sinh: 2005-02-18
+    Quê quán: Binh Thuan
+    Điểm toán: 9.82
+    Điểm văn: 9.09
+    Điểm anh: 4.96
+
+[23] MÃ SINH VIÊN: SV023
+    ID Database: 23
+    Họ: Pham
+    Tên: Van Y
+    Email: pham023@student.edu.vn
+    Ngày sinh: 2005-09-23
+    Quê quán: Kien Giang
+    Điểm toán: 3.46
+    Điểm văn: 3.4
+    Điểm anh: 9.4
+
+[24] MÃ SINH VIÊN: SV024
+    ID Database: 24
+    Họ: To
+    Tên: Van N
+    Email: to024@student.edu.vn
+    Ngày sinh: 2005-02-03
+    Quê quán: Tuyen Quang
+    Điểm toán: 3.42
+    Điểm văn: 6.04
+    Điểm anh: 3.54
+
+[25] MÃ SINH VIÊN: SV025
+    ID Database: 25
+    Họ: Bui
+    Tên: Van AM
+    Email: bui025@student.edu.vn
+    Ngày sinh: 2005-06-17
+    Quê quán: Quang Ngai
+    Điểm toán: 7.7
+    Điểm văn: 8.31
+    Điểm anh: 9.08
+
+[26] MÃ SINH VIÊN: SV026
+    ID Database: 26
+    Họ: Pham
+    Tên: Van AI
+    Email: pham026@student.edu.vn
+    Ngày sinh: 2003-10-20
+    Quê quán: Da Nang
+    Điểm toán: 8.13
+    Điểm văn: 6.01
+    Điểm anh: 9.22
+
+[27] MÃ SINH VIÊN: SV027
+    ID Database: 27
+    Họ: To
+    Tên: Van AI
+    Email: to027@student.edu.vn
+    Ngày sinh: 2006-10-09
+    Quê quán: Hai Phong
+    Điểm toán: 6.92
+    Điểm văn: 7.76
+    Điểm anh: 8.11
+
+[28] MÃ SINH VIÊN: SV028
+    ID Database: 28
+    Họ: Tran
+    Tên: Thi AJ
+    Email: tran028@student.edu.vn
+    Ngày sinh: 2003-07-21
+    Quê quán: Lang Son
+    Điểm toán: 6.08
+    Điểm văn: 8.75
+    Điểm anh: 8.06
+
+[29] MÃ SINH VIÊN: SV029
+    ID Database: 29
+    Họ: Ly
+    Tên: Van Y
+    Email: ly029@student.edu.vn
+    Ngày sinh: 2002-12-23
+    Quê quán: Hue
+    Điểm toán: 5.1
+    Điểm văn: 5.31
+    Điểm anh: 7.44
+
+[30] MÃ SINH VIÊN: SV030
+    ID Database: 30
+    Họ: Dang
+    Tên: Thi H
+    Email: dang030@student.edu.vn
+    Ngày sinh: 2005-04-04
+    Quê quán: Ha Noi
+    Điểm toán: 4.66
+    Điểm văn: 4.91
+    Điểm anh: 5.3
+
+[31] MÃ SINH VIÊN: SV031
+    ID Database: 31
+    Họ: Kieu
+    Tên: Thi AZ
+    Email: kieu031@student.edu.vn
+    Ngày sinh: 2005-07-23
+    Quê quán: Long An
+    Điểm toán: 4.2
+    Điểm văn: 4.99
+    Điểm anh: 4.71
+
+[32] MÃ SINH VIÊN: SV032
+    ID Database: 32
+    Họ: Ly
+    Tên: Thi AH
+    Email: ly032@student.edu.vn
+    Ngày sinh: 2005-05-25
+    Quê quán: Khanh Hoa
+    Điểm toán: 6.06
+    Điểm văn: 5.1
+    Điểm anh: 8.29
+
+[33] MÃ SINH VIÊN: SV033
+    ID Database: 33
+    Họ: Tran
+    Tên: Van AM
+    Email: tran033@student.edu.vn
+    Ngày sinh: 2006-04-27
+    Quê quán: Quang Tri
+    Điểm toán: 5.94
+    Điểm văn: 4.64
+    Điểm anh: 9.37
+
+[34] MÃ SINH VIÊN: SV034
+    ID Database: 34
+    Họ: Dang
+    Tên: Thi AX
+    Email: dang034@student.edu.vn
+    Ngày sinh: 2001-06-15
+    Quê quán: Ninh Thuan
+    Điểm toán: 7.56
+    Điểm văn: 8.59
+    Điểm anh: 8.62
+
+[35] MÃ SINH VIÊN: SV035
+    ID Database: 35
+    Họ: Tran
+    Tên: Thi H
+    Email: tran035@student.edu.vn
+    Ngày sinh: 2001-03-06
+    Quê quán: Ca Mau
+    Điểm toán: 6.5
+    Điểm văn: 4.83
+    Điểm anh: 8.88
+
+[36] MÃ SINH VIÊN: SV036
+    ID Database: 36
+    Họ: Dinh
+    Tên: Van Q
+    Email: dinh036@student.edu.vn
+    Ngày sinh: 2001-01-30
+    Quê quán: Hue
+    Điểm toán: 3.85
+    Điểm văn: 9.98
+    Điểm anh: 7.29
+
+[37] MÃ SINH VIÊN: SV037
+    ID Database: 37
+    Họ: Kieu
+    Tên: Van AA
+    Email: kieu037@student.edu.vn
+    Ngày sinh: 2003-07-11
+    Quê quán: Thai Nguyen
+    Điểm toán: 3.03
+    Điểm văn: 8.49
+    Điểm anh: 4.47
+
+[38] MÃ SINH VIÊN: SV038
+    ID Database: 38
+    Họ: Dang
+    Tên: Thi T
+    Email: dang038@student.edu.vn
+    Ngày sinh: 2005-05-05
+    Quê quán: Nha Trang
+    Điểm toán: 3.37
+    Điểm văn: 4.8
+    Điểm anh: 4.74
+
+[39] MÃ SINH VIÊN: SV039
+    ID Database: 39
+    Họ: Thai
+    Tên: Thi AT
+    Email: thai039@student.edu.vn
+    Ngày sinh: 2005-12-02
+    Quê quán: Binh Dinh
+    Điểm toán: 9.52
+    Điểm văn: 5.03
+    Điểm anh: 3.79
+
+[40] MÃ SINH VIÊN: SV040
+    ID Database: 40
+    Họ: Dang
+    Tên: Van AC
+    Email: dang040@student.edu.vn
+    Ngày sinh: 2003-12-23
+    Quê quán: Ba Ria Vung Tau
+    Điểm toán: 7.45
+    Điểm văn: 9.34
+    Điểm anh: 9.68
+
+[41] MÃ SINH VIÊN: SV041
+    ID Database: 41
+    Họ: Pham
+    Tên: Van Q
+    Email: pham041@student.edu.vn
+    Ngày sinh: 2001-07-21
+    Quê quán: Tra Vinh
+    Điểm toán: 7.75
+    Điểm văn: 4.3
+    Điểm anh: 7.39
+
+[42] MÃ SINH VIÊN: SV042
+    ID Database: 42
+    Họ: Vu
+    Tên: Thi AB
+    Email: vu042@student.edu.vn
+    Ngày sinh: 2006-07-10
+    Quê quán: Son La
+    Điểm toán: 8.02
+    Điểm văn: 6.48
+    Điểm anh: 9.33
+
+[43] MÃ SINH VIÊN: SV043
+    ID Database: 43
+    Họ: Hoang
+    Tên: Van AU
+    Email: hoang043@student.edu.vn
+    Ngày sinh: 2006-01-31
+    Quê quán: Quang Nam
+    Điểm toán: 8.77
+    Điểm văn: 8.3
+    Điểm anh: 8.59
+
+[44] MÃ SINH VIÊN: SV044
+    ID Database: 44
+    Họ: Vo
+    Tên: Van B
+    Email: vo044@student.edu.vn
+    Ngày sinh: 2005-11-25
+    Quê quán: Vinh
+    Điểm toán: 8.04
+    Điểm văn: 7.58
+    Điểm anh: 8.13
+
+[45] MÃ SINH VIÊN: SV045
+    ID Database: 45
+    Họ: Hoang
+    Tên: Van J
+    Email: hoang045@student.edu.vn
+    Ngày sinh: 2005-11-07
+    Quê quán: Ba Ria Vung Tau
+    Điểm toán: 9.57
+    Điểm văn: 3.07
+    Điểm anh: 7.5
+
+[46] MÃ SINH VIÊN: SV046
+    ID Database: 46
+    Họ: Tran
+    Tên: Van AY
+    Email: tran046@student.edu.vn
+    Ngày sinh: 2003-10-07
+    Quê quán: Hue
+    Điểm toán: 7.11
+    Điểm văn: 4.89
+    Điểm anh: 5.98
+
+[47] MÃ SINH VIÊN: SV047
+    ID Database: 47
+    Họ: Ly
+    Tên: Thi AL
+    Email: ly047@student.edu.vn
+    Ngày sinh: 2007-06-09
+    Quê quán: Tra Vinh
+    Điểm toán: 6.92
+    Điểm văn: 3.96
+    Điểm anh: 4.85
+
+[48] MÃ SINH VIÊN: SV048
+    ID Database: 48
+    Họ: Nguyen
+    Tên: Van AS
+    Email: nguyen048@student.edu.vn
+    Ngày sinh: 2007-05-09
+    Quê quán: Ha Noi
+    Điểm toán: 8.34
+    Điểm văn: 7.59
+    Điểm anh: 5.46
+
+[49] MÃ SINH VIÊN: SV049
+    ID Database: 49
+    Họ: Nguyen
+    Tên: Van AK
+    Email: nguyen049@student.edu.vn
+    Ngày sinh: 2003-12-24
+    Quê quán: Ben Tre
+    Điểm toán: 5.75
+    Điểm văn: 5.37
+    Điểm anh: 9.52
+
+[50] MÃ SINH VIÊN: SV050
+    ID Database: 50
+    Họ: Bui
+    Tên: Van N
+    Email: bui050@student.edu.vn
+    Ngày sinh: 2006-12-27
+    Quê quán: Ca Mau
+    Điểm toán: 5.35
+    Điểm văn: 8.27
+    Điểm anh: 7.65
+
+[51] MÃ SINH VIÊN: SV051
+    ID Database: 51
+    Họ: Kieu
+    Tên: Thi AH
+    Email: kieu051@student.edu.vn
+    Ngày sinh: 2004-08-13
+    Quê quán: An Giang
+    Điểm toán: 5.71
+    Điểm văn: 9.25
+    Điểm anh: 5.03
+
+[52] MÃ SINH VIÊN: SV052
+    ID Database: 52
+    Họ: Vu
+    Tên: Thi AN
+    Email: vu052@student.edu.vn
+    Ngày sinh: 2004-06-24
+    Quê quán: Vinh
+    Điểm toán: 7.84
+    Điểm văn: 6.38
+    Điểm anh: 5.44
+
+[53] MÃ SINH VIÊN: SV053
+    ID Database: 53
+    Họ: Pham
+    Tên: Van E
+    Email: pham053@student.edu.vn
+    Ngày sinh: 2004-09-04
+    Quê quán: Nha Trang
+    Điểm toán: 5.32
+    Điểm văn: 9.72
+    Điểm anh: 7.0
+
+[54] MÃ SINH VIÊN: SV054
+    ID Database: 54
+    Họ: Pham
+    Tên: Thi AJ
+    Email: pham054@student.edu.vn
+    Ngày sinh: 2004-04-13
+    Quê quán: Tuyen Quang
+    Điểm toán: 8.03
+    Điểm văn: 9.62
+    Điểm anh: 7.24
+
+[55] MÃ SINH VIÊN: SV055
+    ID Database: 55
+    Họ: To
+    Tên: Van AO
+    Email: to055@student.edu.vn
+    Ngày sinh: 2002-03-29
+    Quê quán: Dong Nai
+    Điểm toán: 4.39
+    Điểm văn: 5.8
+    Điểm anh: 3.79
+
+[56] MÃ SINH VIÊN: SV056
+    ID Database: 56
+    Họ: To
+    Tên: Thi V
+    Email: to056@student.edu.vn
+    Ngày sinh: 2001-04-12
+    Quê quán: Phu Quoc
+    Điểm toán: 8.75
+    Điểm văn: 5.04
+    Điểm anh: 7.29
+
+[57] MÃ SINH VIÊN: SV057
+    ID Database: 57
+    Họ: Ly
+    Tên: Thi T
+    Email: ly057@student.edu.vn
+    Ngày sinh: 2005-04-14
+    Quê quán: Bac Giang
+    Điểm toán: 5.49
+    Điểm văn: 7.12
+    Điểm anh: 9.03
+
+[58] MÃ SINH VIÊN: SV058
+    ID Database: 58
+    Họ: To
+    Tên: Van AC
+    Email: to058@student.edu.vn
+    Ngày sinh: 2001-11-19
+    Quê quán: Kien Giang
+    Điểm toán: 9.6
+    Điểm văn: 4.9
+    Điểm anh: 8.8
+
+[59] MÃ SINH VIÊN: SV059
+    ID Database: 59
+    Họ: Pham
+    Tên: Van E
+    Email: pham059@student.edu.vn
+    Ngày sinh: 2002-12-21
+    Quê quán: Thua Thien Hue
+    Điểm toán: 6.39
+    Điểm văn: 5.0
+    Điểm anh: 3.71
+
+[60] MÃ SINH VIÊN: SV060
+    ID Database: 60
+    Họ: Ta
+    Tên: Thi T
+    Email: ta060@student.edu.vn
+    Ngày sinh: 2005-06-02
+    Quê quán: An Giang
+    Điểm toán: 9.82
+    Điểm văn: 5.7
+    Điểm anh: 8.02
+
+[61] MÃ SINH VIÊN: SV061
+    ID Database: 61
+    Họ: Vu
+    Tên: Van L
+    Email: vu061@student.edu.vn
+    Ngày sinh: 2007-01-08
+    Quê quán: Quang Ninh
+    Điểm toán: 6.9
+    Điểm văn: 3.94
+    Điểm anh: 8.53
+
+[62] MÃ SINH VIÊN: SV062
+    ID Database: 62
+    Họ: Vu
+    Tên: Thi H
+    Email: vu062@student.edu.vn
+    Ngày sinh: 2004-01-16
+    Quê quán: Ca Mau
+    Điểm toán: 5.97
+    Điểm văn: 6.26
+    Điểm anh: 4.16
+
+[63] MÃ SINH VIÊN: SV063
+    ID Database: 63
+    Họ: Thai
+    Tên: Thi AD
+    Email: thai063@student.edu.vn
+    Ngày sinh: 2005-05-30
+    Quê quán: Ba Ria Vung Tau
+    Điểm toán: 6.06
+    Điểm văn: 5.47
+    Điểm anh: 6.74
+
+[64] MÃ SINH VIÊN: SV064
+    ID Database: 64
+    Họ: Bui
+    Tên: Van Y
+    Email: bui064@student.edu.vn
+    Ngày sinh: 2003-09-23
+    Quê quán: Binh Thuan
+    Điểm toán: 5.49
+    Điểm văn: 7.55
+    Điểm anh: 5.55
+
+[65] MÃ SINH VIÊN: SV065
+    ID Database: 65
+    Họ: Cao
+    Tên: Thi AF
+    Email: cao065@student.edu.vn
+    Ngày sinh: 2006-09-21
+    Quê quán: Tuyen Quang
+    Điểm toán: 5.81
+    Điểm văn: 8.91
+    Điểm anh: 9.03
+
+[66] MÃ SINH VIÊN: SV066
+    ID Database: 66
+    Họ: Dinh
+    Tên: Thi AF
+    Email: dinh066@student.edu.vn
+    Ngày sinh: 2002-05-28
+    Quê quán: Tien Giang
+    Điểm toán: 8.27
+    Điểm văn: 7.59
+    Điểm anh: 6.67
+
+[67] MÃ SINH VIÊN: SV067
+    ID Database: 67
+    Họ: Ta
+    Tên: Van AM
+    Email: ta067@student.edu.vn
+    Ngày sinh: 2002-12-27
+    Quê quán: Bac Giang
+    Điểm toán: 3.12
+    Điểm văn: 6.21
+    Điểm anh: 6.22
+
+[68] MÃ SINH VIÊN: SV068
+    ID Database: 68
+    Họ: Vo
+    Tên: Thi AJ
+    Email: vo068@student.edu.vn
+    Ngày sinh: 2006-01-10
+    Quê quán: Son La
+    Điểm toán: 9.11
+    Điểm văn: 9.03
+    Điểm anh: 6.17
+
+[69] MÃ SINH VIÊN: SV069
+    ID Database: 69
+    Họ: Hoang
+    Tên: Thi AP
+    Email: hoang069@student.edu.vn
+    Ngày sinh: 2007-12-12
+    Quê quán: Quang Nam
+    Điểm toán: 3.14
+    Điểm văn: 6.82
+    Điểm anh: 7.67
+
+[70] MÃ SINH VIÊN: SV070
+    ID Database: 70
+    Họ: Vo
+    Tên: Thi AN
+    Email: vo070@student.edu.vn
+    Ngày sinh: 2002-08-11
+    Quê quán: Tra Vinh
+    Điểm toán: 7.72
+    Điểm văn: 7.93
+    Điểm anh: 7.4
+
+[71] MÃ SINH VIÊN: SV071
+    ID Database: 71
+    Họ: Kieu
+    Tên: Thi AR
+    Email: kieu071@student.edu.vn
+    Ngày sinh: 2004-07-12
+    Quê quán: Bac Ninh
+    Điểm toán: 3.39
+    Điểm văn: 6.22
+    Điểm anh: 7.11
+
+[72] MÃ SINH VIÊN: SV072
+    ID Database: 72
+    Họ: Dinh
+    Tên: Thi AF
+    Email: dinh072@student.edu.vn
+    Ngày sinh: 2003-08-22
+    Quê quán: Hai Duong
+    Điểm toán: 3.87
+    Điểm văn: 9.78
+    Điểm anh: 7.9
+
+[73] MÃ SINH VIÊN: SV073
+    ID Database: 73
+    Họ: Vo
+    Tên: Thi AN
+    Email: vo073@student.edu.vn
+    Ngày sinh: 2006-06-25
+    Quê quán: Dong Nai
+    Điểm toán: 7.25
+    Điểm văn: 7.38
+    Điểm anh: 4.76
+
+[74] MÃ SINH VIÊN: SV074
+    ID Database: 74
+    Họ: Vu
+    Tên: Van Y
+    Email: vu074@student.edu.vn
+    Ngày sinh: 2006-02-15
+    Quê quán: Phu Yen
+    Điểm toán: 5.11
+    Điểm văn: 6.93
+    Điểm anh: 7.05
+
+[75] MÃ SINH VIÊN: SV075
+    ID Database: 75
+    Họ: Pham
+    Tên: Van C
+    Email: pham075@student.edu.vn
+    Ngày sinh: 2005-01-09
+    Quê quán: Kien Giang
+    Điểm toán: 5.54
+    Điểm văn: 8.78
+    Điểm anh: 6.96
+
+[76] MÃ SINH VIÊN: SV076
+    ID Database: 76
+    Họ: Hoang
+    Tên: Thi H
+    Email: hoang076@student.edu.vn
+    Ngày sinh: 2002-10-31
+    Quê quán: Phu Quoc
+    Điểm toán: 9.22
+    Điểm văn: 7.17
+    Điểm anh: 9.44
+
+[77] MÃ SINH VIÊN: SV077
+    ID Database: 77
+    Họ: Pham
+    Tên: Thi AH
+    Email: pham077@student.edu.vn
+    Ngày sinh: 2002-09-14
+    Quê quán: Tra Vinh
+    Điểm toán: 8.76
+    Điểm văn: 3.42
+    Điểm anh: 4.93
+
+[78] MÃ SINH VIÊN: SV078
+    ID Database: 78
+    Họ: Vu
+    Tên: Van P
+    Email: vu078@student.edu.vn
+    Ngày sinh: 2005-01-24
+    Quê quán: Tien Giang
+    Điểm toán: 7.62
+    Điểm văn: 8.54
+    Điểm anh: 6.08
+
+[79] MÃ SINH VIÊN: SV079
+    ID Database: 79
+    Họ: Nguyen
+    Tên: Van AQ
+    Email: nguyen079@student.edu.vn
+    Ngày sinh: 2007-11-12
+    Quê quán: Ben Tre
+    Điểm toán: 9.77
+    Điểm văn: 8.01
+    Điểm anh: 8.75
+
+[80] MÃ SINH VIÊN: SV080
+    ID Database: 80
+    Họ: Tran
+    Tên: Van AK
+    Email: tran080@student.edu.vn
+    Ngày sinh: 2004-05-06
+    Quê quán: Ha Noi
+    Điểm toán: 9.37
+    Điểm văn: 7.31
+    Điểm anh: 9.4
+
+[81] MÃ SINH VIÊN: SV081
+    ID Database: 81
+    Họ: Vo
+    Tên: Van B
+    Email: vo081@student.edu.vn
+    Ngày sinh: 2003-02-20
+    Quê quán: Dong Nai
+    Điểm toán: 3.54
+    Điểm văn: 6.02
+    Điểm anh: 8.77
+
+[82] MÃ SINH VIÊN: SV082
+    ID Database: 82
+    Họ: Tran
+    Tên: Van AQ
+    Email: tran082@student.edu.vn
+    Ngày sinh: 2004-11-14
+    Quê quán: Can Tho
+    Điểm toán: 8.07
+    Điểm văn: 9.18
+    Điểm anh: 8.95
+
+[83] MÃ SINH VIÊN: SV083
+    ID Database: 83
+    Họ: Hoang
+    Tên: Thi AH
+    Email: hoang083@student.edu.vn
+    Ngày sinh: 2007-07-07
+    Quê quán: Hai Phong
+    Điểm toán: 4.13
+    Điểm văn: 9.91
+    Điểm anh: 9.88
+
+[84] MÃ SINH VIÊN: SV084
+    ID Database: 84
+    Họ: Dang
+    Tên: Thi AN
+    Email: dang084@student.edu.vn
+    Ngày sinh: 2002-05-19
+    Quê quán: Tien Giang
+    Điểm toán: 8.32
+    Điểm văn: 6.83
+    Điểm anh: 3.15
+
+[85] MÃ SINH VIÊN: SV085
+    ID Database: 85
+    Họ: Ly
+    Tên: Van Y
+    Email: ly085@student.edu.vn
+    Ngày sinh: 2002-08-23
+    Quê quán: Ben Tre
+    Điểm toán: 9.84
+    Điểm văn: 7.63
+    Điểm anh: 7.0
+
+[86] MÃ SINH VIÊN: SV086
+    ID Database: 86
+    Họ: Cao
+    Tên: Thi AB
+    Email: cao086@student.edu.vn
+    Ngày sinh: 2004-11-12
+    Quê quán: Yen Bai
+    Điểm toán: 8.8
+    Điểm văn: 7.12
+    Điểm anh: 6.59
+
+[87] MÃ SINH VIÊN: SV087
+    ID Database: 87
+    Họ: Dinh
+    Tên: Van N
+    Email: dinh087@student.edu.vn
+    Ngày sinh: 2002-08-17
+    Quê quán: Kien Giang
+    Điểm toán: 9.69
+    Điểm văn: 3.47
+    Điểm anh: 6.49
+
+[88] MÃ SINH VIÊN: SV088
+    ID Database: 88
+    Họ: Pham
+    Tên: Thi Z
+    Email: pham088@student.edu.vn
+    Ngày sinh: 2003-05-22
+    Quê quán: Ha Tinh
+    Điểm toán: 6.63
+    Điểm văn: 9.18
+    Điểm anh: 9.02
+
+[89] MÃ SINH VIÊN: SV089
+    ID Database: 89
+    Họ: Nguyen
+    Tên: Van W
+    Email: nguyen089@student.edu.vn
+    Ngày sinh: 2001-09-03
+    Quê quán: Bac Lieu
+    Điểm toán: 8.76
+    Điểm văn: 5.88
+    Điểm anh: 7.64
+
+[90] MÃ SINH VIÊN: SV090
+    ID Database: 90
+    Họ: Ta
+    Tên: Van I
+    Email: ta090@student.edu.vn
+    Ngày sinh: 2005-08-30
+    Quê quán: Vinh Long
+    Điểm toán: 4.06
+    Điểm văn: 7.32
+    Điểm anh: 5.72
+
+[91] MÃ SINH VIÊN: SV091
+    ID Database: 91
+    Họ: Nguyen
+    Tên: Van N
+    Email: invalid_email_no_at.com
+    Ngày sinh: 2005-01-15
+    Quê quán: Binh Thuan
+    Điểm toán: 8.5
+    Điểm văn: 7.5
+    Điểm anh: 9.0
+
+[92] MÃ SINH VIÊN: SV092
+    ID Database: 92
+    Họ: Nguyen
+    Tên: Thi AV
+    Email: double@@example.com
+    Ngày sinh: 2005-01-15
+    Quê quán: Ha Noi
+    Điểm toán: 8.5
+    Điểm văn: 7.5
+    Điểm anh: 9.0
+
+[93] MÃ SINH VIÊN: SV093
+    ID Database: 93
+    Họ: Ly
+    Tên: Thi AV
+    Email: space in@example.com
+    Ngày sinh: 2005-01-15
+    Quê quán: Hoa Binh
+    Điểm toán: 8.5
+    Điểm văn: 7.5
+    Điểm anh: 9.0
+
+[94] MÃ SINH VIÊN: SV094
+    ID Database: 94
+    Họ: Thai
+    Tên: Thi AL
+    Email: missing_domain@.com
+    Ngày sinh: 2005-01-15
+    Quê quán: Quang Tri
+    Điểm toán: 8.5
+    Điểm văn: 7.5
+    Điểm anh: 9.0
+
+[95] MÃ SINH VIÊN: SV095
+    ID Database: 95
+    Họ: Nguyen
+    Tên: Thi AX
+    Email: 123@invalid
+    Ngày sinh: 2005-01-15
+    Quê quán: Nha Trang
+    Điểm toán: 8.5
+    Điểm văn: 7.5
+    Điểm anh: 9.0
+
+[96] MÃ SINH VIÊN: SV096
+    ID Database: 96
+    Họ: Duong
+    Tên: Van Y
+    Email: dirty6@student.edu.vn
+    Ngày sinh: 2005-01-15
+    Quê quán: Hai Duong
+    Điểm toán: None
+    Điểm văn: None
+    Điểm anh: None
+
+[97] MÃ SINH VIÊN: SV097
+    ID Database: 97
+    Họ: Kieu
+    Tên: Thi AD
+    Email: dirty7@student.edu.vn
+    Ngày sinh: 2005-01-15
+    Quê quán: Binh Dinh
+    Điểm toán: None
+    Điểm văn: None
+    Điểm anh: None
+
+[98] MÃ SINH VIÊN: SV098
+    ID Database: 98
+    Họ: Duong
+    Tên: Van AS
+    Email: dirty8@student.edu.vn
+    Ngày sinh: 2005-01-15
+    Quê quán: Binh Dinh
+    Điểm toán: None
+    Điểm văn: None
+    Điểm anh: None
+
+[99] MÃ SINH VIÊN: SV099
+    ID Database: 99
+    Họ: 123InvalidName
+    Tên: 123InvalidName
+    Email: dirty9@student.edu.vn
+    Ngày sinh: 2005-01-15
+    Quê quán: Quang Tri
+    Điểm toán: 8.5
+    Điểm văn: 7.5
+    Điểm anh: 9.0
+
+[100] MÃ SINH VIÊN: SV100
+    ID Database: 100
+    Họ: Name With Special!
+    Tên: Name With Special!
+    Email: dirty10@student.edu.vn
+    Ngày sinh: 2005-01-15
+    Quê quán: Son La
+    Điểm toán: 8.5
+    Điểm văn: 7.5
+    Điểm anh: 9.0
+
+==========================================================================================
+KẾT THÚC DỮ LIỆU
+==========================================================================================

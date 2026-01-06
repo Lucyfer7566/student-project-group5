@@ -1,32 +1,43 @@
 # Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
 venv/
-env/
-ENV/
-.venv
-
-# Node
-node_modules/
-package-lock.json
-yarn.lock
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
 dist/
 build/
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# JSON seed data (tùy chọn - nếu không muốn lưu)
+# backend/data/students_seed.json
+
+# NodeJS
+node_modules/
+npm-debug.log
+yarn-error.log
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
-.DS_Store
 
-# Project specific
-backend/data/students_seed.json  
-crawler/outputs/
-analysis/data/report.csv
+# Environment
 .env
 .env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Crawler output (tùy chọn)
+# crawler/outputs/
+
+# Analysis output (tùy chọn)
+# analysis/data/
