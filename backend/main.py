@@ -1,21 +1,28 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
-import json
-import os
+from sqlalchemy.orm import Session
 from pydantic import BaseModel, EmailStr, validator
 from typing import Optional, List
-from datetime import datetime
+from datetime import datetime, date
 import re
 
+from backend.database import engine, get_db, Base
+from backend.models import Student as StudentModel
+
+
+# ===== CREATE TABLES =====
+Base.metadata.create_all(bind=engine)
+
+# ===== FASTAPI APP =====
 app = FastAPI(
     title="Student Management API",
-    description="API quan ly sinh vien",
-    version="1.0.0"
+    description="API quản lý sinh viên sử dụng SQLite Database",
+    version="2.0.0"
 )
 
-# CORS middleware
+# ===== CORS MIDDLEWARE =====
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -24,9 +31,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_FILE = "backend/data/students_seed.json"
+# ===== PYDANTIC MODELS (Input/Output) =====
 
 class StudentCreate(BaseModel):
+    """
+    Model cho việc tạo/cập nhật sinh viên
+    Bao gồm validation cho tất cả fields
+    """
     student_id: str
     first_name: str
     last_name: str
@@ -39,6 +50,7 @@ class StudentCreate(BaseModel):
 
     @validator('student_id')
     def validate_student_id(cls, v):
+        """Validate mã sinh viên"""
         if not v or len(v.strip()) == 0:
             raise ValueError('Ma sinh vien khong duoc de trong')
         if len(v) > 20:
@@ -49,6 +61,7 @@ class StudentCreate(BaseModel):
 
     @validator('first_name', 'last_name')
     def validate_names(cls, v):
+        """Validate họ và tên"""
         if not v or len(v.strip()) == 0:
             raise ValueError('Ho va ten khong duoc de trong')
         if len(v) > 50:
@@ -59,11 +72,11 @@ class StudentCreate(BaseModel):
 
     @validator('email')
     def validate_email(cls, v):
+        """Validate email"""
         if not v:
             raise ValueError('Email khong duoc de trong')
         if len(v) > 100:
             raise ValueError('Email toi da 100 ky tu')
-        # Kiem tra format email
         email_regex = r'^[^\s@]+@[^\s@]+\.[^\s@]+$'
         if not re.match(email_regex, v):
             raise ValueError('Email khong hop le (vi du: abc@example.com)')
@@ -71,20 +84,18 @@ class StudentCreate(BaseModel):
 
     @validator('birth_date')
     def validate_birth_date(cls, v):
+        """Validate ngày sinh"""
         if not v or v.strip() == '':
             raise ValueError('Ngay sinh khong duoc de trong')
         try:
             birth = datetime.strptime(v, '%Y-%m-%d')
             today = datetime.today()
             
-            # Kiem tra ngay sinh khong lon hon hom nay
             if birth >= today:
                 raise ValueError('Ngay sinh phai nho hon hom nay')
             
-            # Tinh tuoi
             age = (today - birth).days // 365
             
-            # Kiem tra tuoi
             if age < 5:
                 raise ValueError(f'Tuoi toi thieu la 5 tuoi (hien tai: {age} tuoi)')
             if age > 100:
@@ -98,6 +109,7 @@ class StudentCreate(BaseModel):
 
     @validator('hometown')
     def validate_hometown(cls, v):
+        """Validate quê quán"""
         if not v or len(v.strip()) == 0:
             raise ValueError('Que quan khong duoc de trong')
         if len(v) > 100:
@@ -106,6 +118,7 @@ class StudentCreate(BaseModel):
 
     @validator('math', 'literature', 'english', pre=True)
     def validate_scores(cls, v):
+        """Validate điểm số"""
         if v is None or v == '':
             return None
         try:
@@ -134,60 +147,29 @@ class StudentCreate(BaseModel):
         }
 
 class Student(StudentCreate):
+    """
+    Model cho response - bao gồm ID từ database
+    """
     id: int
 
-def load_students() -> List[dict]:
-    if not os.path.exists(DATA_FILE):
-        return []
-    try:
-        with open(DATA_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"Loi doc file: {e}")
-        return []
+    class Config:
+        from_attributes = True
 
-def save_students(students: List[dict]):
-    os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
-    with open(DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(students, f, indent=2, ensure_ascii=False)
+# ===== ERROR HANDLERS =====
 
-def get_next_id(students: List[dict]) -> int:
-    if not students:
-        return 1
-    return max(s['id'] for s in students) + 1
-
-def check_student_id_exists(students: List[dict], student_id: str, exclude_id: Optional[int] = None) -> bool:
-    """Kiem tra ma sinh vien da ton tai chua"""
-    for s in students:
-        if s['student_id'].lower() == student_id.lower():
-            if exclude_id is None or s['id'] != exclude_id:
-                return True
-    return False
-
-def check_email_exists(students: List[dict], email: str, exclude_id: Optional[int] = None) -> bool:
-    """Kiem tra email da ton tai chua"""
-    email_lower = email.lower()
-    for s in students:
-        if s['email'].lower() == email_lower:
-            if exclude_id is None or s['id'] != exclude_id:
-                return True
-    return False
-
-# Xu ly validation error
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request, exc: RequestValidationError):
-    """Xu ly chi tiet cac loi validation"""
+    """Custom error handler cho validation errors"""
     errors = {}
     for error in exc.errors():
-        field = error['loc'][-1]  # Lay ten field
+        field = error['loc'][-1]
         message = error['msg']
         
-        # Tuy chinh message cho de hieu
         if 'at least 1 character' in message:
             errors[field] = f'{field} khong duoc de trong'
         elif 'ensure this value has at most' in message:
             errors[field] = f'{field} vuot qua so ky tu toi da'
-        elif 'value is not a valid email address' in message or 'invalid email format' in message.lower():
+        elif 'value is not a valid email address' in message:
             errors[field] = 'Email khong hop le (vi du: abc@example.com)'
         elif 'type_error' in message:
             errors[field] = f'{field} co kieu du lieu khong chinh xac'
@@ -199,36 +181,83 @@ async def validation_exception_handler(request, exc: RequestValidationError):
         content={"detail": errors}
     )
 
+# ===== API ROUTES =====
+
 @app.get("/")
 def read_root():
+    """Root endpoint - Health check"""
     return {
         "message": "Student Management API is running",
+        "version": "2.0.0",
+        "database": "SQLite",
         "api_docs": "/docs",
         "group": "Group 5 (FE2)"
     }
 
 @app.get("/students")
-def get_all_students():
+def get_all_students(db: Session = Depends(get_db)):
+    """
+    Lấy danh sách tất cả sinh viên
+    
+    Response: List[Student]
+    """
     try:
-        students = load_students()
-        return students
+        # ⭐ Thêm order_by để sắp xếp
+        students = db.query(StudentModel).order_by(StudentModel.student_id).all()
+        
+        return [
+            {
+                "id": s.id,
+                "student_id": s.student_id,
+                "first_name": s.first_name,
+                "last_name": s.last_name,
+                "email": s.email,
+                "birth_date": s.birth_date.isoformat() if s.birth_date else None,
+                "hometown": s.hometown,
+                "math": s.math,
+                "literature": s.literature,
+                "english": s.english,
+            }
+            for s in students
+        ]
     except Exception as e:
         raise HTTPException(
             status_code=500,
             detail=f"Loi khi tai danh sach sinh vien: {str(e)}"
         )
 
+
 @app.get("/students/{student_id}")
-def get_student(student_id: int):
+def get_student(student_id: int, db: Session = Depends(get_db)):
+    """
+    Lấy chi tiết một sinh viên theo ID
+    
+    Parameters:
+    - student_id: ID của sinh viên (primary key)
+    
+    Response: Student
+    """
     try:
-        students = load_students()
-        for student in students:
-            if student['id'] == student_id:
-                return student
-        raise HTTPException(
-            status_code=404,
-            detail=f"Sinh vien co ID {student_id} khong ton tai"
-        )
+        student = db.query(StudentModel).filter(StudentModel.id == student_id).first()
+        
+        if not student:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Sinh vien co ID {student_id} khong ton tai"
+            )
+        
+        return {
+            "id": student.id,
+            "student_id": student.student_id,
+            "first_name": student.first_name,
+            "last_name": student.last_name,
+            "email": student.email,
+            "birth_date": student.birth_date.isoformat() if student.birth_date else None,
+            "hometown": student.hometown,
+            "math": student.math,
+            "literature": student.literature,
+            "english": student.english,
+        }
     except HTTPException:
         raise
     except Exception as e:
@@ -238,108 +267,185 @@ def get_student(student_id: int):
         )
 
 @app.post("/students")
-def create_student(student: StudentCreate):
+def create_student(student: StudentCreate, db: Session = Depends(get_db)):
+    """
+    Tạo sinh viên mới
+    
+    Parameters:
+    - student: Dữ liệu sinh viên cần tạo
+    
+    Response: Student (với ID từ database)
+    """
     try:
-        students = load_students()
-        
-        # Kiem tra ma sinh vien da ton tai
-        if check_student_id_exists(students, student.student_id):
+        # Kiểm tra mã sinh viên trùng
+        existing = db.query(StudentModel).filter(
+            StudentModel.student_id == student.student_id
+        ).first()
+        if existing:
             raise HTTPException(
                 status_code=400,
                 detail=f"Ma sinh vien '{student.student_id}' da ton tai trong he thong. Vui long su dung ma sinh vien khac."
             )
         
-        # Kiem tra email da ton tai
-        if check_email_exists(students, student.email):
+        # Kiểm tra email trùng
+        existing_email = db.query(StudentModel).filter(
+            StudentModel.email == student.email.lower()
+        ).first()
+        if existing_email:
             raise HTTPException(
                 status_code=400,
                 detail=f"Email '{student.email}' da duoc dang ky. Vui long su dung email khac."
             )
         
-        # Tao sinh vien moi
-        new_student = student.dict()
-        new_student['id'] = get_next_id(students)
-        students.append(new_student)
-        save_students(students)
+        # Tạo sinh viên mới
+        birth_date = datetime.strptime(student.birth_date, '%Y-%m-%d').date()
         
-        return new_student
+        new_student = StudentModel(
+            student_id=student.student_id,
+            first_name=student.first_name,
+            last_name=student.last_name,
+            email=student.email.lower(),
+            birth_date=birth_date,
+            hometown=student.hometown,
+            math=student.math,
+            literature=student.literature,
+            english=student.english
+        )
+        
+        db.add(new_student)
+        db.commit()
+        db.refresh(new_student)
+        
+        return {
+            "id": new_student.id,
+            "student_id": new_student.student_id,
+            "first_name": new_student.first_name,
+            "last_name": new_student.last_name,
+            "email": new_student.email,
+            "birth_date": new_student.birth_date.isoformat(),
+            "hometown": new_student.hometown,
+            "math": new_student.math,
+            "literature": new_student.literature,
+            "english": new_student.english,
+        }
     
     except HTTPException:
         raise
     except Exception as e:
+        db.rollback()
         raise HTTPException(
             status_code=500,
             detail=f"Loi he thong: {str(e)}"
         )
 
 @app.put("/students/{student_id}")
-def update_student(student_id: int, student: StudentCreate):
+def update_student(student_id: int, student: StudentCreate, db: Session = Depends(get_db)):
+    """
+    Cập nhật thông tin sinh viên
+    
+    Parameters:
+    - student_id: ID của sinh viên cần cập nhật
+    - student: Dữ liệu cập nhật
+    
+    Response: Student (sau cập nhật)
+    """
     try:
-        students = load_students()
+        # Tìm sinh viên
+        db_student = db.query(StudentModel).filter(StudentModel.id == student_id).first()
         
-        # Tim sinh vien
-        student_index = -1
-        for i, s in enumerate(students):
-            if s['id'] == student_id:
-                student_index = i
-                break
-        
-        if student_index == -1:
+        if not db_student:
             raise HTTPException(
                 status_code=404,
                 detail=f"Sinh vien khong ton tai"
             )
         
-        # Kiem tra ma sinh vien (tru id hien tai)
-        if check_student_id_exists(students, student.student_id, exclude_id=student_id):
+        # Kiểm tra mã sinh viên trùng (ngoại trừ id hiện tại)
+        existing = db.query(StudentModel).filter(
+            StudentModel.student_id == student.student_id,
+            StudentModel.id != student_id
+        ).first()
+        if existing:
             raise HTTPException(
                 status_code=400,
                 detail=f"Ma sinh vien '{student.student_id}' da duoc su dung boi sinh vien khac."
             )
         
-        # Kiem tra email (tru id hien tai)
-        if check_email_exists(students, student.email, exclude_id=student_id):
+        # Kiểm tra email trùng (ngoại trừ id hiện tại)
+        existing_email = db.query(StudentModel).filter(
+            StudentModel.email == student.email.lower(),
+            StudentModel.id != student_id
+        ).first()
+        if existing_email:
             raise HTTPException(
                 status_code=400,
                 detail=f"Email '{student.email}' da duoc dang ky boi sinh vien khac."
             )
         
-        # Cap nhat sinh vien
-        updated = student.dict()
-        updated['id'] = student_id
-        students[student_index] = updated
-        save_students(students)
+        # Cập nhật dữ liệu
+        birth_date = datetime.strptime(student.birth_date, '%Y-%m-%d').date()
         
-        return updated
+        db_student.first_name = student.first_name
+        db_student.last_name = student.last_name
+        db_student.email = student.email.lower()
+        db_student.birth_date = birth_date
+        db_student.hometown = student.hometown
+        db_student.math = student.math
+        db_student.literature = student.literature
+        db_student.english = student.english
+        
+        db.commit()
+        db.refresh(db_student)
+        
+        return {
+            "id": db_student.id,
+            "student_id": db_student.student_id,
+            "first_name": db_student.first_name,
+            "last_name": db_student.last_name,
+            "email": db_student.email,
+            "birth_date": db_student.birth_date.isoformat(),
+            "hometown": db_student.hometown,
+            "math": db_student.math,
+            "literature": db_student.literature,
+            "english": db_student.english,
+        }
     
     except HTTPException:
         raise
     except Exception as e:
+        db.rollback()
         raise HTTPException(
             status_code=500,
             detail=f"Loi he thong: {str(e)}"
         )
 
 @app.delete("/students/{student_id}")
-def delete_student(student_id: int):
+def delete_student(student_id: int, db: Session = Depends(get_db)):
+    """
+    Xóa sinh viên
+    
+    Parameters:
+    - student_id: ID của sinh viên cần xóa
+    
+    Response: Message xác nhận
+    """
     try:
-        students = load_students()
-        for i, s in enumerate(students):
-            if s['id'] == student_id:
-                deleted_student = students.pop(i)
-                save_students(students)
-                return {
-                    "message": f"Xoa sinh vien thanh cong"
-                }
+        student = db.query(StudentModel).filter(StudentModel.id == student_id).first()
         
-        raise HTTPException(
-            status_code=404,
-            detail=f"Sinh vien co ID {student_id} khong ton tai"
-        )
+        if not student:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Sinh vien co ID {student_id} khong ton tai"
+            )
+        
+        db.delete(student)
+        db.commit()
+        
+        return {"message": "Xoa sinh vien thanh cong"}
     
     except HTTPException:
         raise
     except Exception as e:
+        db.rollback()
         raise HTTPException(
             status_code=500,
             detail=f"Loi khi xoa sinh vien: {str(e)}"

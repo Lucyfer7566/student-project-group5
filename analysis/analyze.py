@@ -1,190 +1,160 @@
-import json
 import pandas as pd
-import os
+from sqlalchemy import create_engine
 from datetime import datetime
+import re
+import os
 
-CRAWLED_FILE = "crawler/outputs/crawled_students.txt"
-REPORT_FILE = "analysis/data/report.csv"
+DATABASE_URL = "sqlite:///./backend/data/students.db"
+engine = create_engine(DATABASE_URL)
 
-def load_students_from_crawl():
-    """Dọc dữ liệu sinh viên từ file text (mỗi dòng 1 JSON)"""
-    students = []
-    
-    if not os.path.exists(CRAWLED_FILE):
-        print(f"Loi: File khong tim thay: {CRAWLED_FILE}")
-        return students
-    
-    try:
-        with open(CRAWLED_FILE, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if line:
-                    student = json.loads(line)
-                    students.append(student)
-        print(f"Doc duoc {len(students)} sinh vien tu file crawl")
-    except Exception as e:
-        print(f"Loi doc file: {e}")
-    
-    return students
+print("=" * 70)
+print("PHÂN TÍCH DỮ LIỆU SINH VIÊN")
+print("=" * 70)
+print(f"Thời gian: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-def clean_data(df):
-    """Lam sach du lieu"""
-    print("\nLam sach du lieu...")
-    
-    df['math'] = pd.to_numeric(df['math'], errors='coerce')
-    df['literature'] = pd.to_numeric(df['literature'], errors='coerce')
-    df['english'] = pd.to_numeric(df['english'], errors='coerce')
-    
-    print(f"  - Diem Toan thieu: {df['math'].isna().sum()} ban ghi")
-    df['math'].fillna(df['math'].mean(), inplace=True)
-    
-    print(f"  - Diem Van thieu: {df['literature'].isna().sum()} ban ghi")
-    df['literature'].fillna(df['literature'].mean(), inplace=True)
-    
-    print(f"  - Diem Anh thieu: {df['english'].isna().sum()} ban ghi")
-    df['english'].fillna(df['english'].mean(), inplace=True)
-    
-    df = df[df['email'].notna() & (df['email'] != '')]
-    df['hometown'] = df['hometown'].str.strip()
-    
-    print(f"Lam sach xong, con {len(df)} ban ghi hop le")
-    return df
+# Doc du lieu tu database
+df = pd.read_sql_query("SELECT * FROM students", engine)
+print(f"Đọc được {len(df)} sinh viên từ database")
 
-def analyze_scores(df):
-    """Phan tich diem theo mon"""
-    print("\nPhan tich diem theo mon...")
-    
-    analysis = {
-        'Toan': {
-            'Trung binh': df['math'].mean(),
-            'Min': df['math'].min(),
-            'Max': df['math'].max(),
-            'Do lech chuan': df['math'].std(),
-        },
-        'Van': {
-            'Trung binh': df['literature'].mean(),
-            'Min': df['literature'].min(),
-            'Max': df['literature'].max(),
-            'Do lech chuan': df['literature'].std(),
-        },
-        'Anh': {
-            'Trung binh': df['english'].mean(),
-            'Min': df['english'].min(),
-            'Max': df['english'].max(),
-            'Do lech chuan': df['english'].std(),
-        }
-    }
-    
-    for subject, stats in analysis.items():
-        print(f"\n  {subject}:")
-        for metric, value in stats.items():
-            print(f"    - {metric}: {value:.2f}")
-    
-    return analysis
+# Tao DataFrame
+print(f"\nTạo DataFrame: {len(df)} dòng, {len(df.columns)} cột")
 
-def compare_subjects(df):
-    """So sanh diem giua cac mon"""
-    print("\nSo sanh diem giua cac mon...")
-    
-    comparisons = {
-        'Toan vs Anh': {
-            'Toan cao hon': (df['math'] > df['english']).sum(),
-            'Anh cao hon': (df['english'] > df['math']).sum(),
-            'Bang nhau': (df['math'] == df['english']).sum(),
-        },
-        'Van vs Anh': {
-            'Van cao hon': (df['literature'] > df['english']).sum(),
-            'Anh cao hon': (df['english'] > df['literature']).sum(),
-            'Bang nhau': (df['literature'] == df['english']).sum(),
-        }
-    }
-    
-    for comparison, result in comparisons.items():
-        print(f"\n  {comparison}:")
-        for desc, count in result.items():
-            print(f"    - {desc}: {count} ban")
-    
-    return comparisons
+# ===== LÀM SẠCH DỮ LIỆU =====
+print("\nLàm sạch dữ liệu...")
 
-def analyze_by_hometown(df):
-    """Phan tich diem theo que quan"""
-    print("\nPhan tich diem theo que quan...")
-    
-    hometown_analysis = df.groupby('hometown').agg({
-        'math': ['mean', 'count'],
-        'literature': 'mean',
-        'english': 'mean'
-    }).round(2)
-    
-    hometown_analysis.columns = ['Diem Toan TB', 'So SV', 'Diem Van TB', 'Diem Anh TB']
-    hometown_analysis = hometown_analysis.sort_values('Diem Anh TB', ascending=False)
-    
-    print("\n  Top 10 que quan co diem Anh cao nhat:")
-    print(hometown_analysis[['Diem Anh TB', 'So SV']].head(10))
-    
-    return hometown_analysis
+initial_count = len(df)
 
-def generate_report(df, analysis, comparisons, hometown_analysis):
-    """Tao bao cao phan tich"""
-    print("\nTao bao cao...")
-    
-    os.makedirs(os.path.dirname(REPORT_FILE), exist_ok=True)
-    
-    report_data = []
-    
-    report_data.append(['THONG KE CHUNG', ''])
-    report_data.append(['Tong so sinh vien', len(df)])
-    report_data.append(['', ''])
-    
-    report_data.append(['PHAN TICH DIEM THEO MON', ''])
-    for subject, stats in analysis.items():
-        for metric, value in stats.items():
-            report_data.append([f'{subject} - {metric}', f'{value:.2f}'])
-    
-    report_data.append(['', ''])
-    
-    report_data.append(['SO SANH GIUA CAC MON', ''])
-    for comparison, result in comparisons.items():
-        for desc, count in result.items():
-            report_data.append([f'{comparison} - {desc}', count])
-    
-    report_df = pd.DataFrame(report_data, columns=['Chi so', 'Gia tri'])
-    report_df.to_csv(REPORT_FILE, index=False, encoding='utf-8')
-    
-    print(f"Bao cao luu vao: {REPORT_FILE}")
-    
-    hometown_report = REPORT_FILE.replace('.csv', '_by_hometown.csv')
-    hometown_analysis.to_csv(hometown_report, encoding='utf-8')
-    print(f"Phan tich theo que quan: {hometown_report}")
+# 1. Loại bỏ NULL values trong điểm
+df_clean = df.dropna(subset=['math', 'literature', 'english'])
+missing_scores = initial_count - len(df_clean)
 
-def main():
-    """Ham chinh"""
-    print("=" * 50)
-    print("PHAN TICH DU LIEU SINH VIEN")
-    print("=" * 50)
-    print(f"Thoi gian: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    
-    students = load_students_from_crawl()
-    if not students:
-        print("Loi: Khong co du lieu de phan tich")
-        return
-    
-    df = pd.DataFrame(students)
-    print(f"\nTao DataFrame: {df.shape[0]} dong, {df.shape[1]} cot")
-    
-    df = clean_data(df)
-    
-    analysis = analyze_scores(df)
-    
-    comparisons = compare_subjects(df)
-    
-    hometown_analysis = analyze_by_hometown(df)
-    
-    generate_report(df, analysis, comparisons, hometown_analysis)
-    
-    print("\n" + "=" * 50)
-    print("PHAN TICH HOAN THANH")
-    print("=" * 50)
+# 2. Loại bỏ email không hợp lệ
+def is_valid_email(email):
+    pattern = r'^[^\s@]+@[^\s@]+\.[^\s@]+$'
+    return bool(re.match(pattern, str(email)))
 
-if __name__ == "__main__":
-    main()
+invalid_emails_count = len(df_clean[~df_clean['email'].apply(is_valid_email)])
+df_clean = df_clean[df_clean['email'].apply(is_valid_email)]
+
+# 3. Loại bỏ tên không hợp lệ (chỉ chứa chữ và khoảng trắng)
+def is_valid_name(name):
+    pattern = r'^[A-Za-z\s]+$'
+    return bool(re.match(pattern, str(name)))
+
+invalid_names_count = len(df_clean[
+    ~df_clean['first_name'].apply(is_valid_name) |
+    ~df_clean['last_name'].apply(is_valid_name)
+])
+df_clean = df_clean[
+    df_clean['first_name'].apply(is_valid_name) &
+    df_clean['last_name'].apply(is_valid_name)
+]
+
+# 4. Loại bỏ điểm không hợp lệ (ngoài khoảng 0-10)
+valid_scores = (df_clean['math'] >= 0) & (df_clean['math'] <= 10) & \
+               (df_clean['literature'] >= 0) & (df_clean['literature'] <= 10) & \
+               (df_clean['english'] >= 0) & (df_clean['english'] <= 10)
+invalid_scores_count = len(df_clean) - len(df_clean[valid_scores])
+df_clean = df_clean[valid_scores]
+
+print(f"  - Điểm thiếu: {missing_scores} bản ghi")
+print(f"  - Email không hợp lệ: {invalid_emails_count} bản ghi")
+print(f"  - Tên không hợp lệ: {invalid_names_count} bản ghi")
+print(f"  - Điểm không hợp lệ: {invalid_scores_count} bản ghi")
+print(f"Làm sạch xong, còn {len(df_clean)} bản ghi hợp lệ")
+
+# Nếu không có dữ liệu sạch, thoát
+if len(df_clean) == 0:
+    print("\nKhông có dữ liệu hợp lệ để phân tích!")
+    exit()
+
+# ===== PHÂN TÍCH ĐIỂM =====
+print("\nPhân tích điểm theo môn...")
+
+subjects = ['math', 'literature', 'english']
+subject_names = {'math': 'Toán', 'literature': 'Văn', 'english': 'Anh'}
+
+for subject in subjects:
+    print(f"\n  {subject_names[subject]}:")
+    print(f"    - Trung bình: {df_clean[subject].mean():.2f}")
+    print(f"    - Min: {df_clean[subject].min():.2f}")
+    print(f"    - Max: {df_clean[subject].max():.2f}")
+    print(f"    - Độ lệch chuẩn: {df_clean[subject].std():.2f}")
+
+# ===== SO SÁNH ĐIỂM =====
+print("\nSo sánh điểm giữa các môn...")
+
+comparisons = [
+    ('math', 'english', 'Toán', 'Anh'),
+    ('literature', 'english', 'Văn', 'Anh')
+]
+
+for subject1, subject2, name1, name2 in comparisons:
+    higher_1 = (df_clean[subject1] > df_clean[subject2]).sum()
+    higher_2 = (df_clean[subject2] > df_clean[subject1]).sum()
+    equal = (df_clean[subject1] == df_clean[subject2]).sum()
+    
+    print(f"\n  {name1} vs {name2}:")
+    print(f"    - {name1} cao hơn: {higher_1} bạn")
+    print(f"    - {name2} cao hơn: {higher_2} bạn")
+    print(f"    - Bằng nhau: {equal} bạn")
+
+# ===== PHÂN TÍCH THEO QUỀ QUÁN =====
+print("\nPhân tích điểm theo quê quán...")
+
+df_clean['avg_score'] = df_clean[['math', 'literature', 'english']].mean(axis=1)
+hometown_stats = df_clean.groupby('hometown').agg({
+    'english': 'mean',
+    'student_id': 'count'
+}).rename(columns={'english': 'Diem Anh TB', 'student_id': 'So SV'})
+
+top_10 = hometown_stats.nlargest(10, 'Diem Anh TB')
+
+print(f"\n  Top 10 quê quán có điểm Anh cao nhất:")
+print(top_10.to_string())
+
+# ===== PHÂN TÍCH XẾP HẠNG =====
+print("\n\nPhân tích theo xếp hạng...")
+
+def get_rank(score):
+    if score >= 8:
+        return 'Giỏi'
+    elif score >= 6.5:
+        return 'Khá'
+    elif score >= 5:
+        return 'Trung bình'
+    else:
+        return 'Yếu'
+
+df_clean['rank'] = df_clean['avg_score'].apply(get_rank)
+rank_stats = df_clean['rank'].value_counts()
+
+print(f"\n  Phân bố xếp hạng:")
+for rank, count in rank_stats.items():
+    percentage = (count / len(df_clean)) * 100
+    print(f"    - {rank}: {count} sinh viên ({percentage:.1f}%)")
+
+# ===== TẠO BÁO CÁO =====
+print("\nTạo báo cáo...")
+
+# Đảm bảo thư mục output tồn tại
+os.makedirs('analysis/data', exist_ok=True)
+
+# Báo cáo chính
+output_file = 'analysis/data/report.csv'
+df_clean.to_csv(output_file, index=False)
+print(f"Báo cáo lưu vào: {output_file}")
+
+# Báo cáo theo quê quán
+hometown_file = 'analysis/data/report_by_hometown.csv'
+hometown_stats.to_csv(hometown_file)
+print(f"Phân tích theo quê quán: {hometown_file}")
+
+# Báo cáo xếp hạng
+rank_file = 'analysis/data/report_by_rank.csv'
+rank_stats.to_csv(rank_file, header=['Số lượng'])
+print(f"Phân tích theo xếp hạng: {rank_file}")
+
+print("\n" + "=" * 70)
+print("PHÂN TÍCH HOÀN THÀNH")
+print("=" * 70)
