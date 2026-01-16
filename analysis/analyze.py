@@ -1,160 +1,203 @@
 import pandas as pd
-from sqlalchemy import create_engine
-from datetime import datetime
-import re
+import glob
 import os
+import re
+from datetime import datetime
 
-DATABASE_URL = "sqlite:///./backend/data/students.db"
-engine = create_engine(DATABASE_URL)
+# ================= CẤU HÌNH =================
+CRAWL_DIR = "../crawler/crawled_students"
+FILE_PATTERN = "students_202601161712.txt"
+OUTPUT_DIR = "./reports/students_202601161712"
 
-print("=" * 70)
-print("PHÂN TÍCH DỮ LIỆU SINH VIÊN")
-print("=" * 70)
-print(f"Thời gian: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+def get_latest_crawl_file():
+    """Tìm file crawl mới nhất"""
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    search_paths = [
+        os.path.join(base_path, '..', CRAWL_DIR, FILE_PATTERN),
+        os.path.join(CRAWL_DIR, FILE_PATTERN)
+    ]
+    found_files = []
+    for path in search_paths:
+        found_files.extend(glob.glob(path))
+    return max(found_files, key=os.path.getctime) if found_files else None
 
-# Doc du lieu tu database
-df = pd.read_sql_query("SELECT * FROM students", engine)
-print(f"Đọc được {len(df)} sinh viên từ database")
+def parse_txt_to_dataframe(file_path):
+    """Parser đọc dữ liệu thô"""
+    data = []
+    current_student = {}
+    file_name = os.path.basename(file_path)
+    
+    print(f"--> Đang đọc file: {file_name}")
+    
+    with open(file_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        
+    for line in lines:
+        line = line.strip()
+        if "MÃ SINH VIÊN:" in line:
+            if current_student:
+                current_student['source_file'] = file_name
+                data.append(current_student)
+            current_student = {}
+            parts = line.split("MÃ SINH VIÊN:")
+            current_student['student_id'] = parts[1].strip() if len(parts) > 1 else None
+        elif "Họ và tên:" in line:
+            full_name = line.split("Họ và tên:")[1].strip()
+            current_student['full_name'] = full_name
+            name_parts = full_name.rsplit(' ', 1)
+            if len(name_parts) == 2:
+                current_student['last_name'] = name_parts[0]
+                current_student['first_name'] = name_parts[1]
+            else:
+                current_student['last_name'] = ""
+                current_student['first_name'] = full_name
+        elif "Email:" in line:
+            current_student['email'] = line.split("Email:")[1].strip()
+        elif "Ngày sinh:" in line:
+            current_student['dob'] = line.split("Ngày sinh:")[1].strip()
+        elif "Quê quán:" in line:
+            current_student['hometown'] = line.split("Quê quán:")[1].strip()
+        elif "Điểm (Toán/Văn/Anh):" in line:
+            scores_str = line.split(":")[1].strip()
+            scores = scores_str.split(" - ")
+            try:
+                current_student['math'] = float(scores[0])
+                current_student['literature'] = float(scores[1])
+                current_student['english'] = float(scores[2])
+            except:
+                current_student['math'] = None
+                current_student['literature'] = None
+                current_student['english'] = None
 
-# Tao DataFrame
-print(f"\nTạo DataFrame: {len(df)} dòng, {len(df.columns)} cột")
+    if current_student:
+        current_student['source_file'] = file_name
+        data.append(current_student)
+    return pd.DataFrame(data)
 
-# ===== LÀM SẠCH DỮ LIỆU =====
-print("\nLàm sạch dữ liệu...")
+def validate_full_row(row):
+    """Kiểm tra dữ liệu sạch/bẩn"""
+    errors = []
+    
+    if not row.get('student_id'): errors.append("Thiếu Mã SV")
+    
+    full_name = str(row.get('full_name', '')).lower()
+    if not full_name or 'unknown' in full_name: errors.append("Tên lỗi")
 
-initial_count = len(df)
+    dob = str(row.get('dob', ''))
+    try: datetime.strptime(dob, '%Y-%m-%d')
+    except ValueError: errors.append("Ngày sinh sai format")
 
-# 1. Loại bỏ NULL values trong điểm
-df_clean = df.dropna(subset=['math', 'literature', 'english'])
-missing_scores = initial_count - len(df_clean)
+    email = str(row.get('email', '')).lower()
+    email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    if not re.match(email_pattern, email): errors.append("Email sai định dạng")
+    elif any(x in email for x in ["fake", "not-exist", "example"]): errors.append("Email rác")
 
-# 2. Loại bỏ email không hợp lệ
-def is_valid_email(email):
-    pattern = r'^[^\s@]+@[^\s@]+\.[^\s@]+$'
-    return bool(re.match(pattern, str(email)))
+    hometown = str(row.get('hometown', '')).lower()
+    if hometown in ['unknown', 'n/a', 'null', '']: errors.append("Quê quán thiếu")
 
-invalid_emails_count = len(df_clean[~df_clean['email'].apply(is_valid_email)])
-df_clean = df_clean[df_clean['email'].apply(is_valid_email)]
+    for subject in ['math', 'literature', 'english']:
+        score = row.get(subject)
+        if pd.isna(score): errors.append(f"Thiếu điểm {subject}")
+        elif not (0 <= score <= 10): errors.append(f"Điểm {subject} sai")
 
-# 3. Loại bỏ tên không hợp lệ (chỉ chứa chữ và khoảng trắng)
-def is_valid_name(name):
-    pattern = r'^[A-Za-z\s]+$'
-    return bool(re.match(pattern, str(name)))
+    return "; ".join(errors)
 
-invalid_names_count = len(df_clean[
-    ~df_clean['first_name'].apply(is_valid_name) |
-    ~df_clean['last_name'].apply(is_valid_name)
-])
-df_clean = df_clean[
-    df_clean['first_name'].apply(is_valid_name) &
-    df_clean['last_name'].apply(is_valid_name)
-]
+def classify_student(score):
+    if pd.isna(score): return 'N/A'
+    if score >= 8.0: return 'Giỏi'
+    if score >= 6.5: return 'Khá'
+    if score >= 5.0: return 'Trung Bình'
+    return 'Yếu'
 
-# 4. Loại bỏ điểm không hợp lệ (ngoài khoảng 0-10)
-valid_scores = (df_clean['math'] >= 0) & (df_clean['math'] <= 10) & \
-               (df_clean['literature'] >= 0) & (df_clean['literature'] <= 10) & \
-               (df_clean['english'] >= 0) & (df_clean['english'] <= 10)
-invalid_scores_count = len(df_clean) - len(df_clean[valid_scores])
-df_clean = df_clean[valid_scores]
+# ================= MAIN PROGRAM =================
+print("=" * 80)
+print("PHÂN TÍCH DATA: THỐNG KÊ CHI TIẾT TỪNG LOẠI HỌC LỰC")
+print("=" * 80)
 
-print(f"  - Điểm thiếu: {missing_scores} bản ghi")
-print(f"  - Email không hợp lệ: {invalid_emails_count} bản ghi")
-print(f"  - Tên không hợp lệ: {invalid_names_count} bản ghi")
-print(f"  - Điểm không hợp lệ: {invalid_scores_count} bản ghi")
-print(f"Làm sạch xong, còn {len(df_clean)} bản ghi hợp lệ")
-
-# Nếu không có dữ liệu sạch, thoát
-if len(df_clean) == 0:
-    print("\nKhông có dữ liệu hợp lệ để phân tích!")
+latest_file = get_latest_crawl_file()
+if not latest_file:
+    print("❌ Không tìm thấy file!")
     exit()
 
-# ===== PHÂN TÍCH ĐIỂM =====
-print("\nPhân tích điểm theo môn...")
+file_id = os.path.splitext(os.path.basename(latest_file))[0]
+print(f"📂 Đang xử lý: {file_id}")
 
-subjects = ['math', 'literature', 'english']
-subject_names = {'math': 'Toán', 'literature': 'Văn', 'english': 'Anh'}
+# 1. Parsing
+df = parse_txt_to_dataframe(latest_file)
 
-for subject in subjects:
-    print(f"\n  {subject_names[subject]}:")
-    print(f"    - Trung bình: {df_clean[subject].mean():.2f}")
-    print(f"    - Min: {df_clean[subject].min():.2f}")
-    print(f"    - Max: {df_clean[subject].max():.2f}")
-    print(f"    - Độ lệch chuẩn: {df_clean[subject].std():.2f}")
+# 2. Validating
+df['error_log'] = df.apply(validate_full_row, axis=1)
+df_clean = df[df['error_log'] == ''].copy()
+df_dirty = df[df['error_log'] != ''].copy()
 
-# ===== SO SÁNH ĐIỂM =====
-print("\nSo sánh điểm giữa các môn...")
+# 3. Processing Clean Data
+if not df_clean.empty:
+    # 3.1 Chuẩn hóa
+    for col in ['full_name', 'first_name', 'last_name', 'hometown']:
+        df_clean[col] = df_clean[col].str.title()
 
-comparisons = [
-    ('math', 'english', 'Toán', 'Anh'),
-    ('literature', 'english', 'Văn', 'Anh')
-]
+    df_clean[['math', 'literature', 'english']] = df_clean[['math', 'literature', 'english']].round(2)
 
-for subject1, subject2, name1, name2 in comparisons:
-    higher_1 = (df_clean[subject1] > df_clean[subject2]).sum()
-    higher_2 = (df_clean[subject2] > df_clean[subject1]).sum()
-    equal = (df_clean[subject1] == df_clean[subject2]).sum()
+    # 3.2 Xếp loại
+    df_clean['avg_score'] = (df_clean['math'] + df_clean['literature'] + df_clean['english']) / 3
+    df_clean['avg_score'] = df_clean['avg_score'].round(2)
+    df_clean['rank'] = df_clean['avg_score'].apply(classify_student)
+
+# 4. Creating Summary (Đoạn này đã được nâng cấp)
+summary_df = pd.DataFrame()
+
+if not df_clean.empty:
+    print("📊 Đang tạo bảng thống kê tổng hợp...")
     
-    print(f"\n  {name1} vs {name2}:")
-    print(f"    - {name1} cao hơn: {higher_1} bạn")
-    print(f"    - {name2} cao hơn: {higher_2} bạn")
-    print(f"    - Bằng nhau: {equal} bạn")
+    # Tạo các cột phụ (Dummy variables) để đếm
+    df_clean['is_gioi'] = (df_clean['rank'] == 'Giỏi').astype(int)
+    df_clean['is_kha'] = (df_clean['rank'] == 'Khá').astype(int)
+    df_clean['is_tb'] = (df_clean['rank'] == 'Trung Bình').astype(int)
+    df_clean['is_yeu'] = (df_clean['rank'] == 'Yếu').astype(int)
 
-# ===== PHÂN TÍCH THEO QUỀ QUÁN =====
-print("\nPhân tích điểm theo quê quán...")
+    # Groupby và tính toán
+    summary_df = df_clean.groupby('hometown').agg({
+        'student_id': 'count',       # Tổng số SV
+        'avg_score': 'mean',         # Điểm TB chung của tỉnh
+        'english': 'mean',           # Điểm Anh TB
+        'is_gioi': 'sum',            # Tổng số SV Giỏi
+        'is_kha': 'sum',             # Tổng số SV Khá
+        'is_tb': 'sum',              # Tổng số SV TB
+        'is_yeu': 'sum'              # Tổng số SV Yếu
+    }).round(2)
+    
+    # Đổi tên cột cho đẹp và dễ hiểu
+    summary_df = summary_df.rename(columns={
+        'student_id': 'Tổng Số SV',
+        'avg_score': 'Điểm TB Chung',
+        'english': 'Điểm Anh TB',
+        'is_gioi': 'SV Giỏi(>=8.0)',
+        'is_kha': 'SV Khá(>=6.5)',
+        'is_tb': 'SV Trung Bình(>=5.0)',
+        'is_yeu': 'SV Yếu(<5.0)'
+    })
+    
+    # Sắp xếp theo Điểm TB Chung giảm dần
+    summary_df = summary_df.sort_values(by='Điểm TB Chung', ascending=False)
 
-df_clean['avg_score'] = df_clean[['math', 'literature', 'english']].mean(axis=1)
-hometown_stats = df_clean.groupby('hometown').agg({
-    'english': 'mean',
-    'student_id': 'count'
-}).rename(columns={'english': 'Diem Anh TB', 'student_id': 'So SV'})
+# 5. Export Files
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-top_10 = hometown_stats.nlargest(10, 'Diem Anh TB')
+# File Clean (Loại bỏ các cột phụ is_... cho gọn file chi tiết)
+clean_cols_to_save = [c for c in df_clean.columns if not c.startswith('is_') and c != 'error_log']
+clean_path = os.path.join(OUTPUT_DIR, f"FINAL_CLEAN_{file_id}.csv")
+df_clean[clean_cols_to_save].to_csv(clean_path, index=False, encoding='utf-8-sig')
 
-print(f"\n  Top 10 quê quán có điểm Anh cao nhất:")
-print(top_10.to_string())
+# File Dirty
+dirty_path = os.path.join(OUTPUT_DIR, f"FINAL_DIRTY_{file_id}.csv")
+df_dirty.to_csv(dirty_path, index=False, encoding='utf-8-sig')
 
-# ===== PHÂN TÍCH XẾP HẠNG =====
-print("\n\nPhân tích theo xếp hạng...")
+# File Summary
+summary_path = os.path.join(OUTPUT_DIR, f"FINAL_SUMMARY_{file_id}.csv")
+summary_df.to_csv(summary_path, encoding='utf-8-sig')
 
-def get_rank(score):
-    if score >= 8:
-        return 'Giỏi'
-    elif score >= 6.5:
-        return 'Khá'
-    elif score >= 5:
-        return 'Trung bình'
-    else:
-        return 'Yếu'
-
-df_clean['rank'] = df_clean['avg_score'].apply(get_rank)
-rank_stats = df_clean['rank'].value_counts()
-
-print(f"\n  Phân bố xếp hạng:")
-for rank, count in rank_stats.items():
-    percentage = (count / len(df_clean)) * 100
-    print(f"    - {rank}: {count} sinh viên ({percentage:.1f}%)")
-
-# ===== TẠO BÁO CÁO =====
-print("\nTạo báo cáo...")
-
-# Đảm bảo thư mục output tồn tại
-os.makedirs('analysis/data', exist_ok=True)
-
-# Báo cáo chính
-output_file = 'analysis/data/report.csv'
-df_clean.to_csv(output_file, index=False)
-print(f"Báo cáo lưu vào: {output_file}")
-
-# Báo cáo theo quê quán
-hometown_file = 'analysis/data/report_by_hometown.csv'
-hometown_stats.to_csv(hometown_file)
-print(f"Phân tích theo quê quán: {hometown_file}")
-
-# Báo cáo xếp hạng
-rank_file = 'analysis/data/report_by_rank.csv'
-rank_stats.to_csv(rank_file, header=['Số lượng'])
-print(f"Phân tích theo xếp hạng: {rank_file}")
-
-print("\n" + "=" * 70)
-print("PHÂN TÍCH HOÀN THÀNH")
-print("=" * 70)
+print("\n" + "=" * 80)
+print(f"✅ HOÀN TẤT! File Summary đã có đủ cột phân loại.")
+print(f"📂 Thư mục kết quả: {OUTPUT_DIR}")
+print(f"   - {os.path.basename(summary_path)} (Chứa cột: SV Giỏi, SV Khá,...)")
+print("=" * 80)

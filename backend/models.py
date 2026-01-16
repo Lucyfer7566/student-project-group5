@@ -1,7 +1,6 @@
-from sqlalchemy import Column, Integer, String, Float, Date
+from sqlalchemy import Column, Integer, String, Float, Date, DateTime, CheckConstraint
 from sqlalchemy.sql import func
-from backend.database import Base
-from datetime import date
+from database import Base
 
 class Student(Base):
     """
@@ -39,10 +38,27 @@ class Student(Base):
     math = Column(Float, nullable=True)
     literature = Column(Float, nullable=True)
     english = Column(Float, nullable=True)
+
+    # data integrity: toàn vẹn dữ liệu, là ràng buộc cứng tại DB và khác với input validate trong schemas
+    __table_args__ = (
+        # ràng buộc điểm số: Nếu ai đó cố tình INSERT điểm < 0 hoặc > 10, DB sẽ báo lỗi (IntegrityError)
+        CheckConstraint('math >= 0 AND math <= 10', name='check_math_valid'),
+        CheckConstraint('literature >= 0 AND literature <= 10', name='check_literature_valid'),
+        CheckConstraint('english >= 0 AND english <= 10', name='check_english_valid'),
+        
+        # đảm bảo mã SV không phải chuỗi rỗng, vì nullable=False chỉ đảm bảo không phải NULL
+        CheckConstraint("length(student_id) > 0", name="check_student_id_not_empty"),
+    )
     
     # Timestamps
-    created_at = Column(String, default=func.now())
-    updated_at = Column(String, default=func.now())
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
 
-    class Config:
-        from_attributes = True  # Cho phép convert từ ORM object sang dict
+    # Phần này cần xóa đi vì không dùng Pydantic model ở đây
+    # Đây là SQLAlchemy model, không phải Pydantic model
+    # SQLAIchemy là ORM để tương tác với database
+    # Pydantic model để validate dữ liệu trong FastAPI
+    # class Config:
+    #     from_attributes = True  # Cho phép convert từ ORM object sang dict
+ 
+ 

@@ -227,4 +227,4 @@ def generate_sample_data(num_students: int = 90, include_dirty: bool = True):
         db.close()
 
 if __name__ == "__main__":
-    generate_sample_data(num_students=90, include_dirty=True)
+    generate_sample_data(num_students=90, include_dirty=False)

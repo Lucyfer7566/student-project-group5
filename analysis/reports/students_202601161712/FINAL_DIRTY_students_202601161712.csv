@@ -1,0 +1,55 @@
+﻿student_id,full_name,last_name,first_name,email,dob,hometown,math,literature,english,source_file,error_log
+SV001,Tuan G PHAM,Tuan G,PHAM,fake_email_1@not-exist-domain.com,2004-08-27,ha noi,9.2,0.2,9.5,students_202601161712.txt,Email rác
+SV004,Van C Tran,Van C,Tran,fake_email_4@not-exist-domain.com,2004-07-19,Unknown,3.1,3.0,0.2,students_202601161712.txt,Email rác; Quê quán thiếu
+SV005,Tuan G bui,Tuan G,bui,bui.tuang.5@gmail.com,2002-04-06,N/A,3.3,7.0,2.8,students_202601161712.txt,Quê quán thiếu
+SV010,Tuan G Unknown,Tuan G,Unknown,unknown.tuang.10@gmail.com,2005-08-21,Nghe An,6.1,4.4,0.6,students_202601161712.txt,Tên lỗi
+SV011,Minh E PHAM,Minh E,PHAM,fake_email_11@not-exist-domain.com,2007-09-16,TP.HCM,1.4,6.5,7.1,students_202601161712.txt,Email rác
+SV012,thi d PHAM,thi d,PHAM,fake_email_12@not-exist-domain.com,2001-12-01,ha noi,0.7,9.9,9.2,students_202601161712.txt,Email rác
+SV014,Ngoc F Unknown,Ngoc F,Unknown,unknown.ngocf.14@gmail.com,2004-07-22,Thanh Hoa,8.6,7.2,1.2,students_202601161712.txt,Tên lỗi
+SV015,Ngoc F bui,Ngoc F,bui,fake_email_15@not-exist-domain.com,2002-05-27,Thanh Hoa,5.6,1.7,5.0,students_202601161712.txt,Email rác
+SV016,van a Tran,van a,Tran,fake_email_16@not-exist-domain.com,2006-10-31,Thanh Hoa,8.1,2.7,7.5,students_202601161712.txt,Email rác
+SV018,Van C nguyen,Van C,nguyen,fake_email_18@not-exist-domain.com,2004-01-28,Can Tho,2.3,8.5,4.1,students_202601161712.txt,Email rác
+SV019,Ngoc F bui,Ngoc F,bui,bui.ngocf.19@gmail.com,2001-04-11,Unknown,5.6,0.5,6.3,students_202601161712.txt,Quê quán thiếu
+SV020,Thi B Dang,Thi B,Dang,fake_email_20@not-exist-domain.com,2002-12-12,N/A,8.0,4.6,7.7,students_202601161712.txt,Email rác; Quê quán thiếu
+SV021,van a Hoang,van a,Hoang,hoang.vana.21@gmail.com,2005-12-23,Unknown,8.4,2.5,8.3,students_202601161712.txt,Quê quán thiếu
+SV023,van a Tran,van a,Tran,fake_email_23@not-exist-domain.com,2002-11-25,Da Nang,2.2,1.7,1.2,students_202601161712.txt,Email rác
+SV024,Tuan G Dang,Tuan G,Dang,fake_email_24@not-exist-domain.com,2001-09-12,Unknown,7.2,7.1,8.6,students_202601161712.txt,Email rác; Quê quán thiếu
+SV030,Van C nguyen,Van C,nguyen,nguyen.vanc.30@gmail.com,2004-11-03,Unknown,8.7,7.1,5.8,students_202601161712.txt,Quê quán thiếu
+SV032,Thi B Tran,Thi B,Tran,fake_email_32@not-exist-domain.com,2004-10-24,Da Nang,6.9,8.3,1.1,students_202601161712.txt,Email rác
+SV033,Thi B le,Thi B,le,fake_email_33@not-exist-domain.com,2002-06-15,Da Nang,7.9,6.7,9.3,students_202601161712.txt,Email rác
+SV034,thi d PHAM,thi d,PHAM,fake_email_34@not-exist-domain.com,2007-09-07,Can Tho,8.3,1.7,6.5,students_202601161712.txt,Email rác
+SV038,Thi B PHAM,Thi B,PHAM,fake_email_38@not-exist-domain.com,2002-05-07,Unknown,5.8,7.0,4.3,students_202601161712.txt,Email rác; Quê quán thiếu
+SV040,Van C nguyen,Van C,nguyen,fake_email_40@not-exist-domain.com,2002-11-04,Unknown,9.3,6.7,0.0,students_202601161712.txt,Email rác; Quê quán thiếu
+SV041,thi d Unknown,thi d,Unknown,fake_email_41@not-exist-domain.com,2001-09-02,TP.HCM,2.3,1.6,1.6,students_202601161712.txt,Tên lỗi; Email rác
+SV045,Tuan G le,Tuan G,le,le.tuang.45@gmail.com,2003-12-02,N/A,7.2,7.4,0.2,students_202601161712.txt,Quê quán thiếu
+SV047,Tuan G bui,Tuan G,bui,bui.tuang.47@gmail.com,2006-03-04,Unknown,8.3,0.4,9.1,students_202601161712.txt,Quê quán thiếu
+SV048,Ngoc F PHAM,Ngoc F,PHAM,pham.ngocf.48@gmail.com,2002-06-10,N/A,7.1,3.1,3.5,students_202601161712.txt,Quê quán thiếu
+SV049,Tuan G nguyen,Tuan G,nguyen,fake_email_49@not-exist-domain.com,2006-10-11,Can Tho,0.4,1.3,6.9,students_202601161712.txt,Email rác
+SV055,Van C PHAM,Van C,PHAM,pham.vanc.55@gmail.com,2006-11-06,N/A,8.0,6.5,0.0,students_202601161712.txt,Quê quán thiếu
+SV057,Van C Unknown,Van C,Unknown,unknown.vanc.57@gmail.com,2007-05-08,ha noi,4.1,6.9,2.3,students_202601161712.txt,Tên lỗi
+SV059,van a Hoang,van a,Hoang,fake_email_59@not-exist-domain.com,2007-03-02,Hai Phong,3.8,5.3,0.7,students_202601161712.txt,Email rác
+SV060,Thi B le,Thi B,le,fake_email_60@not-exist-domain.com,2001-08-26,Nghe An,0.1,8.4,1.5,students_202601161712.txt,Email rác
+SV061,Tuan G Tran,Tuan G,Tran,fake_email_61@not-exist-domain.com,2003-01-25,Da Nang,9.1,0.9,7.2,students_202601161712.txt,Email rác
+SV062,Van C le,Van C,le,le.vanc.62@gmail.com,2005-12-21,N/A,8.1,1.6,7.1,students_202601161712.txt,Quê quán thiếu
+SV063,Minh E Unknown,Minh E,Unknown,unknown.minhe.63@gmail.com,2000-12-25,Hai Phong,5.8,5.1,6.3,students_202601161712.txt,Tên lỗi
+SV066,thi d Unknown,thi d,Unknown,fake_email_66@not-exist-domain.com,2002-06-13,TP.HCM,1.4,7.8,4.4,students_202601161712.txt,Tên lỗi; Email rác
+SV068,van a Unknown,van a,Unknown,unknown.vana.68@gmail.com,2003-04-08,Nghe An,2.6,0.2,4.3,students_202601161712.txt,Tên lỗi
+SV071,thi d bui,thi d,bui,fake_email_71@not-exist-domain.com,2006-12-19,Da Nang,2.0,7.8,0.0,students_202601161712.txt,Email rác
+SV072,Minh E Unknown,Minh E,Unknown,unknown.minhe.72@gmail.com,2002-07-13,N/A,3.8,3.5,2.3,students_202601161712.txt,Tên lỗi; Quê quán thiếu
+SV073,Van C nguyen,Van C,nguyen,fake_email_73@not-exist-domain.com,2006-02-22,N/A,0.2,5.6,4.7,students_202601161712.txt,Email rác; Quê quán thiếu
+SV074,Ngoc F Tran,Ngoc F,Tran,fake_email_74@not-exist-domain.com,2001-09-29,Thanh Hoa,2.2,6.7,2.9,students_202601161712.txt,Email rác
+SV076,Minh E Unknown,Minh E,Unknown,unknown.minhe.76@gmail.com,2007-12-17,Hai Phong,4.2,9.3,8.8,students_202601161712.txt,Tên lỗi
+SV078,thi d nguyen,thi d,nguyen,nguyen.thid.78@gmail.com,2002-03-12,Unknown,5.9,4.1,8.2,students_202601161712.txt,Quê quán thiếu
+SV079,Van C PHAM,Van C,PHAM,fake_email_79@not-exist-domain.com,2004-06-13,Can Tho,4.3,0.3,0.0,students_202601161712.txt,Email rác
+SV081,thi d Vu,thi d,Vu,vu.thid.81@gmail.com,2005-11-07,N/A,8.2,2.5,0.2,students_202601161712.txt,Quê quán thiếu
+SV083,Van C Unknown,Van C,Unknown,unknown.vanc.83@gmail.com,2004-06-13,Unknown,7.4,7.2,4.4,students_202601161712.txt,Tên lỗi; Quê quán thiếu
+SV085,van a Dang,van a,Dang,dang.vana.85@gmail.com,2006-09-16,Unknown,3.0,9.9,9.4,students_202601161712.txt,Quê quán thiếu
+SV086,Van C bui,Van C,bui,bui.vanc.86@gmail.com,2007-06-15,Unknown,1.0,9.0,3.2,students_202601161712.txt,Quê quán thiếu
+SV089,Tuan G nguyen,Tuan G,nguyen,fake_email_89@not-exist-domain.com,2005-02-02,Thanh Hoa,3.1,6.7,3.5,students_202601161712.txt,Email rác
+SV090,Ngoc F Unknown,Ngoc F,Unknown,unknown.ngocf.90@gmail.com,2004-09-25,TP.HCM,9.2,0.4,8.4,students_202601161712.txt,Tên lỗi
+SV091,Van C le,Van C,le,fake_email_91@not-exist-domain.com,2001-05-03,Unknown,0.4,5.9,0.0,students_202601161712.txt,Email rác; Quê quán thiếu
+SV093,Tuan G Tran,Tuan G,Tran,fake_email_93@not-exist-domain.com,2005-05-21,Da Nang,0.4,5.0,3.6,students_202601161712.txt,Email rác
+SV094,Ngoc F Hoang,Ngoc F,Hoang,fake_email_94@not-exist-domain.com,2005-12-02,N/A,3.6,3.7,0.0,students_202601161712.txt,Email rác; Quê quán thiếu
+SV095,Ngoc F nguyen,Ngoc F,nguyen,fake_email_95@not-exist-domain.com,2007-07-07,Hai Phong,1.2,2.5,4.4,students_202601161712.txt,Email rác
+SV096,thi d PHAM,thi d,PHAM,fake_email_96@not-exist-domain.com,2006-12-21,TP.HCM,6.8,7.0,4.6,students_202601161712.txt,Email rác
+SV099,Thi B Vu,Thi B,Vu,fake_email_99@not-exist-domain.com,2006-02-27,N/A,7.1,9.0,4.1,students_202601161712.txt,Email rác; Quê quán thiếu
