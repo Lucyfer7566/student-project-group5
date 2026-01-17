@@ -7,7 +7,7 @@ from datetime import datetime
 # ================= CẤU HÌNH =================
 CRAWL_DIR = "../crawler/crawled_students"
 FILE_PATTERN = "students_202601161712.txt"
-OUTPUT_DIR = "./reports/students_202601161712"
+OUTPUT_DIR = "./reports/students_202601171326"
 
 def get_latest_crawl_file():
     """Tìm file crawl mới nhất"""
