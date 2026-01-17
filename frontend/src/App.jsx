@@ -30,9 +30,9 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Quan ly sinh vien - Nhom 5 (FE2)</h1>
+        <h1>QUẢN LÝ SINH VIÊN</h1>
         <button className="btn-add-new" onClick={handleAddNew}>
-          Them sinh vien moi
+          + Thêm sinh viên mới
         </button>
       </header>
 

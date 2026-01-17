@@ -1,10 +1,9 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
-import os
 
 # ===== DATABASE CONFIG =====
 # Đường dẫn database SQLite
-DATABASE_URL = "sqlite:///./backend/data/students.db"
+DATABASE_URL = "sqlite:///./data/students.db"
 
 # Tạo engine SQLite
 engine = create_engine(
@@ -14,9 +13,9 @@ engine = create_engine(
 
 # Tạo SessionLocal để giao dịch với database
 SessionLocal = sessionmaker(
-    autocommit=False, 
-    autoflush=False, 
-    bind=engine
+    autocommit=False, # kiểm soát transaction rõ ràng hơn
+    autoflush=False,  # đảm bảo atomicity (thành công tất cả hoặc thất bại tất cả)
+    bind=engine # session này sẽ dùng engine đã tạo ở trên để nói chuyện với DB
 )
 
 # Base class cho tất cả SQLAlchemy models
@@ -29,6 +28,6 @@ def get_db():
     """
     db = SessionLocal()
     try:
-        yield db
+        yield db # trả về session cho caller
     finally:
-        db.close()
+        db.close() 

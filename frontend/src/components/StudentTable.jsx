@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getStudents, deleteStudent } from "../api/studentApi";
 import "./StudentTable.css";
+import { createPortal } from "react-dom";
 
 function StudentTable({ onEdit, refreshTrigger }) {
   const [students, setStudents] = useState([]);
@@ -85,21 +86,21 @@ function StudentTable({ onEdit, refreshTrigger }) {
 
   return (
     <div className="student-table-container">
-      <h2>Danh sach sinh vien ({students.length})</h2>
+      <h2>Danh sách sinh viên ({students.length})</h2>
       <table className="student-table">
         <thead>
           <tr>
             <th>ID</th>
-            <th>Ma SV</th>
-            <th>Ho</th>
-            <th>Ten</th>
+            <th>Mã sinh viên</th>
+            <th>Họ</th>
+            <th>Tên</th>
             <th>Email</th>
-            <th>Ngay sinh</th>
-            <th>Que quan</th>
-            <th>Toan</th>
-            <th>Van</th>
-            <th>Anh</th>
-            <th>Hanh dong</th>
+            <th>Ngày sinh</th>
+            <th>Quê quán</th>
+            <th>Điểm Toán</th>
+            <th>Điểm Ngữ Văn</th>
+            <th>Điểm Ngoại Ngữ</th>
+            <th>Hành động</th>
           </tr>
         </thead>
         <tbody>
@@ -117,7 +118,7 @@ function StudentTable({ onEdit, refreshTrigger }) {
               <td>{formatScore(student.english)}</td>
               <td>
                 <button className="btn-edit" onClick={() => onEdit(student)}>
-                  Sua
+                  Sửa
                 </button>
                 <button
                   className="btn-delete"
@@ -125,11 +126,11 @@ function StudentTable({ onEdit, refreshTrigger }) {
                     openDeleteModal(
                       student.id,
                       student.first_name,
-                      student.last_name
+                      student.last_name,
                     )
                   }
                 >
-                  Xoa
+                  Xóa
                 </button>
               </td>
             </tr>
@@ -138,47 +139,51 @@ function StudentTable({ onEdit, refreshTrigger }) {
       </table>
 
       {/* Delete Confirmation Modal */}
-      {deleteModal.show && (
-        <div className="modal-overlay" onClick={closeDeleteModal}>
-          <div className="delete-modal" onClick={(e) => e.stopPropagation()}>
-            <div className="delete-modal-header">
-              <h3>Xac nhan xoa</h3>
-              <button className="btn-close" onClick={closeDeleteModal}>
-                x
-              </button>
-            </div>
+      {deleteModal.show &&
+        createPortal(
+          <div className="modal-overlay" onClick={closeDeleteModal}>
+            <div className="delete-modal" onClick={(e) => e.stopPropagation()}>
+              <div className="delete-modal-header">
+                <h3>Xác nhận xóa thông tin sinh viên</h3>
+                <button className="btn-close" onClick={closeDeleteModal}>
+                  ❌
+                </button>
+              </div>
 
-            <div className="delete-modal-body">
-              <p className="warning-icon">⚠️</p>
-              <p className="delete-message">
-                Ban chac chan muon xoa sinh vien{" "}
-                <strong>{deleteModal.studentName}</strong>?
-              </p>
-              <p className="delete-warning">
-                Hanh dong nay khong the hoan tac.
-              </p>
-              {deleteError && <div className="delete-error">{deleteError}</div>}
-            </div>
+              <div className="delete-modal-body">
+                <p className="warning-icon">⚠️</p>
+                <p className="delete-message">
+                  Bạn có chắc chắc muốn xóa thông tin sinh viên{" "}
+                  <strong>{deleteModal.studentName}</strong> ?
+                </p>
+                <p className="delete-warning">
+                  Hành động này không thể hoàn tác
+                </p>
+                {deleteError && (
+                  <div className="delete-error">{deleteError}</div>
+                )}
+              </div>
 
-            <div className="delete-modal-footer">
-              <button
-                className="btn-cancel"
-                onClick={closeDeleteModal}
-                disabled={deleteLoading}
-              >
-                Huy
-              </button>
-              <button
-                className="btn-delete-confirm"
-                onClick={confirmDelete}
-                disabled={deleteLoading}
-              >
-                {deleteLoading ? "Dang xoa..." : "Xoa"}
-              </button>
+              <div className="delete-modal-footer">
+                <button
+                  className="btn-cancel"
+                  onClick={closeDeleteModal}
+                  disabled={deleteLoading}
+                >
+                  Hủy
+                </button>
+                <button
+                  className="btn-delete-confirm"
+                  onClick={confirmDelete}
+                  disabled={deleteLoading}
+                >
+                  {deleteLoading ? "Đang xóa..." : "Xóa"}
+                </button>
+              </div>
             </div>
-          </div>
-        </div>
-      )}
+          </div>,
+          document.body,
+        )}
     </div>
   );
 }

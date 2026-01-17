@@ -1,0 +1,812 @@
+==========================================================================================
+DỮ LIỆU SINH VIÊN CRAWL BẰNG SELENIUM
+==========================================================================================
+Thời gian thực hiện: 2026-01-17 13:26:29
+Mã phiên (File ID): 202601171326
+Tổng số sinh viên: 100
+Nguồn dữ liệu: http://localhost:8000
+==========================================================================================
+
+[1] MÃ SINH VIÊN: SV001
+    ID Database: 1
+    Họ và tên: Ngoc F Tran
+    Email: tran.ngocf.1@gmail.com
+    Ngày sinh: 2006-12-07
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 4.5 - 3.9 - 0.9
+
+[2] MÃ SINH VIÊN: SV002
+    ID Database: 2
+    Họ và tên: Van C Dang
+    Email: dang.vanc.2@gmail.com
+    Ngày sinh: 2000-09-27
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 2.4 - 6.3 - 7.5
+
+[3] MÃ SINH VIÊN: SV003
+    ID Database: 3
+    Họ và tên: Thi B nguyen
+    Email: nguyen.thib.3@gmail.com
+    Ngày sinh: 2002-09-21
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 9.9 - 2.0 - 6.5
+
+[4] MÃ SINH VIÊN: SV004
+    ID Database: 4
+    Họ và tên: thi d Hoang
+    Email: fake_email_4@not-exist-domain.com
+    Ngày sinh: 2003-08-26
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 6.1 - 6.6 - 6.9
+
+[5] MÃ SINH VIÊN: SV005
+    ID Database: 5
+    Họ và tên: thi d bui
+    Email: fake_email_5@not-exist-domain.com
+    Ngày sinh: 2004-07-01
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 4.5 - 1.0 - 0.0
+
+[6] MÃ SINH VIÊN: SV006
+    ID Database: 6
+    Họ và tên: Minh E Unknown
+    Email: unknown.minhe.6@gmail.com
+    Ngày sinh: 2000-02-02
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 3.2 - 0.3 - 0.0
+
+[7] MÃ SINH VIÊN: SV007
+    ID Database: 7
+    Họ và tên: Van C Tran
+    Email: tran.vanc.7@gmail.com
+    Ngày sinh: 2003-12-17
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 4.8 - 3.8 - 3.5
+
+[8] MÃ SINH VIÊN: SV008
+    ID Database: 8
+    Họ và tên: thi d Hoang
+    Email: hoang.thid.8@gmail.com
+    Ngày sinh: 2004-05-15
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 1.7 - 8.4 - 0.0
+
+[9] MÃ SINH VIÊN: SV009
+    ID Database: 9
+    Họ và tên: van a Tran
+    Email: tran.vana.9@gmail.com
+    Ngày sinh: 2007-03-19
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 8.3 - 7.8 - 7.4
+
+[10] MÃ SINH VIÊN: SV010
+    ID Database: 10
+    Họ và tên: thi d le
+    Email: le.thid.10@gmail.com
+    Ngày sinh: 2004-02-18
+    Quê quán: N/A
+    Điểm (Toán/Văn/Anh): 2.4 - 8.7 - 2.1
+
+[11] MÃ SINH VIÊN: SV011
+    ID Database: 11
+    Họ và tên: thi d Tran
+    Email: tran.thid.11@gmail.com
+    Ngày sinh: 2000-03-25
+    Quê quán: N/A
+    Điểm (Toán/Văn/Anh): 7.6 - 8.2 - 4.9
+
+[12] MÃ SINH VIÊN: SV012
+    ID Database: 12
+    Họ và tên: Van C le
+    Email: le.vanc.12@gmail.com
+    Ngày sinh: 2002-03-09
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 8.1 - 5.0 - 9.6
+
+[13] MÃ SINH VIÊN: SV013
+    ID Database: 13
+    Họ và tên: Thi B le
+    Email: fake_email_13@not-exist-domain.com
+    Ngày sinh: 2003-06-12
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 0.4 - 9.9 - 4.9
+
+[14] MÃ SINH VIÊN: SV014
+    ID Database: 14
+    Họ và tên: Van C Vu
+    Email: vu.vanc.14@gmail.com
+    Ngày sinh: 2006-11-04
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 0.5 - 6.4 - 9.1
+
+[15] MÃ SINH VIÊN: SV015
+    ID Database: 15
+    Họ và tên: thi d Unknown
+    Email: unknown.thid.15@gmail.com
+    Ngày sinh: 2001-03-02
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 1.9 - 9.6 - 8.7
+
+[16] MÃ SINH VIÊN: SV016
+    ID Database: 16
+    Họ và tên: thi d Dang
+    Email: fake_email_16@not-exist-domain.com
+    Ngày sinh: 2002-01-20
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 8.4 - 0.8 - 6.7
+
+[17] MÃ SINH VIÊN: SV017
+    ID Database: 17
+    Họ và tên: Van C nguyen
+    Email: nguyen.vanc.17@gmail.com
+    Ngày sinh: 2000-11-12
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 3.4 - 9.2 - 8.2
+
+[18] MÃ SINH VIÊN: SV018
+    ID Database: 18
+    Họ và tên: Van C bui
+    Email: fake_email_18@not-exist-domain.com
+    Ngày sinh: 2003-08-27
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 4.5 - 3.7 - 7.1
+
+[19] MÃ SINH VIÊN: SV019
+    ID Database: 19
+    Họ và tên: Minh E bui
+    Email: bui.minhe.19@gmail.com
+    Ngày sinh: 2004-05-26
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 0.5 - 5.8 - 9.4
+
+[20] MÃ SINH VIÊN: SV020
+    ID Database: 20
+    Họ và tên: Minh E Hoang
+    Email: hoang.minhe.20@gmail.com
+    Ngày sinh: 2005-04-01
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 0.4 - 8.2 - 2.1
+
+[21] MÃ SINH VIÊN: SV021
+    ID Database: 21
+    Họ và tên: van a le
+    Email: le.vana.21@gmail.com
+    Ngày sinh: 2005-02-12
+    Quê quán: TP.HCM
+    Điểm (Toán/Văn/Anh): 8.4 - 4.8 - 0.0
+
+[22] MÃ SINH VIÊN: SV022
+    ID Database: 22
+    Họ và tên: Van C bui
+    Email: bui.vanc.22@gmail.com
+    Ngày sinh: 2000-07-22
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 6.2 - 0.2 - 0.1
+
+[23] MÃ SINH VIÊN: SV023
+    ID Database: 23
+    Họ và tên: Ngoc F Unknown
+    Email: unknown.ngocf.23@gmail.com
+    Ngày sinh: 2000-01-22
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 2.1 - 3.1 - 3.9
+
+[24] MÃ SINH VIÊN: SV024
+    ID Database: 24
+    Họ và tên: Ngoc F Dang
+    Email: dang.ngocf.24@gmail.com
+    Ngày sinh: 2006-03-12
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 3.9 - 8.2 - 5.3
+
+[25] MÃ SINH VIÊN: SV025
+    ID Database: 25
+    Họ và tên: Thi B nguyen
+    Email: nguyen.thib.25@gmail.com
+    Ngày sinh: 2002-08-06
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 3.9 - 0.4 - 8.0
+
+[26] MÃ SINH VIÊN: SV026
+    ID Database: 26
+    Họ và tên: Tuan G Dang
+    Email: fake_email_26@not-exist-domain.com
+    Ngày sinh: 2004-07-21
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 0.1 - 8.9 - 0.0
+
+[27] MÃ SINH VIÊN: SV027
+    ID Database: 27
+    Họ và tên: Van C nguyen
+    Email: nguyen.vanc.27@gmail.com
+    Ngày sinh: 2001-11-21
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 1.4 - 1.4 - 9.3
+
+[28] MÃ SINH VIÊN: SV028
+    ID Database: 28
+    Họ và tên: Thi B Vu
+    Email: fake_email_28@not-exist-domain.com
+    Ngày sinh: 2001-06-05
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 1.5 - 4.5 - 4.4
+
+[29] MÃ SINH VIÊN: SV029
+    ID Database: 29
+    Họ và tên: Tuan G le
+    Email: le.tuang.29@gmail.com
+    Ngày sinh: 2004-10-08
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 4.4 - 9.7 - 5.2
+
+[30] MÃ SINH VIÊN: SV030
+    ID Database: 30
+    Họ và tên: Minh E Tran
+    Email: tran.minhe.30@gmail.com
+    Ngày sinh: 2005-02-20
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 0.6 - 5.0 - 9.4
+
+[31] MÃ SINH VIÊN: SV031
+    ID Database: 31
+    Họ và tên: Thi B Vu
+    Email: vu.thib.31@gmail.com
+    Ngày sinh: 2003-10-04
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 0.1 - 6.2 - 9.5
+
+[32] MÃ SINH VIÊN: SV032
+    ID Database: 32
+    Họ và tên: Thi B le
+    Email: le.thib.32@gmail.com
+    Ngày sinh: 2002-02-24
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 3.1 - 1.9 - 0.2
+
+[33] MÃ SINH VIÊN: SV033
+    ID Database: 33
+    Họ và tên: Minh E bui
+    Email: bui.minhe.33@gmail.com
+    Ngày sinh: 2005-04-14
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 0.4 - 2.6 - 5.3
+
+[34] MÃ SINH VIÊN: SV034
+    ID Database: 34
+    Họ và tên: Van C le
+    Email: le.vanc.34@gmail.com
+    Ngày sinh: 2004-10-01
+    Quê quán: N/A
+    Điểm (Toán/Văn/Anh): 5.0 - 1.1 - 3.0
+
+[35] MÃ SINH VIÊN: SV035
+    ID Database: 35
+    Họ và tên: Van C Vu
+    Email: vu.vanc.35@gmail.com
+    Ngày sinh: 2002-11-04
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 6.7 - 2.7 - 1.5
+
+[36] MÃ SINH VIÊN: SV036
+    ID Database: 36
+    Họ và tên: Ngoc F Vu
+    Email: vu.ngocf.36@gmail.com
+    Ngày sinh: 2007-11-04
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 2.9 - 3.0 - 6.4
+
+[37] MÃ SINH VIÊN: SV037
+    ID Database: 37
+    Họ và tên: Minh E le
+    Email: le.minhe.37@gmail.com
+    Ngày sinh: 2000-07-03
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 0.8 - 1.8 - 4.5
+
+[38] MÃ SINH VIÊN: SV038
+    ID Database: 38
+    Họ và tên: Thi B bui
+    Email: bui.thib.38@gmail.com
+    Ngày sinh: 2000-06-22
+    Quê quán: N/A
+    Điểm (Toán/Văn/Anh): 10.0 - 9.7 - 0.0
+
+[39] MÃ SINH VIÊN: SV039
+    ID Database: 39
+    Họ và tên: Minh E nguyen
+    Email: fake_email_39@not-exist-domain.com
+    Ngày sinh: 2004-06-19
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 5.5 - 4.2 - 0.0
+
+[40] MÃ SINH VIÊN: SV040
+    ID Database: 40
+    Họ và tên: Van C Hoang
+    Email: fake_email_40@not-exist-domain.com
+    Ngày sinh: 2002-10-10
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 3.6 - 8.5 - 8.5
+
+[41] MÃ SINH VIÊN: SV041
+    ID Database: 41
+    Họ và tên: Ngoc F le
+    Email: fake_email_41@not-exist-domain.com
+    Ngày sinh: 2006-07-25
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 5.2 - 9.0 - 2.2
+
+[42] MÃ SINH VIÊN: SV042
+    ID Database: 42
+    Họ và tên: van a Unknown
+    Email: fake_email_42@not-exist-domain.com
+    Ngày sinh: 2006-01-06
+    Quê quán: TP.HCM
+    Điểm (Toán/Văn/Anh): 1.9 - 9.3 - 4.1
+
+[43] MÃ SINH VIÊN: SV043
+    ID Database: 43
+    Họ và tên: Thi B le
+    Email: le.thib.43@gmail.com
+    Ngày sinh: 2007-08-24
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 6.4 - 7.5 - 8.4
+
+[44] MÃ SINH VIÊN: SV044
+    ID Database: 44
+    Họ và tên: Van C nguyen
+    Email: nguyen.vanc.44@gmail.com
+    Ngày sinh: 2001-12-12
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 1.9 - 6.2 - 9.1
+
+[45] MÃ SINH VIÊN: SV045
+    ID Database: 45
+    Họ và tên: Minh E Dang
+    Email: dang.minhe.45@gmail.com
+    Ngày sinh: 2003-10-15
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 4.4 - 7.9 - 2.7
+
+[46] MÃ SINH VIÊN: SV046
+    ID Database: 46
+    Họ và tên: thi d bui
+    Email: fake_email_46@not-exist-domain.com
+    Ngày sinh: 2007-07-11
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 8.3 - 6.2 - 0.4
+
+[47] MÃ SINH VIÊN: SV047
+    ID Database: 47
+    Họ và tên: Van C Unknown
+    Email: unknown.vanc.47@gmail.com
+    Ngày sinh: 2003-03-26
+    Quê quán: TP.HCM
+    Điểm (Toán/Văn/Anh): 5.3 - 4.2 - 0.0
+
+[48] MÃ SINH VIÊN: SV048
+    ID Database: 48
+    Họ và tên: van a PHAM
+    Email: pham.vana.48@gmail.com
+    Ngày sinh: 2004-07-05
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 3.9 - 9.5 - 7.7
+
+[49] MÃ SINH VIÊN: SV049
+    ID Database: 49
+    Họ và tên: Minh E le
+    Email: le.minhe.49@gmail.com
+    Ngày sinh: 2007-12-20
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 9.1 - 2.1 - 5.0
+
+[50] MÃ SINH VIÊN: SV050
+    ID Database: 50
+    Họ và tên: Thi B Dang
+    Email: fake_email_50@not-exist-domain.com
+    Ngày sinh: 2003-12-08
+    Quê quán: N/A
+    Điểm (Toán/Văn/Anh): 7.2 - 4.9 - 9.8
+
+[51] MÃ SINH VIÊN: SV051
+    ID Database: 51
+    Họ và tên: thi d Dang
+    Email: dang.thid.51@gmail.com
+    Ngày sinh: 2001-12-06
+    Quê quán: TP.HCM
+    Điểm (Toán/Văn/Anh): 5.3 - 2.4 - 6.9
+
+[52] MÃ SINH VIÊN: SV052
+    ID Database: 52
+    Họ và tên: van a Hoang
+    Email: hoang.vana.52@gmail.com
+    Ngày sinh: 2006-11-24
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 1.0 - 6.5 - 6.9
+
+[53] MÃ SINH VIÊN: SV053
+    ID Database: 53
+    Họ và tên: Thi B Vu
+    Email: fake_email_53@not-exist-domain.com
+    Ngày sinh: 2001-08-13
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 0.8 - 4.6 - 0.0
+
+[54] MÃ SINH VIÊN: SV054
+    ID Database: 54
+    Họ và tên: Van C nguyen
+    Email: fake_email_54@not-exist-domain.com
+    Ngày sinh: 2006-09-02
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 2.1 - 1.8 - 0.6
+
+[55] MÃ SINH VIÊN: SV055
+    ID Database: 55
+    Họ và tên: Van C Vu
+    Email: vu.vanc.55@gmail.com
+    Ngày sinh: 2001-08-09
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 8.0 - 0.2 - 0.0
+
+[56] MÃ SINH VIÊN: SV056
+    ID Database: 56
+    Họ và tên: Van C le
+    Email: le.vanc.56@gmail.com
+    Ngày sinh: 2001-10-13
+    Quê quán: N/A
+    Điểm (Toán/Văn/Anh): 3.2 - 1.8 - 3.6
+
+[57] MÃ SINH VIÊN: SV057
+    ID Database: 57
+    Họ và tên: van a Unknown
+    Email: unknown.vana.57@gmail.com
+    Ngày sinh: 2005-05-29
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 6.2 - 1.1 - 0.0
+
+[58] MÃ SINH VIÊN: SV058
+    ID Database: 58
+    Họ và tên: Ngoc F Dang
+    Email: fake_email_58@not-exist-domain.com
+    Ngày sinh: 2003-05-18
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 4.9 - 2.1 - 2.4
+
+[59] MÃ SINH VIÊN: SV059
+    ID Database: 59
+    Họ và tên: Thi B Dang
+    Email: dang.thib.59@gmail.com
+    Ngày sinh: 2004-06-10
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 7.1 - 5.3 - 8.6
+
+[60] MÃ SINH VIÊN: SV060
+    ID Database: 60
+    Họ và tên: Tuan G Dang
+    Email: dang.tuang.60@gmail.com
+    Ngày sinh: 2001-04-04
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 9.4 - 7.6 - 0.6
+
+[61] MÃ SINH VIÊN: SV061
+    ID Database: 61
+    Họ và tên: Ngoc F nguyen
+    Email: fake_email_61@not-exist-domain.com
+    Ngày sinh: 2004-12-15
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 1.8 - 1.3 - 4.7
+
+[62] MÃ SINH VIÊN: SV062
+    ID Database: 62
+    Họ và tên: Tuan G Dang
+    Email: dang.tuang.62@gmail.com
+    Ngày sinh: 2005-09-04
+    Quê quán: N/A
+    Điểm (Toán/Văn/Anh): 8.3 - 0.1 - 0.0
+
+[63] MÃ SINH VIÊN: SV063
+    ID Database: 63
+    Họ và tên: Ngoc F Hoang
+    Email: fake_email_63@not-exist-domain.com
+    Ngày sinh: 2006-08-10
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 7.6 - 4.9 - 2.5
+
+[64] MÃ SINH VIÊN: SV064
+    ID Database: 64
+    Họ và tên: thi d Vu
+    Email: fake_email_64@not-exist-domain.com
+    Ngày sinh: 2001-09-13
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 8.8 - 1.5 - 0.0
+
+[65] MÃ SINH VIÊN: SV065
+    ID Database: 65
+    Họ và tên: Thi B Unknown
+    Email: unknown.thib.65@gmail.com
+    Ngày sinh: 2007-06-29
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 5.2 - 7.6 - 9.4
+
+[66] MÃ SINH VIÊN: SV066
+    ID Database: 66
+    Họ và tên: van a Unknown
+    Email: unknown.vana.66@gmail.com
+    Ngày sinh: 2001-04-06
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 4.1 - 8.6 - 0.0
+
+[67] MÃ SINH VIÊN: SV067
+    ID Database: 67
+    Họ và tên: Ngoc F Vu
+    Email: vu.ngocf.67@gmail.com
+    Ngày sinh: 2000-01-12
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 5.4 - 8.8 - 9.3
+
+[68] MÃ SINH VIÊN: SV068
+    ID Database: 68
+    Họ và tên: thi d Unknown
+    Email: fake_email_68@not-exist-domain.com
+    Ngày sinh: 2003-12-01
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 3.5 - 4.1 - 2.9
+
+[69] MÃ SINH VIÊN: SV069
+    ID Database: 69
+    Họ và tên: thi d nguyen
+    Email: nguyen.thid.69@gmail.com
+    Ngày sinh: 2001-04-12
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 0.7 - 7.9 - 0.0
+
+[70] MÃ SINH VIÊN: SV070
+    ID Database: 70
+    Họ và tên: Thi B Vu
+    Email: vu.thib.70@gmail.com
+    Ngày sinh: 2001-01-13
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 6.6 - 5.9 - 9.6
+
+[71] MÃ SINH VIÊN: SV071
+    ID Database: 71
+    Họ và tên: Minh E PHAM
+    Email: pham.minhe.71@gmail.com
+    Ngày sinh: 2003-06-20
+    Quê quán: TP.HCM
+    Điểm (Toán/Văn/Anh): 6.7 - 3.8 - 9.5
+
+[72] MÃ SINH VIÊN: SV072
+    ID Database: 72
+    Họ và tên: van a Hoang
+    Email: hoang.vana.72@gmail.com
+    Ngày sinh: 2001-09-14
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 8.3 - 5.9 - 0.0
+
+[73] MÃ SINH VIÊN: SV073
+    ID Database: 73
+    Họ và tên: Thi B Tran
+    Email: tran.thib.73@gmail.com
+    Ngày sinh: 2002-12-25
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 3.0 - 3.7 - 0.0
+
+[74] MÃ SINH VIÊN: SV074
+    ID Database: 74
+    Họ và tên: Tuan G PHAM
+    Email: pham.tuang.74@gmail.com
+    Ngày sinh: 2000-09-06
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 3.5 - 1.5 - 2.1
+
+[75] MÃ SINH VIÊN: SV075
+    ID Database: 75
+    Họ và tên: Minh E Vu
+    Email: fake_email_75@not-exist-domain.com
+    Ngày sinh: 2003-12-22
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 3.1 - 2.3 - 7.2
+
+[76] MÃ SINH VIÊN: SV076
+    ID Database: 76
+    Họ và tên: Tuan G bui
+    Email: fake_email_76@not-exist-domain.com
+    Ngày sinh: 2007-05-16
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 3.7 - 1.4 - 0.0
+
+[77] MÃ SINH VIÊN: SV077
+    ID Database: 77
+    Họ và tên: Minh E Unknown
+    Email: unknown.minhe.77@gmail.com
+    Ngày sinh: 2002-01-10
+    Quê quán: N/A
+    Điểm (Toán/Văn/Anh): 0.1 - 6.4 - 1.9
+
+[78] MÃ SINH VIÊN: SV078
+    ID Database: 78
+    Họ và tên: van a Tran
+    Email: fake_email_78@not-exist-domain.com
+    Ngày sinh: 2005-08-17
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 2.8 - 1.4 - 6.2
+
+[79] MÃ SINH VIÊN: SV079
+    ID Database: 79
+    Họ và tên: Ngoc F Unknown
+    Email: fake_email_79@not-exist-domain.com
+    Ngày sinh: 2001-03-09
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 0.1 - 9.7 - 4.0
+
+[80] MÃ SINH VIÊN: SV080
+    ID Database: 80
+    Họ và tên: van a Unknown
+    Email: unknown.vana.80@gmail.com
+    Ngày sinh: 2006-05-27
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 0.2 - 2.9 - 7.4
+
+[81] MÃ SINH VIÊN: SV081
+    ID Database: 81
+    Họ và tên: Thi B le
+    Email: fake_email_81@not-exist-domain.com
+    Ngày sinh: 2002-12-18
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 9.0 - 6.2 - 0.2
+
+[82] MÃ SINH VIÊN: SV082
+    ID Database: 82
+    Họ và tên: thi d PHAM
+    Email: fake_email_82@not-exist-domain.com
+    Ngày sinh: 2000-01-12
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 3.9 - 0.2 - 9.0
+
+[83] MÃ SINH VIÊN: SV083
+    ID Database: 83
+    Họ và tên: van a le
+    Email: le.vana.83@gmail.com
+    Ngày sinh: 2002-11-12
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 5.4 - 2.5 - 0.0
+
+[84] MÃ SINH VIÊN: SV084
+    ID Database: 84
+    Họ và tên: van a Vu
+    Email: vu.vana.84@gmail.com
+    Ngày sinh: 2007-06-05
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 4.3 - 2.3 - 9.1
+
+[85] MÃ SINH VIÊN: SV085
+    ID Database: 85
+    Họ và tên: Thi B Dang
+    Email: fake_email_85@not-exist-domain.com
+    Ngày sinh: 2006-11-15
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 2.9 - 4.5 - 6.2
+
+[86] MÃ SINH VIÊN: SV086
+    ID Database: 86
+    Họ và tên: Van C Dang
+    Email: fake_email_86@not-exist-domain.com
+    Ngày sinh: 2003-12-18
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 0.6 - 6.5 - 9.9
+
+[87] MÃ SINH VIÊN: SV087
+    ID Database: 87
+    Họ và tên: Van C Hoang
+    Email: hoang.vanc.87@gmail.com
+    Ngày sinh: 2007-03-29
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 6.3 - 5.3 - 8.5
+
+[88] MÃ SINH VIÊN: SV088
+    ID Database: 88
+    Họ và tên: van a nguyen
+    Email: nguyen.vana.88@gmail.com
+    Ngày sinh: 2004-03-29
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 6.9 - 9.5 - 0.0
+
+[89] MÃ SINH VIÊN: SV089
+    ID Database: 89
+    Họ và tên: Ngoc F nguyen
+    Email: nguyen.ngocf.89@gmail.com
+    Ngày sinh: 2003-08-29
+    Quê quán: Hai Phong
+    Điểm (Toán/Văn/Anh): 7.3 - 6.7 - 7.4
+
+[90] MÃ SINH VIÊN: SV090
+    ID Database: 90
+    Họ và tên: Tuan G nguyen
+    Email: nguyen.tuang.90@gmail.com
+    Ngày sinh: 2003-05-07
+    Quê quán: Thanh Hoa
+    Điểm (Toán/Văn/Anh): 0.0 - 1.3 - 0.5
+
+[91] MÃ SINH VIÊN: SV091
+    ID Database: 91
+    Họ và tên: Thi B Hoang
+    Email: fake_email_91@not-exist-domain.com
+    Ngày sinh: 2002-04-19
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 3.6 - 5.1 - 4.5
+
+[92] MÃ SINH VIÊN: SV092
+    ID Database: 92
+    Họ và tên: van a Tran
+    Email: tran.vana.92@gmail.com
+    Ngày sinh: 2006-03-06
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 4.1 - 4.1 - 3.8
+
+[93] MÃ SINH VIÊN: SV093
+    ID Database: 93
+    Họ và tên: Van C Hoang
+    Email: hoang.vanc.93@gmail.com
+    Ngày sinh: 2006-05-22
+    Quê quán: TP.HCM
+    Điểm (Toán/Văn/Anh): 2.6 - 9.4 - 6.9
+
+[94] MÃ SINH VIÊN: SV094
+    ID Database: 94
+    Họ và tên: Ngoc F Vu
+    Email: vu.ngocf.94@gmail.com
+    Ngày sinh: 2007-05-07
+    Quê quán: Nghe An
+    Điểm (Toán/Văn/Anh): 0.4 - 1.6 - 0.0
+
+[95] MÃ SINH VIÊN: SV095
+    ID Database: 95
+    Họ và tên: Minh E nguyen
+    Email: nguyen.minhe.95@gmail.com
+    Ngày sinh: 2007-04-01
+    Quê quán: Da Nang
+    Điểm (Toán/Văn/Anh): 5.6 - 3.3 - 8.4
+
+[96] MÃ SINH VIÊN: SV096
+    ID Database: 96
+    Họ và tên: Thi B PHAM
+    Email: pham.thib.96@gmail.com
+    Ngày sinh: 2007-04-29
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 5.3 - 9.0 - 3.3
+
+[97] MÃ SINH VIÊN: SV097
+    ID Database: 97
+    Họ và tên: Minh E nguyen
+    Email: nguyen.minhe.97@gmail.com
+    Ngày sinh: 2002-04-10
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 7.3 - 8.0 - 9.5
+
+[98] MÃ SINH VIÊN: SV098
+    ID Database: 98
+    Họ và tên: Van C Vu
+    Email: vu.vanc.98@gmail.com
+    Ngày sinh: 2000-06-05
+    Quê quán: Unknown
+    Điểm (Toán/Văn/Anh): 6.9 - 1.7 - 0.0
+
+[99] MÃ SINH VIÊN: SV099
+    ID Database: 99
+    Họ và tên: Minh E Dang
+    Email: dang.minhe.99@gmail.com
+    Ngày sinh: 2003-08-13
+    Quê quán: ha noi
+    Điểm (Toán/Văn/Anh): 4.0 - 2.4 - 5.3
+
+[100] MÃ SINH VIÊN: SV100
+    ID Database: 100
+    Họ và tên: thi d Unknown
+    Email: unknown.thid.100@gmail.com
+    Ngày sinh: 2003-10-03
+    Quê quán: Can Tho
+    Điểm (Toán/Văn/Anh): 7.3 - 1.2 - 0.7
+
+==========================================================================================
+KẾT THÚC DỮ LIỆU
+==========================================================================================

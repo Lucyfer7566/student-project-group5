@@ -50,66 +50,65 @@ function StudentForm({ student, onClose, onSuccess }) {
 
     // Ma sinh vien
     if (!formData.student_id.trim()) {
-      newErrors.student_id = "Ma sinh vien khong duoc de trong";
+      newErrors.student_id = "Mã sinh viên không được bỏ trống";
     } else if (formData.student_id.length > 20) {
-      newErrors.student_id = "Ma sinh vien toi da 20 ky tu";
+      newErrors.student_id = "Mã sinh viên chỉ được phép tối đa 20 ký tự";
     } else if (!validateStudentId(formData.student_id)) {
-      newErrors.student_id = "Ma sinh vien chi chua chu, so, dash, underscore";
+      newErrors.student_id = "Mã sinh viên chỉ được phép bao gồm chữ và số";
     }
 
     // Ho
     if (!formData.first_name.trim()) {
-      newErrors.first_name = "Ho khong duoc de trong";
+      newErrors.first_name = "Họ không được bỏ trống";
     } else if (formData.first_name.length > 50) {
-      newErrors.first_name = "Ho toi da 50 ky tu";
+      newErrors.first_name = "";
     }
 
     // Ten
     if (!formData.last_name.trim()) {
-      newErrors.last_name = "Ten khong duoc de trong";
+      newErrors.last_name = "Tên không được bỏ trống";
     } else if (formData.last_name.length > 50) {
-      newErrors.last_name = "Ten toi da 50 ky tu";
+      newErrors.last_name = "Chỉ được phép tối đa 50 ký tự";
     }
 
     // Email
     if (!formData.email.trim()) {
-      newErrors.email = "Email khong duoc de trong";
+      newErrors.email = "Email không được bỏ trống";
     } else if (!validateEmail(formData.email)) {
-      newErrors.email = "Email khong hop le (vi du: abc@example.com)";
+      newErrors.email = "Email không hợp lê (ví dụ: abc@example.com)";
     } else if (formData.email.length > 100) {
-      newErrors.email = "Email toi da 100 ky tu";
+      newErrors.email = "Chỉ được phép tối đa 100 ký tự";
     }
 
     // Ngay sinh
     if (!formData.birth_date) {
-      newErrors.birth_date = "Ngay sinh khong duoc de trong";
+      newErrors.birth_date = "Ngày sinh không được bỏ trống";
     } else if (!validateDate(formData.birth_date)) {
-      newErrors.birth_date =
-        "Ngay sinh phai nho hon hom nay va tuoi 5-100 tuoi";
+      newErrors.birth_date = "Phải nhỏ hơn ngày hiện tại";
     }
 
     // Que quan
     if (!formData.hometown.trim()) {
-      newErrors.hometown = "Que quan khong duoc de trong";
+      newErrors.hometown = "Quê quán không được bỏ trống";
     } else if (formData.hometown.length > 100) {
-      newErrors.hometown = "Que quan toi da 100 ky tu";
+      newErrors.hometown = "Chỉ được phép tối đa 100 ký tự";
     }
 
     // Diem
     if (formData.math !== "" && (formData.math < 0 || formData.math > 10)) {
-      newErrors.math = "Diem phai trong khoang 0-10";
+      newErrors.math = "Điểm phải trong khoảng từ 1 đến 10";
     }
     if (
       formData.literature !== "" &&
       (formData.literature < 0 || formData.literature > 10)
     ) {
-      newErrors.literature = "Diem phai trong khoang 0-10";
+      newErrors.literature = "Điểm phải trong khoảng từ 1 đến 10";
     }
     if (
       formData.english !== "" &&
       (formData.english < 0 || formData.english > 10)
     ) {
-      newErrors.english = "Diem phai trong khoang 0-10";
+      newErrors.english = "Điểm phải trong khoảng từ 1 đến 10";
     }
 
     setErrors(newErrors);
@@ -159,10 +158,10 @@ function StudentForm({ student, onClose, onSuccess }) {
       onSuccess();
       onClose();
     } catch (err) {
-      console.error("Chi tiet loi:", err);
+      console.error("Chi tiết lỗi:", err);
 
       // Kiem tra xem error co phai validation errors (multiple lines)
-      const errorMsg = err.message || "Co loi xay ra";
+      const errorMsg = err.message || "Đã có lỗi xảy ra";
 
       // Neu co nhieu loi, tach va hien thi
       if (errorMsg.includes(":")) {
@@ -178,7 +177,7 @@ function StudentForm({ student, onClose, onSuccess }) {
 
         if (Object.keys(newErrors).length > 0) {
           setErrors(newErrors);
-          setServerError("Vui long xem lai cac loi ben duoi");
+          setServerError("Vui lòng kiểm tra các lỗi do hệ thống trả về");
           setLoading(false);
           return;
         }
@@ -195,7 +194,7 @@ function StudentForm({ student, onClose, onSuccess }) {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
-          <h2>{student ? "Cap nhat sinh vien" : "Them sinh vien moi"}</h2>
+          <h2>{student ? "Cập nhật sinh viên" : "Thêm sinh viên mới"}</h2>
           <button className="btn-close" onClick={onClose}>
             x
           </button>
@@ -206,7 +205,9 @@ function StudentForm({ student, onClose, onSuccess }) {
 
           <div className="form-row">
             <div className="form-group">
-              <label>Ma SV *</label>
+              <label>
+                Mã sinh viên <span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="text"
                 name="student_id"
@@ -215,6 +216,7 @@ function StudentForm({ student, onClose, onSuccess }) {
                 disabled={!!student}
                 placeholder="VD: SV001"
                 className={errors.student_id ? "input-error" : ""}
+                required
               />
               {errors.student_id && (
                 <span className="error-text">{errors.student_id}</span>
@@ -222,7 +224,9 @@ function StudentForm({ student, onClose, onSuccess }) {
             </div>
 
             <div className="form-group">
-              <label>Ho *</label>
+              <label>
+                Họ <span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="text"
                 name="first_name"
@@ -237,7 +241,9 @@ function StudentForm({ student, onClose, onSuccess }) {
             </div>
 
             <div className="form-group">
-              <label>Ten *</label>
+              <label>
+                Tên đệm & Tên <span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="text"
                 name="last_name"
@@ -254,7 +260,9 @@ function StudentForm({ student, onClose, onSuccess }) {
 
           <div className="form-row">
             <div className="form-group">
-              <label>Email *</label>
+              <label>
+                Email <span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="email"
                 name="email"
@@ -269,7 +277,9 @@ function StudentForm({ student, onClose, onSuccess }) {
             </div>
 
             <div className="form-group">
-              <label>Ngay sinh (YYYY-MM-DD) *</label>
+              <label>
+                Ngày sinh <span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="date"
                 name="birth_date"
@@ -283,7 +293,9 @@ function StudentForm({ student, onClose, onSuccess }) {
             </div>
 
             <div className="form-group">
-              <label>Que quan *</label>
+              <label>
+                Quê quán <span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="text"
                 name="hometown"
@@ -300,7 +312,9 @@ function StudentForm({ student, onClose, onSuccess }) {
 
           <div className="form-row">
             <div className="form-group">
-              <label>Diem Toan (0-10)</label>
+              <label>
+                Điểm Toán <span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="number"
                 name="math"
@@ -316,7 +330,9 @@ function StudentForm({ student, onClose, onSuccess }) {
             </div>
 
             <div className="form-group">
-              <label>Diem Van (0-10)</label>
+              <label>
+                Điểm Ngữ Văn <span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="number"
                 name="literature"
@@ -334,7 +350,9 @@ function StudentForm({ student, onClose, onSuccess }) {
             </div>
 
             <div className="form-group">
-              <label>Diem Anh (0-10)</label>
+              <label>
+                Điểm Ngoại Ngữ <span style={{ color: "red" }}>*</span>
+              </label>
               <input
                 type="number"
                 name="english"
@@ -354,10 +372,10 @@ function StudentForm({ student, onClose, onSuccess }) {
 
           <div className="form-actions">
             <button type="button" className="btn-cancel" onClick={onClose}>
-              Huy
+              Hủy
             </button>
             <button type="submit" className="btn-submit" disabled={loading}>
-              {loading ? "Dang xu ly..." : "Luu"}
+              {loading ? "Đang xử lý..." : "Lưu"}
             </button>
           </div>
         </form>
