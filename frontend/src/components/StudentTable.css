@@ -1,275 +1,313 @@
+/* ===============================
+    GLOBAL – WHITE PAGE
+    ================================ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background: #ffffff;
+  color: #1f2937;
+}
+
+/* ===============================
+    CONTAINER – LIQUID GLASS CARD
+    ================================ */
 .student-table-container {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1850px;
+  margin: 40px auto 40px auto;
+  padding: 28px;
+
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(22px) saturate(180%);
+  -webkit-backdrop-filter: blur(22px) saturate(180%);
+
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.08),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
 .student-table-container h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #333;
+  margin: 0 0 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
 }
 
+/* ===============================
+    TABLE – LIQUID GLASS
+    ================================ */
 .student-table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.student-table thead th {
+  background: rgba(240, 253, 250, 0.9); /* trắng dịu */
+  color: #334155;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.student-table th,
+.student-table td {
+  padding: 12px 14px;
+  vertical-align: middle;
+  text-align: left;
 }
 
 .student-table th {
-    background-color: #f5f5f5;
-    border-bottom: 2px solid #ddd;
-    padding: 12px;
-    text-align: left;
-    font-weight: 600;
-    color: #333;
-    font-size: 14px;
+  padding: 14px;
+  font-size: 13px;
+  font-weight: 600 bold;
+  text-transform: uppercase;
+  color: #374151;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  text-align: center;
 }
 
 .student-table td {
-    border-bottom: 1px solid #ddd;
-    padding: 12px;
-    color: #555;
-    font-size: 14px;
+  padding: 14px;
+  font-size: 14px;
+  color: #1f2937;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.student-table tbody tr {
+  transition: background 0.25s ease;
 }
 
 .student-table tbody tr:hover {
-    background-color: #f9f9f9;
+  background: rgba(255, 255, 255, 0.45);
 }
 
 .student-table td:last-child {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 8px;
 }
 
-.btn-edit {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: 600;
-    transition: background-color 0.3s;
+/* ===============================
+    BUTTONS – GLASS → COLOR HOVER
+    ================================ */
+.btn-edit,
+.btn-delete {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: #1f2937;
+
+  backdrop-filter: blur(8px);
+  transition: all 0.25s ease;
 }
 
 .btn-edit:hover {
-    background-color: #0056b3;
-}
-
-.btn-delete {
-    background-color: #dc3545;
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: 600;
-    transition: background-color 0.3s;
+  background: linear-gradient(135deg, rgba(240, 253, 250, 0.9));
+  color: #2563eb; /* xanh (blue-600) */
+  border-color: transparent;
+  box-shadow: 0 6px 18px rgba(91, 134, 229, 0.35);
+  transform: translateY(-1px);
 }
 
 .btn-delete:hover {
-    background-color: #c82333;
+  background: linear-gradient(135deg, rgba(240, 253, 250, 0.9));
+  color: #dc2626; /* đỏ (red-600) */
+  border-color: transparent;
+  box-shadow: 0 6px 18px rgba(255, 120, 160, 0.35);
+  transform: translateY(-1px);
 }
 
+/* ===============================
+    LOADING & ERROR
+    ================================ */
 .loading {
-    text-align: center;
-    padding: 40px;
-    font-size: 16px;
-    color: #666;
+  text-align: center;
+  padding: 40px;
+  font-size: 16px;
+  color: #6b7280;
 }
 
 .error {
-    background-color: #f8d7da;
-    color: #721c24;
-    padding: 15px;
-    border-radius: 4px;
-    border: 1px solid #f5c6cb;
-    margin: 20px;
+  background: rgba(255, 0, 0, 0.08);
+  color: #b91c1c;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 0, 0, 0.2);
 }
 
-/* Delete Modal Styles */
+/* ===============================
+    MODAL OVERLAY – FULL SCREEN
+    ================================ */
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
+/* ===============================
+    DELETE MODAL – LIQUID GLASS
+    ================================ */
 .delete-modal {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    max-width: 400px;
-    width: 90%;
-    overflow: hidden;
-    animation: slideIn 0.3s ease-out;
+  width: 100%;
+  max-width: 550px;
+
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(26px) saturate(180%);
+  -webkit-backdrop-filter: blur(26px) saturate(180%);
+
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.18),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+
+  color: #1f2937;
+  animation: modalGlassIn 0.3s ease;
 }
 
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
+@keyframes modalGlassIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
+/* HEADER */
 .delete-modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-    background-color: #f9f9f9;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .delete-modal-header h3 {
-    margin: 0;
-    font-size: 18px;
-    color: #333;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .btn-close {
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: #666;
-    transition: color 0.3s;
-    padding: 0;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #6b7280;
 }
 
 .btn-close:hover {
-    color: #333;
+  color: #111827;
 }
 
+/* BODY */
 .delete-modal-body {
-    padding: 30px 20px;
-    text-align: center;
+  padding: 22px;
+  text-align: center;
 }
 
 .warning-icon {
-    font-size: 48px;
-    margin: 0 0 15px 0;
-    display: block;
+  font-size: 42px;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 6px 12px rgba(239, 68, 68, 0.25));
 }
 
 .delete-message {
-    margin: 0 0 10px 0;
-    font-size: 16px;
-    color: #333;
-    line-height: 1.5;
+  font-size: 15px;
 }
 
 .delete-message strong {
-    color: #dc3545;
-    font-weight: 600;
+  color: #ef4444;
 }
 
 .delete-warning {
-    margin: 0;
-    font-size: 13px;
-    color: #999;
+  font-size: 13px;
+  color: #6b7280;
 }
 
 .delete-error {
-    background-color: #f8d7da;
-    color: #721c24;
-    border: 1px solid #f5c6cb;
-    padding: 10px;
-    border-radius: 4px;
-    margin-top: 15px;
-    font-size: 13px;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 13px;
+  color: #b91c1c;
+  background: rgba(255, 0, 0, 0.08);
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  border-radius: 8px;
 }
 
+/* FOOTER */
 .delete-modal-footer {
-    display: flex;
-    gap: 10px;
-    justify-content: flex-end;
-    padding: 20px;
-    border-top: 1px solid #ddd;
-    background-color: #f9f9f9;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .btn-cancel {
-    background-color: #6c757d;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    transition: background-color 0.3s;
-}
-
-.btn-cancel:hover:not(:disabled) {
-    background-color: #5a6268;
-}
-
-.btn-cancel:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
 }
 
 .btn-delete-confirm {
-    background-color: #dc3545;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    transition: background-color 0.3s;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #ff5f6d, #ffc371);
+  color: #fff;
+  cursor: pointer;
 }
 
-.btn-delete-confirm:hover:not(:disabled) {
-    background-color: #c82333;
+.btn-delete-confirm:disabled,
+.btn-cancel:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
-.btn-delete-confirm:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-}
-
+/* ===============================
+    RESPONSIVE
+    ================================ */
 @media (max-width: 768px) {
-    .student-table {
-        font-size: 12px;
-    }
+  .student-table td:last-child {
+    flex-direction: column;
+  }
 
-    .student-table th,
-    .student-table td {
-        padding: 8px;
-    }
-
-    .btn-edit,
-    .btn-delete {
-        padding: 4px 8px;
-        font-size: 11px;
-    }
-
-    .student-table td:last-child {
-        flex-direction: column;
-    }
-
-    .delete-modal {
-        max-width: 90%;
-    }
+  .student-table th,
+  .student-table td {
+    padding: 10px;
+  }
 }
