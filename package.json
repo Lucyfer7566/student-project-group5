@@ -1,0 +1,25 @@
+{
+  "name": "student-project-group5",
+  "version": "1.0.0",
+  "description": "Hệ thống quản lý sinh viên là một ứng dụng web full-stack cho phép quản lý danh sách sinh viên với các chức năng:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucyfer7566/student-project-group5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lucyfer7566/student-project-group5/issues"
+  },
+  "homepage": "https://github.com/Lucyfer7566/student-project-group5#readme",
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
