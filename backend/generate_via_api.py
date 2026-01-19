@@ -17,12 +17,12 @@ except ImportError:
 
 # ================= CẤU HÌNH =================
 API_URL = "http://127.0.0.1:8000/students/"
-TARGET_DB_COUNT = 100 
+TARGET_DB_COUNT = 1000
 
 # Dữ liệu nguồn
-FIRST_NAMES = ["nguyen", "Tran", "le", "PHAM", "Hoang", "Dang", "Vu", "bui", "Unknown"]
-LAST_NAMES = ["van a", "Thi B", "Van C", "thi d", "Minh E", "Ngoc F", "Tuan G", ""]
-HOMETOWNS = ["ha noi", "TP.HCM", "Da Nang", "Hai Phong", "Can Tho", "Nghe An", "Thanh Hoa", "Unknown", "N/A"]
+FIRST_NAMES = ["nguyen", "Tran", "le", "PHAM", "Hoang", "Dang", "Vu", "bui", "trinh", "TiEu", "phAM", "DINH", "Unknown"]
+LAST_NAMES = ["van a", "Thi B", "Van C", "thi d", "Minh E", "Ngoc F", "Tuan G", "duc h", "tieu i", "huu t", ""]
+HOMETOWNS = ["ha noi", "TP.HCM", "Da Nang", "Hai Phong", "Can Tho", "Nghe An", "Thanh Hoa", "son LA", "hai phOng", "Unknown", "N/A"]
 
 def clear_database():
     """Hàm xóa sạch dữ liệu cũ"""

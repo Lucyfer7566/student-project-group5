@@ -1,0 +1,1001 @@
+﻿student_id,full_name,email,dob,hometown,math,literature,english,source_file,error_log,avg_score,rank
+SV001,Huu T Trinh,trinh.huut.1@gmail.com,2004-05-26,Ha Noi,8.0,7.7,6.2,students_202601191651.txt,,7.3,Khá
+SV002,Van A Dinh,fake_email_2@not-exist-domain.com,2005-06-13,Tp.Hcm,6.5,5.2,3.6,students_202601191651.txt,,5.1,Trung Bình
+SV003,Tieu I Trinh,trinh.tieui.3@gmail.com,2006-05-30,Thanh Hoa,3.1,7.8,0.0,students_202601191651.txt,,3.63,Yếu
+SV004,Tieu I Bui,fake_email_4@not-exist-domain.com,2000-02-11,Can Tho,4.5,5.0,1.5,students_202601191651.txt,,3.67,Yếu
+SV005,Huu T Vu,fake_email_5@not-exist-domain.com,2000-01-04,Unknown,3.7,9.9,0.0,students_202601191651.txt,,4.53,Yếu
+SV006,Huu T Nguyen,fake_email_6@not-exist-domain.com,2004-09-18,Tp.Hcm,2.0,5.6,1.1,students_202601191651.txt,,2.9,Yếu
+SV007,Minh E Le,le.minhe.7@gmail.com,2002-08-25,Hai Phong,0.9,4.9,2.2,students_202601191651.txt,,2.67,Yếu
+SV008,Huu T Dinh,dinh.huut.8@gmail.com,2000-10-31,Hai Phong,7.8,4.4,9.1,students_202601191651.txt,,7.1,Khá
+SV009,Ngoc F Tran,tran.ngocf.9@gmail.com,2000-12-28,N/A,2.3,8.7,3.1,students_202601191651.txt,,4.7,Yếu
+SV010,Huu T Trinh,fake_email_10@not-exist-domain.com,2007-07-11,Thanh Hoa,7.9,7.6,3.4,students_202601191651.txt,,6.3,Trung Bình
+SV011,Van C Tieu,tieu.vanc.11@gmail.com,2007-07-27,Hai Phong,1.7,5.8,2.1,students_202601191651.txt,,3.2,Yếu
+SV012,Ngoc F Bui,bui.ngocf.12@gmail.com,2006-03-25,Hai Phong,8.3,8.1,0.0,students_202601191651.txt,,5.47,Trung Bình
+SV013,Ngoc F Pham,pham.ngocf.13@gmail.com,2001-05-04,Nghe An,2.2,2.2,6.9,students_202601191651.txt,,3.77,Yếu
+SV014,Duc H Pham,pham.duch.14@gmail.com,2007-09-06,Thanh Hoa,3.5,7.2,1.8,students_202601191651.txt,,4.17,Yếu
+SV015,Ngoc F Tran,tran.ngocf.15@gmail.com,2007-01-11,Son La,6.1,0.5,5.9,students_202601191651.txt,,4.17,Yếu
+SV016,Minh E Pham,pham.minhe.16@gmail.com,2002-10-26,Can Tho,1.7,6.8,0.0,students_202601191651.txt,,2.83,Yếu
+SV017,Ngoc F Vu,vu.ngocf.17@gmail.com,2004-01-31,N/A,2.5,9.1,0.0,students_202601191651.txt,,3.87,Yếu
+SV018,Tuan G Pham,pham.tuang.18@gmail.com,2000-04-26,N/A,8.7,7.4,4.4,students_202601191651.txt,,6.83,Khá
+SV019,Van A Le,le.vana.19@gmail.com,2004-07-02,Thanh Hoa,6.5,9.1,6.3,students_202601191651.txt,,7.3,Khá
+SV020,Duc H Bui,bui.duch.20@gmail.com,2001-03-27,Unknown,6.1,3.8,3.3,students_202601191651.txt,,4.4,Yếu
+SV021,Duc H Tran,tran.duch.21@gmail.com,2004-09-22,Ha Noi,7.7,3.8,7.5,students_202601191651.txt,,6.33,Trung Bình
+SV022,Van C Nguyen,fake_email_22@not-exist-domain.com,2007-03-13,Tp.Hcm,1.8,0.0,2.5,students_202601191651.txt,,1.43,Yếu
+SV023,Thi D Tieu,fake_email_23@not-exist-domain.com,2004-08-28,Hai Phong,7.9,2.2,7.9,students_202601191651.txt,,6.0,Trung Bình
+SV024,Van A Unknown,fake_email_24@not-exist-domain.com,2006-03-18,Thanh Hoa,2.6,6.4,0.0,students_202601191651.txt,,3.0,Yếu
+SV025,Van C Pham,pham.vanc.25@gmail.com,2000-01-14,Unknown,5.7,6.3,3.6,students_202601191651.txt,,5.2,Trung Bình
+SV026,Van C Dinh,dinh.vanc.26@gmail.com,2004-05-18,Tp.Hcm,8.1,0.4,0.0,students_202601191651.txt,,2.83,Yếu
+SV027,Tuan G Nguyen,fake_email_27@not-exist-domain.com,2007-01-24,Son La,4.4,3.1,7.2,students_202601191651.txt,,4.9,Yếu
+SV028,Duc H Bui,bui.duch.28@gmail.com,2000-05-21,Unknown,4.6,1.2,4.9,students_202601191651.txt,,3.57,Yếu
+SV029,Tieu I Dang,dang.tieui.29@gmail.com,2003-09-06,Tp.Hcm,1.3,7.8,4.6,students_202601191651.txt,,4.57,Yếu
+SV030,Van A Hoang,hoang.vana.30@gmail.com,2003-10-06,N/A,5.8,7.6,0.0,students_202601191651.txt,,4.47,Yếu
+SV031,Van A Le,le.vana.31@gmail.com,2002-05-18,Nghe An,5.8,9.9,3.8,students_202601191651.txt,,6.5,Khá
+SV032,Duc H Unknown,unknown.duch.32@gmail.com,2005-07-10,Unknown,4.6,1.6,0.0,students_202601191651.txt,,2.07,Yếu
+SV033,Thi B Hoang,fake_email_33@not-exist-domain.com,2003-09-11,Ha Noi,3.0,8.0,0.0,students_202601191651.txt,,3.67,Yếu
+SV034,Huu T Bui,bui.huut.34@gmail.com,2006-07-01,Hai Phong,7.2,4.9,0.0,students_202601191651.txt,,4.03,Yếu
+SV035,Duc H Hoang,fake_email_35@not-exist-domain.com,2005-02-08,Tp.Hcm,5.8,4.9,5.0,students_202601191651.txt,,5.23,Trung Bình
+SV036,Thi D Vu,vu.thid.36@gmail.com,2005-01-12,Thanh Hoa,1.5,6.8,0.0,students_202601191651.txt,,2.77,Yếu
+SV037,Tuan G Vu,vu.tuang.37@gmail.com,2006-12-29,Son La,9.3,8.1,0.0,students_202601191651.txt,,5.8,Trung Bình
+SV038,Duc H Dinh,fake_email_38@not-exist-domain.com,2005-03-12,Tp.Hcm,9.0,7.6,9.3,students_202601191651.txt,,8.63,Giỏi
+SV039,Van A Pham,pham.vana.39@gmail.com,2005-08-31,Nghe An,1.8,5.3,9.7,students_202601191651.txt,,5.6,Trung Bình
+SV040,Thi D Trinh,trinh.thid.40@gmail.com,2003-06-04,Thanh Hoa,8.2,4.9,7.9,students_202601191651.txt,,7.0,Khá
+SV041,Ngoc F Hoang,hoang.ngocf.41@gmail.com,2004-09-18,Hai Phong,4.9,5.4,0.0,students_202601191651.txt,,3.43,Yếu
+SV042,Duc H Dang,dang.duch.42@gmail.com,2005-05-07,Son La,8.0,0.7,1.2,students_202601191651.txt,,3.3,Yếu
+SV043,Thi D Hoang,fake_email_43@not-exist-domain.com,2003-09-15,Unknown,7.9,8.4,8.0,students_202601191651.txt,,8.1,Giỏi
+SV044,Thi D Pham,pham.thid.44@gmail.com,2003-09-20,Nghe An,7.4,8.3,1.3,students_202601191651.txt,,5.67,Trung Bình
+SV045,Van C Pham,pham.vanc.45@gmail.com,2003-12-17,Tp.Hcm,3.1,8.2,4.3,students_202601191651.txt,,5.2,Trung Bình
+SV046,Duc H Bui,bui.duch.46@gmail.com,2001-03-22,N/A,5.0,4.0,0.7,students_202601191651.txt,,3.23,Yếu
+SV047,Huu T Bui,bui.huut.47@gmail.com,2002-08-25,Son La,7.9,3.5,5.4,students_202601191651.txt,,5.6,Trung Bình
+SV048,Ngoc F Bui,fake_email_48@not-exist-domain.com,2007-08-23,Tp.Hcm,5.4,9.6,2.1,students_202601191651.txt,,5.7,Trung Bình
+SV049,Tieu I Trinh,trinh.tieui.49@gmail.com,2007-04-26,Unknown,1.6,3.5,0.0,students_202601191651.txt,,1.7,Yếu
+SV050,Tuan G Dang,fake_email_50@not-exist-domain.com,2000-07-21,Hai Phong,6.5,4.8,8.3,students_202601191651.txt,,6.53,Khá
+SV051,Thi B Unknown,unknown.thib.51@gmail.com,2005-09-02,Hai Phong,5.1,4.7,1.7,students_202601191651.txt,,3.83,Yếu
+SV052,Thi D Le,le.thid.52@gmail.com,2004-01-17,Can Tho,5.2,7.1,1.1,students_202601191651.txt,,4.47,Yếu
+SV053,Tuan G Trinh,fake_email_53@not-exist-domain.com,2006-03-01,Nghe An,5.5,3.3,7.5,students_202601191651.txt,,5.43,Trung Bình
+SV054,Van C Tieu,fake_email_54@not-exist-domain.com,2006-05-07,N/A,4.8,3.5,1.3,students_202601191651.txt,,3.2,Yếu
+SV055,Van C Le,le.vanc.55@gmail.com,2005-01-09,Son La,0.1,1.6,0.0,students_202601191651.txt,,0.57,Yếu
+SV056,Van C Pham,fake_email_56@not-exist-domain.com,2003-10-01,Hai Phong,1.5,7.3,8.1,students_202601191651.txt,,5.63,Trung Bình
+SV057,Duc H Bui,bui.duch.57@gmail.com,2006-03-18,Hai Phong,4.3,0.9,5.6,students_202601191651.txt,,3.6,Yếu
+SV058,Van A Bui,bui.vana.58@gmail.com,2006-10-09,Nghe An,7.9,3.5,6.2,students_202601191651.txt,,5.87,Trung Bình
+SV059,Huu T Dinh,dinh.huut.59@gmail.com,2001-09-21,Hai Phong,7.7,2.3,5.4,students_202601191651.txt,,5.13,Trung Bình
+SV060,Ngoc F Hoang,fake_email_60@not-exist-domain.com,2006-09-24,Da Nang,6.8,1.5,0.0,students_202601191651.txt,,2.77,Yếu
+SV061,Thi B Le,fake_email_61@not-exist-domain.com,2002-01-20,Da Nang,0.4,1.5,0.0,students_202601191651.txt,,0.63,Yếu
+SV062,Van A Tran,fake_email_62@not-exist-domain.com,2003-08-16,Hai Phong,1.8,3.2,8.7,students_202601191651.txt,,4.57,Yếu
+SV063,Thi B Pham,pham.thib.63@gmail.com,2002-10-12,Ha Noi,2.9,7.3,5.9,students_202601191651.txt,,5.37,Trung Bình
+SV064,Thi D Pham,pham.thid.64@gmail.com,2001-12-16,Unknown,8.7,3.6,5.8,students_202601191651.txt,,6.03,Trung Bình
+SV065,Huu T Pham,pham.huut.65@gmail.com,2002-09-01,Thanh Hoa,5.2,6.7,4.3,students_202601191651.txt,,5.4,Trung Bình
+SV066,Van C Bui,fake_email_66@not-exist-domain.com,2003-07-21,Son La,4.4,5.0,4.6,students_202601191651.txt,,4.67,Yếu
+SV067,Duc H Tran,tran.duch.67@gmail.com,2005-12-31,N/A,3.8,4.8,0.0,students_202601191651.txt,,2.87,Yếu
+SV068,Ngoc F Tran,tran.ngocf.68@gmail.com,2006-09-24,Can Tho,2.4,0.5,3.2,students_202601191651.txt,,2.03,Yếu
+SV069,Ngoc F Bui,bui.ngocf.69@gmail.com,2007-08-13,Hai Phong,5.2,5.4,6.7,students_202601191651.txt,,5.77,Trung Bình
+SV070,Minh E Dinh,dinh.minhe.70@gmail.com,2004-10-20,Nghe An,8.8,9.5,5.3,students_202601191651.txt,,7.87,Khá
+SV071,Huu T Unknown,unknown.huut.71@gmail.com,2007-05-19,Thanh Hoa,8.2,0.7,0.1,students_202601191651.txt,,3.0,Yếu
+SV072,Huu T Le,le.huut.72@gmail.com,2007-06-03,Nghe An,7.6,2.1,9.3,students_202601191651.txt,,6.33,Trung Bình
+SV073,Thi D Bui,fake_email_73@not-exist-domain.com,2000-08-21,Can Tho,5.5,8.9,0.8,students_202601191651.txt,,5.07,Trung Bình
+SV074,Ngoc F Dang,fake_email_74@not-exist-domain.com,2003-07-19,Tp.Hcm,6.1,6.6,0.0,students_202601191651.txt,,4.23,Yếu
+SV075,Huu T Pham,fake_email_75@not-exist-domain.com,2002-12-22,Da Nang,3.0,9.5,9.0,students_202601191651.txt,,7.17,Khá
+SV076,Ngoc F Tieu,tieu.ngocf.76@gmail.com,2001-08-10,Unknown,0.4,8.4,0.0,students_202601191651.txt,,2.93,Yếu
+SV077,Tuan G Hoang,hoang.tuang.77@gmail.com,2001-09-08,Thanh Hoa,9.9,0.9,8.1,students_202601191651.txt,,6.3,Trung Bình
+SV078,Duc H Tran,tran.duch.78@gmail.com,2004-10-19,Son La,2.4,3.9,0.0,students_202601191651.txt,,2.1,Yếu
+SV079,Huu T Nguyen,nguyen.huut.79@gmail.com,2003-12-24,Son La,8.2,5.9,3.6,students_202601191651.txt,,5.9,Trung Bình
+SV080,Duc H Nguyen,nguyen.duch.80@gmail.com,2002-10-25,Thanh Hoa,8.9,2.3,5.1,students_202601191651.txt,,5.43,Trung Bình
+SV081,Minh E Pham,fake_email_81@not-exist-domain.com,2001-08-08,Da Nang,5.7,6.5,0.0,students_202601191651.txt,,4.07,Yếu
+SV082,Van A Tieu,tieu.vana.82@gmail.com,2007-11-21,Da Nang,6.2,5.5,0.0,students_202601191651.txt,,3.9,Yếu
+SV083,Thi D Tran,fake_email_83@not-exist-domain.com,2000-09-02,Son La,0.4,4.3,6.6,students_202601191651.txt,,3.77,Yếu
+SV084,Van A Nguyen,nguyen.vana.84@gmail.com,2005-12-20,Son La,1.2,8.0,1.8,students_202601191651.txt,,3.67,Yếu
+SV085,Ngoc F Trinh,trinh.ngocf.85@gmail.com,2000-12-12,Ha Noi,4.0,3.1,0.0,students_202601191651.txt,,2.37,Yếu
+SV086,Van C Bui,bui.vanc.86@gmail.com,2003-10-14,Unknown,2.9,8.7,3.2,students_202601191651.txt,,4.93,Yếu
+SV087,Van A Tran,fake_email_87@not-exist-domain.com,2005-04-25,Nghe An,5.7,6.1,0.0,students_202601191651.txt,,3.93,Yếu
+SV088,Thi D Bui,fake_email_88@not-exist-domain.com,2000-01-04,Tp.Hcm,2.0,4.5,4.6,students_202601191651.txt,,3.7,Yếu
+SV089,Duc H Trinh,trinh.duch.89@gmail.com,2001-09-07,Hai Phong,9.6,7.5,8.9,students_202601191651.txt,,8.67,Giỏi
+SV090,Minh E Trinh,trinh.minhe.90@gmail.com,2001-02-25,Son La,6.0,2.7,5.1,students_202601191651.txt,,4.6,Yếu
+SV091,Minh E Bui,bui.minhe.91@gmail.com,2001-04-04,Hai Phong,6.3,5.0,7.8,students_202601191651.txt,,6.37,Trung Bình
+SV092,Ngoc F Hoang,fake_email_92@not-exist-domain.com,2005-03-15,Da Nang,3.3,5.8,7.1,students_202601191651.txt,,5.4,Trung Bình
+SV093,Duc H Pham,pham.duch.93@gmail.com,2006-11-19,Da Nang,4.0,5.8,0.8,students_202601191651.txt,,3.53,Yếu
+SV094,Van C Unknown,fake_email_94@not-exist-domain.com,2005-04-12,Nghe An,7.5,3.6,6.5,students_202601191651.txt,,5.87,Trung Bình
+SV095,Huu T Pham,pham.huut.95@gmail.com,2003-01-28,N/A,2.5,2.6,8.1,students_202601191651.txt,,4.4,Yếu
+SV096,Tieu I Nguyen,nguyen.tieui.96@gmail.com,2007-04-24,Nghe An,9.3,4.8,4.0,students_202601191651.txt,,6.03,Trung Bình
+SV097,Thi B Pham,pham.thib.97@gmail.com,2001-07-14,Can Tho,2.1,4.5,9.7,students_202601191651.txt,,5.43,Trung Bình
+SV098,Van C Dang,dang.vanc.98@gmail.com,2004-03-14,Tp.Hcm,3.1,8.9,0.0,students_202601191651.txt,,4.0,Yếu
+SV099,Van C Bui,bui.vanc.99@gmail.com,2006-08-02,Unknown,9.2,3.9,2.5,students_202601191651.txt,,5.2,Trung Bình
+SV100,Van A Pham,fake_email_100@not-exist-domain.com,2003-05-29,Hai Phong,9.2,4.5,0.0,students_202601191651.txt,,4.57,Yếu
+SV1000,Tieu I Bui,bui.tieui.1000@gmail.com,2004-10-22,Thanh Hoa,9.9,4.9,6.9,students_202601191651.txt,,7.23,Khá
+SV101,Van A Tieu,tieu.vana.101@gmail.com,2005-01-22,Unknown,1.4,6.7,7.0,students_202601191651.txt,,5.03,Trung Bình
+SV102,Duc H Vu,vu.duch.102@gmail.com,2002-09-21,Unknown,7.3,2.7,2.6,students_202601191651.txt,,4.2,Yếu
+SV103,Thi B Pham,pham.thib.103@gmail.com,2004-05-11,Da Nang,2.9,6.1,5.4,students_202601191651.txt,,4.8,Yếu
+SV104,Duc H Pham,pham.duch.104@gmail.com,2002-10-22,Hai Phong,2.6,9.2,0.9,students_202601191651.txt,,4.23,Yếu
+SV105,Ngoc F Dang,dang.ngocf.105@gmail.com,2007-08-23,Hai Phong,1.3,5.1,1.4,students_202601191651.txt,,2.6,Yếu
+SV106,Thi B Dang,dang.thib.106@gmail.com,2002-02-11,Tp.Hcm,0.5,1.3,5.3,students_202601191651.txt,,2.37,Yếu
+SV107,Thi B Pham,pham.thib.107@gmail.com,2006-04-15,Tp.Hcm,0.6,9.9,0.0,students_202601191651.txt,,3.5,Yếu
+SV108,Tieu I Tran,tran.tieui.108@gmail.com,2005-12-08,Da Nang,9.7,5.6,7.6,students_202601191651.txt,,7.63,Khá
+SV109,Duc H Bui,fake_email_109@not-exist-domain.com,2007-09-20,Son La,8.6,8.1,8.2,students_202601191651.txt,,8.3,Giỏi
+SV110,Huu T Vu,fake_email_110@not-exist-domain.com,2006-05-12,Ha Noi,3.7,3.5,6.0,students_202601191651.txt,,4.4,Yếu
+SV111,Tieu I Tieu,tieu.tieui.111@gmail.com,2001-07-26,Hai Phong,5.4,1.8,0.0,students_202601191651.txt,,2.4,Yếu
+SV112,Tieu I Vu,vu.tieui.112@gmail.com,2006-05-17,Nghe An,8.2,5.9,8.4,students_202601191651.txt,,7.5,Khá
+SV113,Tuan G Dinh,fake_email_113@not-exist-domain.com,2007-01-26,Nghe An,2.3,2.0,0.0,students_202601191651.txt,,1.43,Yếu
+SV114,Tieu I Bui,bui.tieui.114@gmail.com,2004-12-09,Thanh Hoa,7.0,5.3,5.3,students_202601191651.txt,,5.87,Trung Bình
+SV115,Duc H Unknown,fake_email_115@not-exist-domain.com,2000-10-26,N/A,2.5,6.8,7.6,students_202601191651.txt,,5.63,Trung Bình
+SV116,Van A Nguyen,fake_email_116@not-exist-domain.com,2000-02-24,Nghe An,9.1,1.7,6.5,students_202601191651.txt,,5.77,Trung Bình
+SV117,Minh E Trinh,trinh.minhe.117@gmail.com,2003-01-05,Tp.Hcm,9.1,1.9,1.9,students_202601191651.txt,,4.3,Yếu
+SV118,Thi D Nguyen,nguyen.thid.118@gmail.com,2005-12-07,Thanh Hoa,5.2,6.2,0.0,students_202601191651.txt,,3.8,Yếu
+SV119,Thi B Pham,pham.thib.119@gmail.com,2002-07-31,Ha Noi,1.3,4.1,0.0,students_202601191651.txt,,1.8,Yếu
+SV120,Ngoc F Pham,pham.ngocf.120@gmail.com,2005-02-11,Can Tho,2.5,3.3,0.0,students_202601191651.txt,,1.93,Yếu
+SV121,Van A Le,fake_email_121@not-exist-domain.com,2006-10-30,Thanh Hoa,2.9,7.4,0.1,students_202601191651.txt,,3.47,Yếu
+SV122,Thi B Pham,pham.thib.122@gmail.com,2001-04-17,Hai Phong,2.5,6.3,1.1,students_202601191651.txt,,3.3,Yếu
+SV123,Van C Pham,pham.vanc.123@gmail.com,2000-11-04,Ha Noi,4.8,4.7,6.5,students_202601191651.txt,,5.33,Trung Bình
+SV124,Thi B Trinh,fake_email_124@not-exist-domain.com,2002-05-25,Hai Phong,6.8,3.0,8.5,students_202601191651.txt,,6.1,Trung Bình
+SV125,Van C Pham,fake_email_125@not-exist-domain.com,2001-02-05,Can Tho,6.7,3.0,2.3,students_202601191651.txt,,4.0,Yếu
+SV126,Ngoc F Unknown,unknown.ngocf.126@gmail.com,2002-10-21,Can Tho,2.5,4.3,4.5,students_202601191651.txt,,3.77,Yếu
+SV127,Tieu I Unknown,fake_email_127@not-exist-domain.com,2005-07-27,Da Nang,0.6,3.3,3.1,students_202601191651.txt,,2.33,Yếu
+SV128,Ngoc F Tran,tran.ngocf.128@gmail.com,2002-01-17,Unknown,5.7,2.8,0.0,students_202601191651.txt,,2.83,Yếu
+SV129,Van C Unknown,fake_email_129@not-exist-domain.com,2000-02-09,Hai Phong,3.2,3.5,7.5,students_202601191651.txt,,4.73,Yếu
+SV130,Huu T Trinh,trinh.huut.130@gmail.com,2004-02-18,Unknown,5.6,4.6,1.0,students_202601191651.txt,,3.73,Yếu
+SV131,Thi B Vu,fake_email_131@not-exist-domain.com,2001-02-21,Da Nang,0.1,9.6,6.7,students_202601191651.txt,,5.47,Trung Bình
+SV132,Ngoc F Tieu,fake_email_132@not-exist-domain.com,2004-09-08,Tp.Hcm,6.2,3.1,0.0,students_202601191651.txt,,3.1,Yếu
+SV133,Van A Hoang,fake_email_133@not-exist-domain.com,2002-03-25,Unknown,3.2,3.9,3.6,students_202601191651.txt,,3.57,Yếu
+SV134,Van C Nguyen,fake_email_134@not-exist-domain.com,2004-11-11,Can Tho,0.1,9.5,3.2,students_202601191651.txt,,4.27,Yếu
+SV135,Van A Dinh,fake_email_135@not-exist-domain.com,2005-05-14,Da Nang,2.0,1.9,9.5,students_202601191651.txt,,4.47,Yếu
+SV136,Huu T Tran,tran.huut.136@gmail.com,2002-12-03,Son La,0.3,7.2,0.0,students_202601191651.txt,,2.5,Yếu
+SV137,Huu T Bui,bui.huut.137@gmail.com,2000-04-04,Da Nang,0.8,9.2,8.3,students_202601191651.txt,,6.1,Trung Bình
+SV138,Duc H Vu,vu.duch.138@gmail.com,2007-04-19,Thanh Hoa,6.1,6.0,4.6,students_202601191651.txt,,5.57,Trung Bình
+SV139,Huu T Dang,dang.huut.139@gmail.com,2007-05-20,Ha Noi,7.1,5.8,0.8,students_202601191651.txt,,4.57,Yếu
+SV140,Huu T Le,le.huut.140@gmail.com,2005-11-01,Son La,7.3,3.0,3.8,students_202601191651.txt,,4.7,Yếu
+SV141,Thi B Dinh,dinh.thib.141@gmail.com,2004-03-15,Ha Noi,3.5,9.8,0.0,students_202601191651.txt,,4.43,Yếu
+SV142,Minh E Le,fake_email_142@not-exist-domain.com,2001-08-28,Hai Phong,0.3,3.4,1.9,students_202601191651.txt,,1.87,Yếu
+SV143,Tuan G Pham,pham.tuang.143@gmail.com,2007-06-19,Unknown,0.1,0.8,0.0,students_202601191651.txt,,0.3,Yếu
+SV144,Van C Dang,dang.vanc.144@gmail.com,2006-11-10,Ha Noi,7.0,8.9,2.2,students_202601191651.txt,,6.03,Trung Bình
+SV145,Thi D Tran,fake_email_145@not-exist-domain.com,2003-09-02,Tp.Hcm,9.2,6.7,0.4,students_202601191651.txt,,5.43,Trung Bình
+SV146,Tieu I Pham,fake_email_146@not-exist-domain.com,2001-01-31,N/A,5.7,0.6,7.6,students_202601191651.txt,,4.63,Yếu
+SV147,Thi D Nguyen,fake_email_147@not-exist-domain.com,2004-09-08,Can Tho,1.3,9.8,5.0,students_202601191651.txt,,5.37,Trung Bình
+SV148,Tuan G Dang,dang.tuang.148@gmail.com,2003-07-11,Hai Phong,6.2,9.2,9.4,students_202601191651.txt,,8.27,Giỏi
+SV149,Huu T Trinh,trinh.huut.149@gmail.com,2007-09-18,Unknown,3.6,3.9,4.6,students_202601191651.txt,,4.03,Yếu
+SV150,Ngoc F Trinh,trinh.ngocf.150@gmail.com,2007-08-04,Thanh Hoa,2.2,7.4,4.8,students_202601191651.txt,,4.8,Yếu
+SV151,Ngoc F Unknown,unknown.ngocf.151@gmail.com,2006-09-26,Ha Noi,2.3,5.5,2.2,students_202601191651.txt,,3.33,Yếu
+SV152,Minh E Pham,fake_email_152@not-exist-domain.com,2002-09-20,Son La,5.2,9.1,4.9,students_202601191651.txt,,6.4,Trung Bình
+SV153,Duc H Le,le.duch.153@gmail.com,2006-07-05,Can Tho,5.8,7.6,3.3,students_202601191651.txt,,5.57,Trung Bình
+SV154,Ngoc F Bui,bui.ngocf.154@gmail.com,2001-06-19,Hai Phong,7.1,9.2,4.6,students_202601191651.txt,,6.97,Khá
+SV155,Tieu I Trinh,trinh.tieui.155@gmail.com,2001-09-24,Nghe An,5.0,6.0,0.0,students_202601191651.txt,,3.67,Yếu
+SV156,Ngoc F Nguyen,nguyen.ngocf.156@gmail.com,2005-09-16,Thanh Hoa,1.9,4.3,1.4,students_202601191651.txt,,2.53,Yếu
+SV157,Van C Trinh,fake_email_157@not-exist-domain.com,2001-08-20,Unknown,9.9,2.6,0.0,students_202601191651.txt,,4.17,Yếu
+SV158,Thi D Pham,fake_email_158@not-exist-domain.com,2004-08-07,Nghe An,9.4,5.1,9.2,students_202601191651.txt,,7.9,Khá
+SV159,Tieu I Tran,fake_email_159@not-exist-domain.com,2006-01-03,Hai Phong,6.7,3.9,6.6,students_202601191651.txt,,5.73,Trung Bình
+SV160,Ngoc F Bui,bui.ngocf.160@gmail.com,2004-05-26,Nghe An,1.3,2.3,8.2,students_202601191651.txt,,3.93,Yếu
+SV161,Van C Nguyen,fake_email_161@not-exist-domain.com,2001-09-14,Ha Noi,1.8,5.1,0.0,students_202601191651.txt,,2.3,Yếu
+SV162,Thi D Vu,vu.thid.162@gmail.com,2003-12-05,Tp.Hcm,1.7,8.3,9.0,students_202601191651.txt,,6.33,Trung Bình
+SV163,Ngoc F Le,le.ngocf.163@gmail.com,2003-11-12,Tp.Hcm,6.8,6.9,2.2,students_202601191651.txt,,5.3,Trung Bình
+SV164,Huu T Hoang,hoang.huut.164@gmail.com,2003-07-23,Tp.Hcm,6.6,4.1,1.4,students_202601191651.txt,,4.03,Yếu
+SV165,Van C Hoang,hoang.vanc.165@gmail.com,2002-06-20,N/A,8.9,9.7,2.3,students_202601191651.txt,,6.97,Khá
+SV166,Thi B Tran,tran.thib.166@gmail.com,2007-05-26,Hai Phong,1.2,8.0,0.0,students_202601191651.txt,,3.07,Yếu
+SV167,Duc H Nguyen,nguyen.duch.167@gmail.com,2006-11-18,Son La,10.0,6.1,3.3,students_202601191651.txt,,6.47,Trung Bình
+SV168,Huu T Dinh,fake_email_168@not-exist-domain.com,2006-03-29,Ha Noi,3.5,2.4,7.7,students_202601191651.txt,,4.53,Yếu
+SV169,Thi B Pham,pham.thib.169@gmail.com,2002-04-09,Unknown,4.4,1.1,6.1,students_202601191651.txt,,3.87,Yếu
+SV170,Van A Unknown,unknown.vana.170@gmail.com,2002-06-25,Unknown,8.3,1.3,0.0,students_202601191651.txt,,3.2,Yếu
+SV171,Huu T Trinh,fake_email_171@not-exist-domain.com,2002-11-29,N/A,1.2,3.4,0.7,students_202601191651.txt,,1.77,Yếu
+SV172,Van C Le,fake_email_172@not-exist-domain.com,2002-01-11,Ha Noi,8.9,6.4,2.8,students_202601191651.txt,,6.03,Trung Bình
+SV173,Duc H Bui,fake_email_173@not-exist-domain.com,2002-11-02,Ha Noi,3.3,6.8,3.0,students_202601191651.txt,,4.37,Yếu
+SV174,Thi D Trinh,fake_email_174@not-exist-domain.com,2000-10-24,Hai Phong,3.5,6.0,8.1,students_202601191651.txt,,5.87,Trung Bình
+SV175,Huu T Dinh,dinh.huut.175@gmail.com,2007-10-21,Hai Phong,9.5,1.0,9.7,students_202601191651.txt,,6.73,Khá
+SV176,Tuan G Tran,tran.tuang.176@gmail.com,2006-04-28,Can Tho,3.4,0.3,4.6,students_202601191651.txt,,2.77,Yếu
+SV177,Duc H Nguyen,nguyen.duch.177@gmail.com,2003-05-23,N/A,5.4,9.9,6.0,students_202601191651.txt,,7.1,Khá
+SV178,Tieu I Bui,bui.tieui.178@gmail.com,2006-03-03,Unknown,5.2,6.3,0.0,students_202601191651.txt,,3.83,Yếu
+SV179,Tuan G Trinh,trinh.tuang.179@gmail.com,2000-12-19,Thanh Hoa,8.3,8.2,0.0,students_202601191651.txt,,5.5,Trung Bình
+SV180,Tieu I Pham,fake_email_180@not-exist-domain.com,2006-04-03,Hai Phong,6.2,9.5,7.3,students_202601191651.txt,,7.67,Khá
+SV181,Van C Bui,bui.vanc.181@gmail.com,2001-08-30,Unknown,1.9,5.0,1.7,students_202601191651.txt,,2.87,Yếu
+SV182,Thi B Tieu,tieu.thib.182@gmail.com,2007-06-09,Ha Noi,5.7,3.1,4.1,students_202601191651.txt,,4.3,Yếu
+SV183,Thi B Tieu,fake_email_183@not-exist-domain.com,2002-12-05,Unknown,6.3,0.9,1.7,students_202601191651.txt,,2.97,Yếu
+SV184,Huu T Tieu,fake_email_184@not-exist-domain.com,2005-02-10,Ha Noi,1.4,7.1,2.9,students_202601191651.txt,,3.8,Yếu
+SV185,Van C Pham,pham.vanc.185@gmail.com,2002-03-15,Hai Phong,8.1,5.8,5.9,students_202601191651.txt,,6.6,Khá
+SV186,Duc H Le,fake_email_186@not-exist-domain.com,2002-08-15,Da Nang,3.2,2.9,0.0,students_202601191651.txt,,2.03,Yếu
+SV187,Thi B Unknown,unknown.thib.187@gmail.com,2007-12-06,Nghe An,1.3,7.1,1.6,students_202601191651.txt,,3.33,Yếu
+SV188,Thi D Trinh,fake_email_188@not-exist-domain.com,2005-05-22,N/A,7.1,9.1,8.8,students_202601191651.txt,,8.33,Giỏi
+SV189,Van A Nguyen,nguyen.vana.189@gmail.com,2002-10-12,Thanh Hoa,6.1,1.0,4.1,students_202601191651.txt,,3.73,Yếu
+SV190,Tuan G Dinh,fake_email_190@not-exist-domain.com,2003-06-09,Da Nang,4.8,5.3,6.1,students_202601191651.txt,,5.4,Trung Bình
+SV191,Tieu I Trinh,trinh.tieui.191@gmail.com,2001-04-09,Can Tho,6.6,0.4,6.4,students_202601191651.txt,,4.47,Yếu
+SV192,Van C Unknown,unknown.vanc.192@gmail.com,2007-10-17,Nghe An,5.3,1.5,3.3,students_202601191651.txt,,3.37,Yếu
+SV193,Minh E Unknown,unknown.minhe.193@gmail.com,2001-02-11,Nghe An,3.8,6.6,0.0,students_202601191651.txt,,3.47,Yếu
+SV194,Thi D Bui,bui.thid.194@gmail.com,2007-07-26,Nghe An,5.3,7.6,3.9,students_202601191651.txt,,5.6,Trung Bình
+SV195,Van C Pham,pham.vanc.195@gmail.com,2003-08-01,Tp.Hcm,2.3,7.8,1.1,students_202601191651.txt,,3.73,Yếu
+SV196,Van A Dang,dang.vana.196@gmail.com,2007-10-23,N/A,9.7,6.6,0.2,students_202601191651.txt,,5.5,Trung Bình
+SV197,Huu T Tran,tran.huut.197@gmail.com,2002-12-17,Thanh Hoa,0.4,0.1,0.9,students_202601191651.txt,,0.47,Yếu
+SV198,Tieu I Tieu,tieu.tieui.198@gmail.com,2005-12-31,Unknown,0.3,4.2,0.0,students_202601191651.txt,,1.5,Yếu
+SV199,Thi B Pham,fake_email_199@not-exist-domain.com,2001-05-18,N/A,0.5,5.3,1.2,students_202601191651.txt,,2.33,Yếu
+SV200,Thi D Nguyen,fake_email_200@not-exist-domain.com,2006-09-22,Unknown,9.2,7.5,7.7,students_202601191651.txt,,8.13,Giỏi
+SV201,Van C Pham,pham.vanc.201@gmail.com,2006-09-18,Can Tho,4.8,4.0,9.0,students_202601191651.txt,,5.93,Trung Bình
+SV202,Thi D Tran,fake_email_202@not-exist-domain.com,2002-06-19,N/A,7.1,2.1,4.9,students_202601191651.txt,,4.7,Yếu
+SV203,Van A Dinh,fake_email_203@not-exist-domain.com,2000-01-14,Son La,2.8,7.5,0.3,students_202601191651.txt,,3.53,Yếu
+SV204,Thi B Dang,dang.thib.204@gmail.com,2001-07-04,Unknown,2.0,1.5,8.5,students_202601191651.txt,,4.0,Yếu
+SV205,Van C Dang,dang.vanc.205@gmail.com,2000-05-11,N/A,1.5,6.8,5.2,students_202601191651.txt,,4.5,Yếu
+SV206,Van C Unknown,fake_email_206@not-exist-domain.com,2000-04-28,Hai Phong,2.7,4.9,0.0,students_202601191651.txt,,2.53,Yếu
+SV207,Duc H Tran,tran.duch.207@gmail.com,2007-06-01,Ha Noi,0.6,1.1,2.6,students_202601191651.txt,,1.43,Yếu
+SV208,Thi B Hoang,hoang.thib.208@gmail.com,2006-10-15,Tp.Hcm,9.7,9.8,6.5,students_202601191651.txt,,8.67,Giỏi
+SV209,Tuan G Dang,dang.tuang.209@gmail.com,2002-04-17,Hai Phong,8.7,4.4,0.0,students_202601191651.txt,,4.37,Yếu
+SV210,Thi B Pham,pham.thib.210@gmail.com,2005-09-05,Da Nang,1.1,3.5,0.0,students_202601191651.txt,,1.53,Yếu
+SV211,Van A Hoang,hoang.vana.211@gmail.com,2006-03-15,Hai Phong,6.6,4.2,0.0,students_202601191651.txt,,3.6,Yếu
+SV212,Thi B Trinh,fake_email_212@not-exist-domain.com,2005-04-05,Da Nang,0.5,8.1,9.4,students_202601191651.txt,,6.0,Trung Bình
+SV213,Duc H Nguyen,nguyen.duch.213@gmail.com,2001-09-01,Thanh Hoa,1.6,8.0,0.6,students_202601191651.txt,,3.4,Yếu
+SV214,Van A Hoang,hoang.vana.214@gmail.com,2001-05-26,Hai Phong,9.1,5.0,5.8,students_202601191651.txt,,6.63,Khá
+SV215,Ngoc F Pham,pham.ngocf.215@gmail.com,2004-07-09,Ha Noi,7.3,2.7,6.6,students_202601191651.txt,,5.53,Trung Bình
+SV216,Duc H Le,fake_email_216@not-exist-domain.com,2003-11-06,Son La,6.5,3.0,3.8,students_202601191651.txt,,4.43,Yếu
+SV217,Huu T Unknown,unknown.huut.217@gmail.com,2004-02-02,Nghe An,2.3,3.7,0.4,students_202601191651.txt,,2.13,Yếu
+SV218,Duc H Bui,bui.duch.218@gmail.com,2007-01-02,Son La,1.1,2.4,5.1,students_202601191651.txt,,2.87,Yếu
+SV219,Ngoc F Tran,tran.ngocf.219@gmail.com,2000-12-23,Tp.Hcm,8.7,6.2,0.0,students_202601191651.txt,,4.97,Yếu
+SV220,Huu T Unknown,unknown.huut.220@gmail.com,2004-12-21,Ha Noi,3.1,8.6,2.3,students_202601191651.txt,,4.67,Yếu
+SV221,Tieu I Vu,fake_email_221@not-exist-domain.com,2001-07-27,Hai Phong,2.3,8.8,0.0,students_202601191651.txt,,3.7,Yếu
+SV222,Tuan G Nguyen,nguyen.tuang.222@gmail.com,2006-07-07,Thanh Hoa,9.8,3.0,5.1,students_202601191651.txt,,5.97,Trung Bình
+SV223,Minh E Pham,pham.minhe.223@gmail.com,2005-04-11,Hai Phong,5.5,5.0,0.0,students_202601191651.txt,,3.5,Yếu
+SV224,Thi B Dinh,fake_email_224@not-exist-domain.com,2004-08-23,Can Tho,6.5,7.4,7.8,students_202601191651.txt,,7.23,Khá
+SV225,Huu T Dinh,fake_email_225@not-exist-domain.com,2003-11-05,Tp.Hcm,2.5,9.7,0.0,students_202601191651.txt,,4.07,Yếu
+SV226,Thi D Trinh,trinh.thid.226@gmail.com,2001-07-17,Can Tho,0.9,6.5,1.7,students_202601191651.txt,,3.03,Yếu
+SV227,Thi B Le,le.thib.227@gmail.com,2003-08-04,N/A,8.9,1.6,0.0,students_202601191651.txt,,3.5,Yếu
+SV228,Tuan G Bui,fake_email_228@not-exist-domain.com,2002-03-14,Thanh Hoa,7.0,0.5,1.8,students_202601191651.txt,,3.1,Yếu
+SV229,Van C Pham,fake_email_229@not-exist-domain.com,2004-06-30,Hai Phong,9.5,9.2,3.1,students_202601191651.txt,,7.27,Khá
+SV230,Tieu I Unknown,unknown.tieui.230@gmail.com,2004-04-06,Hai Phong,2.1,4.7,7.0,students_202601191651.txt,,4.6,Yếu
+SV231,Van A Dinh,dinh.vana.231@gmail.com,2005-05-08,Ha Noi,2.7,3.3,9.3,students_202601191651.txt,,5.1,Trung Bình
+SV232,Thi B Unknown,fake_email_232@not-exist-domain.com,2004-04-15,Nghe An,9.6,4.3,0.0,students_202601191651.txt,,4.63,Yếu
+SV233,Minh E Bui,fake_email_233@not-exist-domain.com,2007-10-01,Ha Noi,7.3,6.4,9.6,students_202601191651.txt,,7.77,Khá
+SV234,Van A Dang,dang.vana.234@gmail.com,2000-04-07,Hai Phong,5.4,3.0,2.4,students_202601191651.txt,,3.6,Yếu
+SV235,Thi D Bui,fake_email_235@not-exist-domain.com,2005-06-23,N/A,3.7,6.7,5.6,students_202601191651.txt,,5.33,Trung Bình
+SV236,Tuan G Pham,pham.tuang.236@gmail.com,2004-08-02,Tp.Hcm,2.2,1.9,2.3,students_202601191651.txt,,2.13,Yếu
+SV237,Van A Nguyen,nguyen.vana.237@gmail.com,2004-06-14,Ha Noi,7.6,8.3,7.0,students_202601191651.txt,,7.63,Khá
+SV238,Thi B Pham,pham.thib.238@gmail.com,2006-12-09,Thanh Hoa,7.8,0.8,4.5,students_202601191651.txt,,4.37,Yếu
+SV239,Huu T Pham,pham.huut.239@gmail.com,2002-01-07,Can Tho,8.6,7.9,2.6,students_202601191651.txt,,6.37,Trung Bình
+SV240,Thi B Tieu,fake_email_240@not-exist-domain.com,2002-05-02,Thanh Hoa,1.9,7.9,5.4,students_202601191651.txt,,5.07,Trung Bình
+SV241,Duc H Le,le.duch.241@gmail.com,2000-06-17,Hai Phong,2.9,8.4,7.5,students_202601191651.txt,,6.27,Trung Bình
+SV242,Tuan G Le,fake_email_242@not-exist-domain.com,2002-09-17,Hai Phong,9.1,3.1,6.4,students_202601191651.txt,,6.2,Trung Bình
+SV243,Thi D Pham,pham.thid.243@gmail.com,2005-11-01,Can Tho,9.2,5.4,2.4,students_202601191651.txt,,5.67,Trung Bình
+SV244,Huu T Tran,tran.huut.244@gmail.com,2001-01-15,Tp.Hcm,4.1,3.9,2.2,students_202601191651.txt,,3.4,Yếu
+SV245,Thi D Vu,fake_email_245@not-exist-domain.com,2007-10-10,Ha Noi,6.0,6.8,6.1,students_202601191651.txt,,6.3,Trung Bình
+SV246,Van A Pham,pham.vana.246@gmail.com,2007-12-11,Da Nang,5.2,0.3,0.0,students_202601191651.txt,,1.83,Yếu
+SV247,Van C Trinh,trinh.vanc.247@gmail.com,2002-06-04,Da Nang,1.3,9.9,0.0,students_202601191651.txt,,3.73,Yếu
+SV248,Thi B Tieu,tieu.thib.248@gmail.com,2001-06-09,Thanh Hoa,8.9,6.7,3.3,students_202601191651.txt,,6.3,Trung Bình
+SV249,Tuan G Dinh,dinh.tuang.249@gmail.com,2000-11-05,Nghe An,0.7,4.5,1.1,students_202601191651.txt,,2.1,Yếu
+SV250,Van A Bui,bui.vana.250@gmail.com,2007-03-13,Da Nang,2.5,5.4,1.6,students_202601191651.txt,,3.17,Yếu
+SV251,Tuan G Dang,dang.tuang.251@gmail.com,2000-06-18,N/A,6.2,3.3,0.8,students_202601191651.txt,,3.43,Yếu
+SV252,Ngoc F Nguyen,nguyen.ngocf.252@gmail.com,2000-02-17,Nghe An,6.7,2.3,5.8,students_202601191651.txt,,4.93,Yếu
+SV253,Duc H Tran,tran.duch.253@gmail.com,2007-05-01,N/A,3.9,2.9,5.9,students_202601191651.txt,,4.23,Yếu
+SV254,Tuan G Le,le.tuang.254@gmail.com,2005-06-20,Ha Noi,7.1,8.0,8.6,students_202601191651.txt,,7.9,Khá
+SV255,Thi D Trinh,fake_email_255@not-exist-domain.com,2001-05-03,Ha Noi,5.6,3.4,0.0,students_202601191651.txt,,3.0,Yếu
+SV256,Minh E Hoang,hoang.minhe.256@gmail.com,2002-02-09,Ha Noi,7.7,3.4,9.2,students_202601191651.txt,,6.77,Khá
+SV257,Thi D Pham,fake_email_257@not-exist-domain.com,2004-10-06,Tp.Hcm,8.3,1.4,0.4,students_202601191651.txt,,3.37,Yếu
+SV258,Thi B Vu,vu.thib.258@gmail.com,2003-06-28,Ha Noi,2.7,4.1,3.9,students_202601191651.txt,,3.57,Yếu
+SV259,Huu T Pham,fake_email_259@not-exist-domain.com,2001-08-03,Hai Phong,1.0,3.9,0.0,students_202601191651.txt,,1.63,Yếu
+SV260,Tieu I Pham,pham.tieui.260@gmail.com,2000-11-29,Da Nang,7.6,7.6,7.3,students_202601191651.txt,,7.5,Khá
+SV261,Van C Nguyen,nguyen.vanc.261@gmail.com,2006-10-15,Nghe An,2.0,0.1,6.7,students_202601191651.txt,,2.93,Yếu
+SV262,Tuan G Vu,vu.tuang.262@gmail.com,2004-07-15,Unknown,1.6,7.5,0.0,students_202601191651.txt,,3.03,Yếu
+SV263,Duc H Vu,vu.duch.263@gmail.com,2007-06-21,Hai Phong,8.6,4.0,0.0,students_202601191651.txt,,4.2,Yếu
+SV264,Tuan G Bui,bui.tuang.264@gmail.com,2006-08-09,Thanh Hoa,7.7,4.4,0.0,students_202601191651.txt,,4.03,Yếu
+SV265,Tieu I Hoang,hoang.tieui.265@gmail.com,2003-07-26,Hai Phong,1.9,0.9,0.9,students_202601191651.txt,,1.23,Yếu
+SV266,Minh E Bui,fake_email_266@not-exist-domain.com,2002-05-10,Ha Noi,1.8,5.3,7.4,students_202601191651.txt,,4.83,Yếu
+SV267,Van A Trinh,fake_email_267@not-exist-domain.com,2003-09-11,Thanh Hoa,6.8,8.2,0.0,students_202601191651.txt,,5.0,Trung Bình
+SV268,Minh E Dang,dang.minhe.268@gmail.com,2000-12-08,Son La,8.4,9.2,5.5,students_202601191651.txt,,7.7,Khá
+SV269,Tieu I Trinh,fake_email_269@not-exist-domain.com,2000-02-27,Can Tho,0.5,5.6,0.0,students_202601191651.txt,,2.03,Yếu
+SV270,Minh E Unknown,unknown.minhe.270@gmail.com,2007-12-27,Tp.Hcm,0.9,6.7,7.9,students_202601191651.txt,,5.17,Trung Bình
+SV271,Van A Trinh,trinh.vana.271@gmail.com,2005-10-13,Tp.Hcm,3.5,1.9,2.6,students_202601191651.txt,,2.67,Yếu
+SV272,Thi B Tieu,tieu.thib.272@gmail.com,2000-05-16,Ha Noi,9.8,1.4,9.5,students_202601191651.txt,,6.9,Khá
+SV273,Minh E Nguyen,nguyen.minhe.273@gmail.com,2003-06-30,Nghe An,7.9,0.8,8.0,students_202601191651.txt,,5.57,Trung Bình
+SV274,Tieu I Dang,fake_email_274@not-exist-domain.com,2000-01-20,Da Nang,5.6,8.4,5.1,students_202601191651.txt,,6.37,Trung Bình
+SV275,Huu T Le,le.huut.275@gmail.com,2002-09-19,Ha Noi,4.7,7.6,6.4,students_202601191651.txt,,6.23,Trung Bình
+SV276,Minh E Tran,tran.minhe.276@gmail.com,2003-08-14,Can Tho,5.5,0.2,2.4,students_202601191651.txt,,2.7,Yếu
+SV277,Duc H Tran,fake_email_277@not-exist-domain.com,2003-05-14,Hai Phong,0.8,8.9,5.3,students_202601191651.txt,,5.0,Trung Bình
+SV278,Huu T Unknown,unknown.huut.278@gmail.com,2007-09-16,Tp.Hcm,0.7,7.8,0.0,students_202601191651.txt,,2.83,Yếu
+SV279,Thi B Trinh,fake_email_279@not-exist-domain.com,2002-02-21,N/A,6.3,0.4,0.0,students_202601191651.txt,,2.23,Yếu
+SV280,Huu T Hoang,fake_email_280@not-exist-domain.com,2006-10-14,Da Nang,2.2,3.1,7.8,students_202601191651.txt,,4.37,Yếu
+SV281,Tuan G Nguyen,nguyen.tuang.281@gmail.com,2005-10-05,Tp.Hcm,9.5,7.9,4.8,students_202601191651.txt,,7.4,Khá
+SV282,Minh E Dinh,fake_email_282@not-exist-domain.com,2003-12-16,Can Tho,9.0,2.5,5.9,students_202601191651.txt,,5.8,Trung Bình
+SV283,Duc H Le,fake_email_283@not-exist-domain.com,2002-02-22,Nghe An,5.2,9.1,8.7,students_202601191651.txt,,7.67,Khá
+SV284,Duc H Dinh,dinh.duch.284@gmail.com,2003-02-01,N/A,3.9,2.6,8.7,students_202601191651.txt,,5.07,Trung Bình
+SV285,Ngoc F Hoang,hoang.ngocf.285@gmail.com,2000-12-08,Tp.Hcm,1.6,7.3,4.4,students_202601191651.txt,,4.43,Yếu
+SV286,Tieu I Dang,dang.tieui.286@gmail.com,2002-09-10,N/A,4.9,0.4,8.2,students_202601191651.txt,,4.5,Yếu
+SV287,Van A Tran,fake_email_287@not-exist-domain.com,2006-11-15,Hai Phong,5.3,3.2,4.7,students_202601191651.txt,,4.4,Yếu
+SV288,Thi D Le,le.thid.288@gmail.com,2005-01-05,Thanh Hoa,6.8,1.0,9.7,students_202601191651.txt,,5.83,Trung Bình
+SV289,Thi D Pham,pham.thid.289@gmail.com,2004-07-07,Hai Phong,5.7,4.4,0.0,students_202601191651.txt,,3.37,Yếu
+SV290,Thi D Dang,fake_email_290@not-exist-domain.com,2003-02-24,Ha Noi,2.0,5.4,7.4,students_202601191651.txt,,4.93,Yếu
+SV291,Huu T Pham,pham.huut.291@gmail.com,2004-03-15,Nghe An,8.0,8.5,9.9,students_202601191651.txt,,8.8,Giỏi
+SV292,Duc H Le,le.duch.292@gmail.com,2003-07-02,Can Tho,0.6,8.1,2.4,students_202601191651.txt,,3.7,Yếu
+SV293,Huu T Dinh,dinh.huut.293@gmail.com,2002-03-10,Unknown,1.0,4.5,0.0,students_202601191651.txt,,1.83,Yếu
+SV294,Duc H Tran,tran.duch.294@gmail.com,2007-11-04,Hai Phong,7.7,9.1,6.8,students_202601191651.txt,,7.87,Khá
+SV295,Tuan G Tran,tran.tuang.295@gmail.com,2007-10-26,Unknown,7.0,2.0,5.8,students_202601191651.txt,,4.93,Yếu
+SV296,Duc H Dinh,dinh.duch.296@gmail.com,2002-03-19,Tp.Hcm,8.4,1.9,1.4,students_202601191651.txt,,3.9,Yếu
+SV297,Minh E Le,le.minhe.297@gmail.com,2000-12-17,N/A,6.4,6.6,1.8,students_202601191651.txt,,4.93,Yếu
+SV298,Tuan G Pham,fake_email_298@not-exist-domain.com,2004-01-29,Ha Noi,9.6,4.3,0.4,students_202601191651.txt,,4.77,Yếu
+SV299,Van A Trinh,trinh.vana.299@gmail.com,2000-04-25,Tp.Hcm,3.2,2.9,4.0,students_202601191651.txt,,3.37,Yếu
+SV300,Tuan G Hoang,fake_email_300@not-exist-domain.com,2001-10-19,Son La,5.9,7.4,7.0,students_202601191651.txt,,6.77,Khá
+SV301,Tieu I Trinh,trinh.tieui.301@gmail.com,2001-06-07,Ha Noi,2.7,4.4,8.8,students_202601191651.txt,,5.3,Trung Bình
+SV302,Van A Trinh,trinh.vana.302@gmail.com,2004-12-20,Son La,8.6,5.1,0.0,students_202601191651.txt,,4.57,Yếu
+SV303,Thi D Tran,fake_email_303@not-exist-domain.com,2005-06-07,Thanh Hoa,8.9,9.2,0.0,students_202601191651.txt,,6.03,Trung Bình
+SV304,Huu T Pham,pham.huut.304@gmail.com,2005-06-28,Tp.Hcm,4.1,5.6,6.5,students_202601191651.txt,,5.4,Trung Bình
+SV305,Minh E Pham,fake_email_305@not-exist-domain.com,2007-01-04,N/A,7.5,4.2,5.3,students_202601191651.txt,,5.67,Trung Bình
+SV306,Thi D Le,le.thid.306@gmail.com,2002-10-24,Son La,8.7,8.2,8.2,students_202601191651.txt,,8.37,Giỏi
+SV307,Tieu I Pham,pham.tieui.307@gmail.com,2002-06-04,Son La,8.7,9.3,0.0,students_202601191651.txt,,6.0,Trung Bình
+SV308,Huu T Pham,fake_email_308@not-exist-domain.com,2002-08-18,Can Tho,6.7,9.8,2.4,students_202601191651.txt,,6.3,Trung Bình
+SV309,Minh E Hoang,hoang.minhe.309@gmail.com,2005-07-09,Hai Phong,9.3,1.0,1.8,students_202601191651.txt,,4.03,Yếu
+SV310,Tuan G Dinh,dinh.tuang.310@gmail.com,2001-01-02,Son La,0.9,4.5,8.1,students_202601191651.txt,,4.5,Yếu
+SV311,Huu T Dang,dang.huut.311@gmail.com,2007-02-17,N/A,1.3,2.9,8.0,students_202601191651.txt,,4.07,Yếu
+SV312,Van A Bui,bui.vana.312@gmail.com,2001-08-09,Da Nang,3.8,5.0,7.3,students_202601191651.txt,,5.37,Trung Bình
+SV313,Tuan G Pham,fake_email_313@not-exist-domain.com,2003-03-03,Thanh Hoa,4.4,1.3,4.7,students_202601191651.txt,,3.47,Yếu
+SV314,Thi B Bui,bui.thib.314@gmail.com,2003-01-30,Can Tho,7.3,8.9,0.0,students_202601191651.txt,,5.4,Trung Bình
+SV315,Thi D Pham,fake_email_315@not-exist-domain.com,2002-02-15,Hai Phong,0.5,6.8,3.3,students_202601191651.txt,,3.53,Yếu
+SV316,Minh E Vu,fake_email_316@not-exist-domain.com,2007-04-06,Hai Phong,7.2,3.0,3.8,students_202601191651.txt,,4.67,Yếu
+SV317,Ngoc F Tran,tran.ngocf.317@gmail.com,2001-04-20,Unknown,9.3,8.6,2.8,students_202601191651.txt,,6.9,Khá
+SV318,Huu T Tieu,tieu.huut.318@gmail.com,2002-07-23,Hai Phong,4.7,2.6,0.0,students_202601191651.txt,,2.43,Yếu
+SV319,Tieu I Tran,tran.tieui.319@gmail.com,2000-08-23,Unknown,5.9,0.9,2.3,students_202601191651.txt,,3.03,Yếu
+SV320,Tuan G Tran,tran.tuang.320@gmail.com,2002-08-25,Nghe An,2.4,7.9,9.3,students_202601191651.txt,,6.53,Khá
+SV321,Tieu I Le,fake_email_321@not-exist-domain.com,2002-05-18,Hai Phong,0.1,7.4,1.3,students_202601191651.txt,,2.93,Yếu
+SV322,Van A Unknown,fake_email_322@not-exist-domain.com,2006-09-19,Can Tho,5.9,9.1,2.4,students_202601191651.txt,,5.8,Trung Bình
+SV323,Minh E Nguyen,nguyen.minhe.323@gmail.com,2007-06-16,Hai Phong,2.5,5.7,9.4,students_202601191651.txt,,5.87,Trung Bình
+SV324,Thi D Tieu,tieu.thid.324@gmail.com,2006-12-11,Can Tho,9.6,3.4,5.4,students_202601191651.txt,,6.13,Trung Bình
+SV325,Ngoc F Le,fake_email_325@not-exist-domain.com,2003-10-23,Son La,3.6,7.7,0.0,students_202601191651.txt,,3.77,Yếu
+SV326,Tieu I Vu,vu.tieui.326@gmail.com,2001-03-02,Da Nang,3.8,7.4,0.0,students_202601191651.txt,,3.73,Yếu
+SV327,Van A Tran,fake_email_327@not-exist-domain.com,2000-01-04,Ha Noi,8.8,4.6,4.4,students_202601191651.txt,,5.93,Trung Bình
+SV328,Ngoc F Pham,pham.ngocf.328@gmail.com,2002-12-25,Da Nang,6.1,1.6,5.8,students_202601191651.txt,,4.5,Yếu
+SV329,Thi D Tieu,tieu.thid.329@gmail.com,2003-03-04,Can Tho,5.8,7.1,2.2,students_202601191651.txt,,5.03,Trung Bình
+SV330,Huu T Bui,bui.huut.330@gmail.com,2000-03-22,N/A,1.4,8.2,8.6,students_202601191651.txt,,6.07,Trung Bình
+SV331,Van C Bui,bui.vanc.331@gmail.com,2006-05-17,Son La,4.5,1.4,2.9,students_202601191651.txt,,2.93,Yếu
+SV332,Thi D Nguyen,fake_email_332@not-exist-domain.com,2000-05-23,Can Tho,0.7,5.6,9.8,students_202601191651.txt,,5.37,Trung Bình
+SV333,Huu T Hoang,hoang.huut.333@gmail.com,2003-10-29,Ha Noi,4.4,2.5,4.4,students_202601191651.txt,,3.77,Yếu
+SV334,Ngoc F Trinh,trinh.ngocf.334@gmail.com,2005-01-22,Can Tho,2.7,3.9,7.2,students_202601191651.txt,,4.6,Yếu
+SV335,Tieu I Tieu,fake_email_335@not-exist-domain.com,2001-04-30,Hai Phong,6.7,7.2,4.4,students_202601191651.txt,,6.1,Trung Bình
+SV336,Tuan G Le,le.tuang.336@gmail.com,2001-01-01,Hai Phong,3.9,0.6,5.9,students_202601191651.txt,,3.47,Yếu
+SV337,Minh E Nguyen,nguyen.minhe.337@gmail.com,2000-10-08,Da Nang,9.2,4.2,0.2,students_202601191651.txt,,4.53,Yếu
+SV338,Thi B Bui,bui.thib.338@gmail.com,2004-04-20,Da Nang,1.9,5.5,4.7,students_202601191651.txt,,4.03,Yếu
+SV339,Duc H Dang,fake_email_339@not-exist-domain.com,2004-07-12,Nghe An,7.5,2.5,6.9,students_202601191651.txt,,5.63,Trung Bình
+SV340,Tuan G Tran,tran.tuang.340@gmail.com,2000-01-13,Ha Noi,4.7,8.9,7.9,students_202601191651.txt,,7.17,Khá
+SV341,Tieu I Dinh,fake_email_341@not-exist-domain.com,2005-03-31,N/A,9.6,2.5,0.0,students_202601191651.txt,,4.03,Yếu
+SV342,Tieu I Trinh,trinh.tieui.342@gmail.com,2003-08-19,Hai Phong,6.1,8.5,0.0,students_202601191651.txt,,4.87,Yếu
+SV343,Van C Pham,pham.vanc.343@gmail.com,2001-07-14,Ha Noi,1.2,8.1,7.6,students_202601191651.txt,,5.63,Trung Bình
+SV344,Van A Bui,bui.vana.344@gmail.com,2002-08-13,Hai Phong,5.9,4.8,8.8,students_202601191651.txt,,6.5,Khá
+SV345,Van A Tieu,tieu.vana.345@gmail.com,2006-12-04,Unknown,6.6,8.3,4.0,students_202601191651.txt,,6.3,Trung Bình
+SV346,Huu T Bui,fake_email_346@not-exist-domain.com,2003-07-07,Nghe An,8.2,4.1,9.5,students_202601191651.txt,,7.27,Khá
+SV347,Van A Dinh,fake_email_347@not-exist-domain.com,2001-06-18,Hai Phong,9.8,7.8,0.0,students_202601191651.txt,,5.87,Trung Bình
+SV348,Duc H Le,le.duch.348@gmail.com,2002-02-10,Thanh Hoa,6.1,2.8,1.1,students_202601191651.txt,,3.33,Yếu
+SV349,Thi B Dinh,dinh.thib.349@gmail.com,2004-08-07,Son La,9.5,5.4,0.0,students_202601191651.txt,,4.97,Yếu
+SV350,Huu T Hoang,hoang.huut.350@gmail.com,2003-12-12,Nghe An,5.1,7.9,7.8,students_202601191651.txt,,6.93,Khá
+SV351,Minh E Tieu,tieu.minhe.351@gmail.com,2002-07-12,Can Tho,8.7,6.2,8.0,students_202601191651.txt,,7.63,Khá
+SV352,Van C Nguyen,fake_email_352@not-exist-domain.com,2005-07-11,Unknown,8.0,2.7,6.1,students_202601191651.txt,,5.6,Trung Bình
+SV353,Thi D Vu,vu.thid.353@gmail.com,2006-04-09,Hai Phong,4.1,5.7,8.4,students_202601191651.txt,,6.07,Trung Bình
+SV354,Thi B Unknown,fake_email_354@not-exist-domain.com,2007-10-07,Nghe An,0.7,2.3,0.0,students_202601191651.txt,,1.0,Yếu
+SV355,Van C Pham,pham.vanc.355@gmail.com,2000-03-31,Hai Phong,5.5,2.2,2.3,students_202601191651.txt,,3.33,Yếu
+SV356,Thi D Nguyen,nguyen.thid.356@gmail.com,2003-08-04,Tp.Hcm,4.4,8.9,1.1,students_202601191651.txt,,4.8,Yếu
+SV357,Van C Unknown,unknown.vanc.357@gmail.com,2003-08-30,Da Nang,2.8,3.7,2.1,students_202601191651.txt,,2.87,Yếu
+SV358,Huu T Unknown,unknown.huut.358@gmail.com,2003-12-25,Can Tho,1.2,1.7,9.3,students_202601191651.txt,,4.07,Yếu
+SV359,Thi B Trinh,trinh.thib.359@gmail.com,2006-01-20,Hai Phong,2.1,9.9,4.4,students_202601191651.txt,,5.47,Trung Bình
+SV360,Minh E Tran,fake_email_360@not-exist-domain.com,2006-03-21,Hai Phong,7.6,5.7,8.2,students_202601191651.txt,,7.17,Khá
+SV361,Minh E Trinh,trinh.minhe.361@gmail.com,2001-12-21,Hai Phong,1.8,5.7,0.0,students_202601191651.txt,,2.5,Yếu
+SV362,Van C Trinh,trinh.vanc.362@gmail.com,2000-05-26,Son La,9.7,4.3,0.2,students_202601191651.txt,,4.73,Yếu
+SV363,Tieu I Bui,fake_email_363@not-exist-domain.com,2001-02-13,Hai Phong,0.5,6.9,2.4,students_202601191651.txt,,3.27,Yếu
+SV364,Minh E Le,fake_email_364@not-exist-domain.com,2000-10-03,Tp.Hcm,0.6,4.0,5.8,students_202601191651.txt,,3.47,Yếu
+SV365,Thi B Hoang,hoang.thib.365@gmail.com,2005-10-20,Hai Phong,5.9,8.4,3.2,students_202601191651.txt,,5.83,Trung Bình
+SV366,Van A Bui,bui.vana.366@gmail.com,2006-12-20,Da Nang,5.9,6.1,3.8,students_202601191651.txt,,5.27,Trung Bình
+SV367,Thi D Tieu,tieu.thid.367@gmail.com,2006-05-10,Son La,7.3,2.4,4.5,students_202601191651.txt,,4.73,Yếu
+SV368,Thi B Le,le.thib.368@gmail.com,2007-11-22,Da Nang,2.8,9.8,3.7,students_202601191651.txt,,5.43,Trung Bình
+SV369,Van C Tran,tran.vanc.369@gmail.com,2003-02-04,Hai Phong,9.2,5.1,6.7,students_202601191651.txt,,7.0,Khá
+SV370,Tieu I Unknown,unknown.tieui.370@gmail.com,2005-03-28,Tp.Hcm,7.6,9.8,5.0,students_202601191651.txt,,7.47,Khá
+SV371,Van A Tieu,tieu.vana.371@gmail.com,2000-05-31,Tp.Hcm,4.6,8.1,0.2,students_202601191651.txt,,4.3,Yếu
+SV372,Tuan G Le,fake_email_372@not-exist-domain.com,2005-12-13,Tp.Hcm,4.7,5.5,0.2,students_202601191651.txt,,3.47,Yếu
+SV373,Minh E Le,fake_email_373@not-exist-domain.com,2005-09-06,N/A,8.4,5.7,8.1,students_202601191651.txt,,7.4,Khá
+SV374,Thi D Trinh,fake_email_374@not-exist-domain.com,2007-03-13,Unknown,6.0,3.7,0.0,students_202601191651.txt,,3.23,Yếu
+SV375,Minh E Trinh,trinh.minhe.375@gmail.com,2004-06-20,Hai Phong,6.5,3.3,4.2,students_202601191651.txt,,4.67,Yếu
+SV376,Thi D Vu,vu.thid.376@gmail.com,2002-10-22,Thanh Hoa,7.1,4.6,0.0,students_202601191651.txt,,3.9,Yếu
+SV377,Van A Pham,pham.vana.377@gmail.com,2003-05-25,Hai Phong,1.6,4.7,9.7,students_202601191651.txt,,5.33,Trung Bình
+SV378,Van A Pham,pham.vana.378@gmail.com,2001-07-08,N/A,4.7,9.3,3.6,students_202601191651.txt,,5.87,Trung Bình
+SV379,Duc H Trinh,fake_email_379@not-exist-domain.com,2006-08-08,Hai Phong,7.5,9.2,4.9,students_202601191651.txt,,7.2,Khá
+SV380,Ngoc F Trinh,trinh.ngocf.380@gmail.com,2000-01-12,Unknown,6.5,3.6,0.0,students_202601191651.txt,,3.37,Yếu
+SV381,Duc H Vu,vu.duch.381@gmail.com,2004-06-02,Tp.Hcm,7.4,7.8,3.1,students_202601191651.txt,,6.1,Trung Bình
+SV382,Minh E Dang,fake_email_382@not-exist-domain.com,2004-11-25,Hai Phong,8.9,9.6,9.8,students_202601191651.txt,,9.43,Giỏi
+SV383,Minh E Hoang,hoang.minhe.383@gmail.com,2000-09-17,Can Tho,6.3,0.2,0.0,students_202601191651.txt,,2.17,Yếu
+SV384,Tieu I Unknown,fake_email_384@not-exist-domain.com,2003-07-14,Nghe An,4.0,7.0,0.0,students_202601191651.txt,,3.67,Yếu
+SV385,Thi B Trinh,trinh.thib.385@gmail.com,2006-02-04,Son La,8.1,8.0,2.6,students_202601191651.txt,,6.23,Trung Bình
+SV386,Tuan G Le,le.tuang.386@gmail.com,2000-08-24,Hai Phong,4.4,6.6,7.1,students_202601191651.txt,,6.03,Trung Bình
+SV387,Ngoc F Dinh,fake_email_387@not-exist-domain.com,2001-02-06,Nghe An,5.8,7.0,3.8,students_202601191651.txt,,5.53,Trung Bình
+SV388,Van C Trinh,trinh.vanc.388@gmail.com,2004-01-14,Son La,6.4,4.8,0.0,students_202601191651.txt,,3.73,Yếu
+SV389,Thi B Trinh,trinh.thib.389@gmail.com,2001-06-08,Unknown,1.2,7.5,4.3,students_202601191651.txt,,4.33,Yếu
+SV390,Thi B Pham,pham.thib.390@gmail.com,2005-07-24,Nghe An,2.6,4.2,4.2,students_202601191651.txt,,3.67,Yếu
+SV391,Ngoc F Dang,fake_email_391@not-exist-domain.com,2005-05-22,Unknown,5.6,9.8,0.0,students_202601191651.txt,,5.13,Trung Bình
+SV392,Minh E Le,le.minhe.392@gmail.com,2005-07-07,Thanh Hoa,0.7,5.3,2.5,students_202601191651.txt,,2.83,Yếu
+SV393,Thi B Pham,fake_email_393@not-exist-domain.com,2000-01-02,Unknown,1.7,8.2,0.0,students_202601191651.txt,,3.3,Yếu
+SV394,Minh E Hoang,hoang.minhe.394@gmail.com,2004-07-28,N/A,4.3,1.8,8.8,students_202601191651.txt,,4.97,Yếu
+SV395,Tuan G Pham,pham.tuang.395@gmail.com,2000-07-04,Thanh Hoa,1.4,8.3,5.6,students_202601191651.txt,,5.1,Trung Bình
+SV396,Huu T Pham,pham.huut.396@gmail.com,2003-09-01,Hai Phong,0.0,6.2,9.6,students_202601191651.txt,,5.27,Trung Bình
+SV397,Van C Nguyen,nguyen.vanc.397@gmail.com,2001-02-15,Hai Phong,5.7,8.2,0.0,students_202601191651.txt,,4.63,Yếu
+SV398,Thi B Tieu,tieu.thib.398@gmail.com,2002-12-26,Tp.Hcm,7.9,9.5,0.4,students_202601191651.txt,,5.93,Trung Bình
+SV399,Huu T Vu,vu.huut.399@gmail.com,2003-03-11,Hai Phong,7.0,0.6,2.4,students_202601191651.txt,,3.33,Yếu
+SV400,Thi B Hoang,fake_email_400@not-exist-domain.com,2006-05-18,Son La,1.6,7.3,4.9,students_202601191651.txt,,4.6,Yếu
+SV401,Van C Tieu,tieu.vanc.401@gmail.com,2000-11-12,Hai Phong,5.7,9.4,1.4,students_202601191651.txt,,5.5,Trung Bình
+SV402,Ngoc F Dinh,fake_email_402@not-exist-domain.com,2006-12-07,Tp.Hcm,5.4,3.4,5.1,students_202601191651.txt,,4.63,Yếu
+SV403,Minh E Pham,fake_email_403@not-exist-domain.com,2007-08-26,Ha Noi,4.1,6.2,1.2,students_202601191651.txt,,3.83,Yếu
+SV404,Thi D Le,fake_email_404@not-exist-domain.com,2007-04-30,Can Tho,0.8,2.9,9.3,students_202601191651.txt,,4.33,Yếu
+SV405,Minh E Pham,pham.minhe.405@gmail.com,2005-09-16,Unknown,7.3,2.2,6.2,students_202601191651.txt,,5.23,Trung Bình
+SV406,Van C Dang,dang.vanc.406@gmail.com,2002-05-10,N/A,5.4,2.4,0.0,students_202601191651.txt,,2.6,Yếu
+SV407,Huu T Tieu,tieu.huut.407@gmail.com,2000-08-18,Son La,2.9,6.9,7.1,students_202601191651.txt,,5.63,Trung Bình
+SV408,Van C Pham,pham.vanc.408@gmail.com,2004-08-20,Da Nang,4.2,8.2,2.9,students_202601191651.txt,,5.1,Trung Bình
+SV409,Tuan G Nguyen,nguyen.tuang.409@gmail.com,2003-01-05,N/A,1.9,6.0,5.2,students_202601191651.txt,,4.37,Yếu
+SV410,Huu T Trinh,fake_email_410@not-exist-domain.com,2006-02-25,N/A,4.9,1.9,1.6,students_202601191651.txt,,2.8,Yếu
+SV411,Van A Pham,pham.vana.411@gmail.com,2002-11-18,Nghe An,0.5,2.9,1.2,students_202601191651.txt,,1.53,Yếu
+SV412,Duc H Vu,vu.duch.412@gmail.com,2007-08-26,Ha Noi,8.4,6.0,7.2,students_202601191651.txt,,7.2,Khá
+SV413,Tieu I Bui,bui.tieui.413@gmail.com,2000-11-05,Nghe An,3.8,9.5,2.6,students_202601191651.txt,,5.3,Trung Bình
+SV414,Minh E Pham,pham.minhe.414@gmail.com,2001-01-12,Can Tho,9.7,9.6,7.0,students_202601191651.txt,,8.77,Giỏi
+SV415,Thi D Nguyen,nguyen.thid.415@gmail.com,2006-09-07,Son La,8.9,2.8,7.9,students_202601191651.txt,,6.53,Khá
+SV416,Huu T Dinh,dinh.huut.416@gmail.com,2007-12-15,Thanh Hoa,9.8,1.9,3.1,students_202601191651.txt,,4.93,Yếu
+SV417,Tieu I Nguyen,nguyen.tieui.417@gmail.com,2005-07-31,Da Nang,9.4,3.4,6.3,students_202601191651.txt,,6.37,Trung Bình
+SV418,Minh E Trinh,trinh.minhe.418@gmail.com,2003-03-05,Hai Phong,7.5,4.0,7.2,students_202601191651.txt,,6.23,Trung Bình
+SV419,Thi D Dinh,fake_email_419@not-exist-domain.com,2007-11-09,Hai Phong,9.9,6.0,5.3,students_202601191651.txt,,7.07,Khá
+SV420,Tuan G Dang,dang.tuang.420@gmail.com,2006-11-15,Hai Phong,8.3,7.0,3.8,students_202601191651.txt,,6.37,Trung Bình
+SV421,Tuan G Pham,fake_email_421@not-exist-domain.com,2003-10-28,Can Tho,3.6,9.5,0.6,students_202601191651.txt,,4.57,Yếu
+SV422,Minh E Dang,dang.minhe.422@gmail.com,2007-05-11,Hai Phong,9.9,2.9,2.8,students_202601191651.txt,,5.2,Trung Bình
+SV423,Van A Nguyen,nguyen.vana.423@gmail.com,2005-03-16,Tp.Hcm,4.7,8.2,0.1,students_202601191651.txt,,4.33,Yếu
+SV424,Duc H Dang,dang.duch.424@gmail.com,2000-07-21,Tp.Hcm,9.7,3.0,8.3,students_202601191651.txt,,7.0,Khá
+SV425,Minh E Tieu,fake_email_425@not-exist-domain.com,2005-05-15,Thanh Hoa,3.6,5.0,8.1,students_202601191651.txt,,5.57,Trung Bình
+SV426,Tuan G Trinh,trinh.tuang.426@gmail.com,2000-01-20,Hai Phong,6.8,0.8,4.3,students_202601191651.txt,,3.97,Yếu
+SV427,Van A Dang,dang.vana.427@gmail.com,2002-05-15,N/A,7.6,3.2,6.9,students_202601191651.txt,,5.9,Trung Bình
+SV428,Tieu I Hoang,hoang.tieui.428@gmail.com,2000-02-19,Nghe An,2.6,8.6,0.8,students_202601191651.txt,,4.0,Yếu
+SV429,Tieu I Bui,bui.tieui.429@gmail.com,2001-11-26,Unknown,5.0,7.3,6.6,students_202601191651.txt,,6.3,Trung Bình
+SV430,Tuan G Tran,tran.tuang.430@gmail.com,2000-04-04,Tp.Hcm,2.6,3.7,6.1,students_202601191651.txt,,4.13,Yếu
+SV431,Ngoc F Vu,vu.ngocf.431@gmail.com,2002-04-01,Da Nang,2.7,6.6,0.0,students_202601191651.txt,,3.1,Yếu
+SV432,Tuan G Pham,fake_email_432@not-exist-domain.com,2005-02-11,Thanh Hoa,2.3,9.0,6.6,students_202601191651.txt,,5.97,Trung Bình
+SV433,Minh E Trinh,fake_email_433@not-exist-domain.com,2005-01-06,Nghe An,1.0,4.7,4.7,students_202601191651.txt,,3.47,Yếu
+SV434,Minh E Tran,tran.minhe.434@gmail.com,2005-09-03,Thanh Hoa,2.1,2.3,1.3,students_202601191651.txt,,1.9,Yếu
+SV435,Thi D Tieu,tieu.thid.435@gmail.com,2007-10-02,Thanh Hoa,0.1,9.1,4.5,students_202601191651.txt,,4.57,Yếu
+SV436,Van A Vu,vu.vana.436@gmail.com,2006-12-22,Can Tho,4.6,5.1,0.4,students_202601191651.txt,,3.37,Yếu
+SV437,Huu T Tran,fake_email_437@not-exist-domain.com,2006-11-20,Unknown,0.3,0.3,0.8,students_202601191651.txt,,0.47,Yếu
+SV438,Ngoc F Hoang,fake_email_438@not-exist-domain.com,2003-08-07,Hai Phong,7.7,8.2,3.0,students_202601191651.txt,,6.3,Trung Bình
+SV439,Van C Hoang,hoang.vanc.439@gmail.com,2000-08-26,Thanh Hoa,4.5,9.7,0.3,students_202601191651.txt,,4.83,Yếu
+SV440,Duc H Vu,vu.duch.440@gmail.com,2005-08-29,Thanh Hoa,8.7,0.7,1.7,students_202601191651.txt,,3.7,Yếu
+SV441,Huu T Pham,fake_email_441@not-exist-domain.com,2005-10-24,Unknown,3.8,4.1,5.5,students_202601191651.txt,,4.47,Yếu
+SV442,Tuan G Bui,fake_email_442@not-exist-domain.com,2000-03-12,Hai Phong,9.7,6.2,1.5,students_202601191651.txt,,5.8,Trung Bình
+SV443,Minh E Le,fake_email_443@not-exist-domain.com,2000-11-28,Unknown,1.7,1.9,4.7,students_202601191651.txt,,2.77,Yếu
+SV444,Thi D Bui,fake_email_444@not-exist-domain.com,2004-02-26,Tp.Hcm,1.4,6.6,7.3,students_202601191651.txt,,5.1,Trung Bình
+SV445,Duc H Hoang,hoang.duch.445@gmail.com,2004-07-31,Thanh Hoa,9.6,0.1,9.0,students_202601191651.txt,,6.23,Trung Bình
+SV446,Van A Trinh,trinh.vana.446@gmail.com,2005-07-06,N/A,3.2,1.5,9.7,students_202601191651.txt,,4.8,Yếu
+SV447,Minh E Unknown,fake_email_447@not-exist-domain.com,2004-12-11,Unknown,5.0,1.8,1.7,students_202601191651.txt,,2.83,Yếu
+SV448,Thi D Pham,pham.thid.448@gmail.com,2003-02-15,Da Nang,7.9,7.4,0.9,students_202601191651.txt,,5.4,Trung Bình
+SV449,Tuan G Vu,vu.tuang.449@gmail.com,2003-12-08,Tp.Hcm,7.4,1.2,9.4,students_202601191651.txt,,6.0,Trung Bình
+SV450,Van A Hoang,hoang.vana.450@gmail.com,2004-01-06,Ha Noi,4.9,0.3,1.7,students_202601191651.txt,,2.3,Yếu
+SV451,Thi D Unknown,unknown.thid.451@gmail.com,2001-05-30,Tp.Hcm,4.8,4.0,2.3,students_202601191651.txt,,3.7,Yếu
+SV452,Van A Nguyen,fake_email_452@not-exist-domain.com,2001-07-23,Nghe An,1.9,7.8,0.0,students_202601191651.txt,,3.23,Yếu
+SV453,Van A Le,le.vana.453@gmail.com,2007-01-27,Son La,3.0,3.3,0.3,students_202601191651.txt,,2.2,Yếu
+SV454,Tieu I Pham,pham.tieui.454@gmail.com,2003-01-22,N/A,5.4,9.1,5.3,students_202601191651.txt,,6.6,Khá
+SV455,Van C Tieu,tieu.vanc.455@gmail.com,2001-03-25,Can Tho,8.0,7.4,1.5,students_202601191651.txt,,5.63,Trung Bình
+SV456,Van A Tran,fake_email_456@not-exist-domain.com,2001-03-10,N/A,5.2,2.2,0.0,students_202601191651.txt,,2.47,Yếu
+SV457,Minh E Tran,fake_email_457@not-exist-domain.com,2007-03-23,Nghe An,7.1,4.9,0.0,students_202601191651.txt,,4.0,Yếu
+SV458,Ngoc F Le,fake_email_458@not-exist-domain.com,2006-07-17,Son La,8.8,9.6,7.7,students_202601191651.txt,,8.7,Giỏi
+SV459,Thi B Pham,fake_email_459@not-exist-domain.com,2003-09-21,Hai Phong,3.0,9.5,7.3,students_202601191651.txt,,6.6,Khá
+SV460,Thi B Hoang,hoang.thib.460@gmail.com,2004-04-25,N/A,3.4,6.6,1.4,students_202601191651.txt,,3.8,Yếu
+SV461,Van A Tieu,tieu.vana.461@gmail.com,2000-09-07,Ha Noi,1.0,6.8,5.5,students_202601191651.txt,,4.43,Yếu
+SV462,Thi D Pham,pham.thid.462@gmail.com,2005-03-06,Hai Phong,0.9,1.0,9.4,students_202601191651.txt,,3.77,Yếu
+SV463,Ngoc F Unknown,fake_email_463@not-exist-domain.com,2000-01-16,Tp.Hcm,1.6,1.1,6.0,students_202601191651.txt,,2.9,Yếu
+SV464,Huu T Trinh,fake_email_464@not-exist-domain.com,2006-12-05,Ha Noi,4.0,0.9,8.4,students_202601191651.txt,,4.43,Yếu
+SV465,Minh E Trinh,fake_email_465@not-exist-domain.com,2006-05-25,Da Nang,5.6,2.6,0.0,students_202601191651.txt,,2.73,Yếu
+SV466,Minh E Nguyen,nguyen.minhe.466@gmail.com,2002-05-15,Thanh Hoa,0.7,8.9,5.2,students_202601191651.txt,,4.93,Yếu
+SV467,Van A Trinh,trinh.vana.467@gmail.com,2005-02-16,Ha Noi,2.1,0.9,3.7,students_202601191651.txt,,2.23,Yếu
+SV468,Thi B Trinh,fake_email_468@not-exist-domain.com,2003-10-16,Tp.Hcm,2.0,4.1,6.6,students_202601191651.txt,,4.23,Yếu
+SV469,Huu T Hoang,fake_email_469@not-exist-domain.com,2007-07-25,Hai Phong,0.4,9.8,0.0,students_202601191651.txt,,3.4,Yếu
+SV470,Van C Nguyen,nguyen.vanc.470@gmail.com,2002-09-11,Da Nang,3.1,3.7,2.6,students_202601191651.txt,,3.13,Yếu
+SV471,Tuan G Tieu,fake_email_471@not-exist-domain.com,2005-12-07,Hai Phong,4.9,6.9,4.6,students_202601191651.txt,,5.47,Trung Bình
+SV472,Minh E Tieu,fake_email_472@not-exist-domain.com,2006-08-23,N/A,0.9,8.5,6.7,students_202601191651.txt,,5.37,Trung Bình
+SV473,Van A Vu,vu.vana.473@gmail.com,2000-11-02,Hai Phong,8.1,4.9,2.8,students_202601191651.txt,,5.27,Trung Bình
+SV474,Van A Nguyen,nguyen.vana.474@gmail.com,2001-12-18,N/A,5.5,2.1,2.8,students_202601191651.txt,,3.47,Yếu
+SV475,Tieu I Hoang,hoang.tieui.475@gmail.com,2001-07-02,Son La,4.7,0.8,2.0,students_202601191651.txt,,2.5,Yếu
+SV476,Thi D Le,le.thid.476@gmail.com,2004-02-17,Hai Phong,6.2,1.1,2.6,students_202601191651.txt,,3.3,Yếu
+SV477,Van C Nguyen,nguyen.vanc.477@gmail.com,2007-06-14,Hai Phong,1.5,1.5,0.0,students_202601191651.txt,,1.0,Yếu
+SV478,Duc H Nguyen,fake_email_478@not-exist-domain.com,2005-04-11,Nghe An,5.1,8.6,0.0,students_202601191651.txt,,4.57,Yếu
+SV479,Van C Pham,fake_email_479@not-exist-domain.com,2007-09-10,Can Tho,7.4,5.5,0.0,students_202601191651.txt,,4.3,Yếu
+SV480,Van C Vu,vu.vanc.480@gmail.com,2005-05-17,Unknown,2.6,2.1,0.9,students_202601191651.txt,,1.87,Yếu
+SV481,Tieu I Dinh,dinh.tieui.481@gmail.com,2004-02-19,Son La,5.2,3.5,3.9,students_202601191651.txt,,4.2,Yếu
+SV482,Van A Unknown,fake_email_482@not-exist-domain.com,2003-01-03,N/A,2.0,8.7,4.2,students_202601191651.txt,,4.97,Yếu
+SV483,Thi B Hoang,hoang.thib.483@gmail.com,2005-03-09,Hai Phong,1.9,7.4,5.5,students_202601191651.txt,,4.93,Yếu
+SV484,Thi D Pham,fake_email_484@not-exist-domain.com,2005-03-21,Thanh Hoa,9.7,7.8,6.4,students_202601191651.txt,,7.97,Khá
+SV485,Tieu I Dang,dang.tieui.485@gmail.com,2000-06-22,Ha Noi,7.7,6.1,0.0,students_202601191651.txt,,4.6,Yếu
+SV486,Duc H Le,le.duch.486@gmail.com,2003-08-22,Ha Noi,8.5,0.6,4.0,students_202601191651.txt,,4.37,Yếu
+SV487,Thi B Nguyen,fake_email_487@not-exist-domain.com,2006-05-21,N/A,0.4,10.0,10.0,students_202601191651.txt,,6.8,Khá
+SV488,Van A Trinh,trinh.vana.488@gmail.com,2005-07-08,Nghe An,7.9,5.0,1.2,students_202601191651.txt,,4.7,Yếu
+SV489,Huu T Nguyen,nguyen.huut.489@gmail.com,2005-09-24,Tp.Hcm,8.9,8.1,0.7,students_202601191651.txt,,5.9,Trung Bình
+SV490,Tieu I Bui,fake_email_490@not-exist-domain.com,2003-02-06,Hai Phong,6.8,0.9,1.5,students_202601191651.txt,,3.07,Yếu
+SV491,Tieu I Dang,dang.tieui.491@gmail.com,2004-12-25,Can Tho,7.2,5.5,5.3,students_202601191651.txt,,6.0,Trung Bình
+SV492,Ngoc F Tieu,tieu.ngocf.492@gmail.com,2004-08-08,Tp.Hcm,3.0,3.7,0.0,students_202601191651.txt,,2.23,Yếu
+SV493,Van C Le,le.vanc.493@gmail.com,2003-12-12,Thanh Hoa,4.2,5.4,0.2,students_202601191651.txt,,3.27,Yếu
+SV494,Ngoc F Tran,tran.ngocf.494@gmail.com,2005-01-03,Unknown,3.3,1.2,1.0,students_202601191651.txt,,1.83,Yếu
+SV495,Thi B Hoang,fake_email_495@not-exist-domain.com,2001-05-14,Ha Noi,9.1,7.5,2.9,students_202601191651.txt,,6.5,Khá
+SV496,Tuan G Le,fake_email_496@not-exist-domain.com,2005-08-01,Can Tho,9.1,5.7,1.9,students_202601191651.txt,,5.57,Trung Bình
+SV497,Tieu I Dinh,dinh.tieui.497@gmail.com,2004-01-26,Unknown,0.0,6.6,8.4,students_202601191651.txt,,5.0,Trung Bình
+SV498,Ngoc F Unknown,unknown.ngocf.498@gmail.com,2001-04-15,Unknown,3.1,2.2,0.6,students_202601191651.txt,,1.97,Yếu
+SV499,Minh E Tran,fake_email_499@not-exist-domain.com,2000-06-23,Hai Phong,8.1,1.2,6.2,students_202601191651.txt,,5.17,Trung Bình
+SV500,Huu T Bui,bui.huut.500@gmail.com,2004-01-23,Nghe An,8.5,5.6,7.6,students_202601191651.txt,,7.23,Khá
+SV501,Van A Le,fake_email_501@not-exist-domain.com,2000-03-25,Ha Noi,8.1,0.3,7.6,students_202601191651.txt,,5.33,Trung Bình
+SV502,Van A Le,le.vana.502@gmail.com,2002-03-06,Son La,7.5,3.8,1.8,students_202601191651.txt,,4.37,Yếu
+SV503,Minh E Hoang,fake_email_503@not-exist-domain.com,2006-02-15,Son La,9.2,8.6,0.0,students_202601191651.txt,,5.93,Trung Bình
+SV504,Huu T Dang,dang.huut.504@gmail.com,2002-06-08,Tp.Hcm,7.5,4.7,8.9,students_202601191651.txt,,7.03,Khá
+SV505,Thi B Hoang,fake_email_505@not-exist-domain.com,2003-08-03,N/A,8.5,8.0,0.0,students_202601191651.txt,,5.5,Trung Bình
+SV506,Tuan G Hoang,fake_email_506@not-exist-domain.com,2002-05-22,Da Nang,7.7,1.0,9.0,students_202601191651.txt,,5.9,Trung Bình
+SV507,Van C Vu,vu.vanc.507@gmail.com,2003-04-06,Hai Phong,2.0,7.2,4.3,students_202601191651.txt,,4.5,Yếu
+SV508,Van A Bui,bui.vana.508@gmail.com,2005-07-22,Hai Phong,7.7,5.6,5.7,students_202601191651.txt,,6.33,Trung Bình
+SV509,Ngoc F Unknown,unknown.ngocf.509@gmail.com,2002-05-13,Can Tho,7.1,7.6,5.4,students_202601191651.txt,,6.7,Khá
+SV510,Thi D Vu,vu.thid.510@gmail.com,2004-11-21,Son La,4.8,4.7,0.0,students_202601191651.txt,,3.17,Yếu
+SV511,Ngoc F Vu,vu.ngocf.511@gmail.com,2002-02-10,Ha Noi,0.8,2.1,0.4,students_202601191651.txt,,1.1,Yếu
+SV512,Duc H Unknown,fake_email_512@not-exist-domain.com,2000-07-03,Son La,8.0,4.6,0.0,students_202601191651.txt,,4.2,Yếu
+SV513,Van A Dinh,dinh.vana.513@gmail.com,2004-07-21,Can Tho,7.8,1.5,1.6,students_202601191651.txt,,3.63,Yếu
+SV514,Van A Dinh,dinh.vana.514@gmail.com,2000-03-05,Da Nang,6.6,4.6,4.6,students_202601191651.txt,,5.27,Trung Bình
+SV515,Huu T Pham,pham.huut.515@gmail.com,2003-09-23,Hai Phong,5.3,5.2,1.4,students_202601191651.txt,,3.97,Yếu
+SV516,Van C Pham,pham.vanc.516@gmail.com,2007-05-11,Nghe An,9.4,3.0,7.3,students_202601191651.txt,,6.57,Khá
+SV517,Duc H Pham,pham.duch.517@gmail.com,2000-04-23,Thanh Hoa,5.6,3.1,0.0,students_202601191651.txt,,2.9,Yếu
+SV518,Van A Dang,fake_email_518@not-exist-domain.com,2001-04-30,Da Nang,2.3,2.0,4.9,students_202601191651.txt,,3.07,Yếu
+SV519,Van A Unknown,unknown.vana.519@gmail.com,2007-06-03,Can Tho,4.9,2.9,0.0,students_202601191651.txt,,2.6,Yếu
+SV520,Ngoc F Dang,dang.ngocf.520@gmail.com,2000-02-29,Hai Phong,7.2,5.3,3.1,students_202601191651.txt,,5.2,Trung Bình
+SV521,Thi D Pham,pham.thid.521@gmail.com,2001-01-15,Da Nang,7.7,2.6,3.0,students_202601191651.txt,,4.43,Yếu
+SV522,Van C Pham,pham.vanc.522@gmail.com,2000-05-21,Hai Phong,2.6,5.7,5.3,students_202601191651.txt,,4.53,Yếu
+SV523,Huu T Bui,bui.huut.523@gmail.com,2005-03-25,Son La,4.0,2.1,7.4,students_202601191651.txt,,4.5,Yếu
+SV524,Huu T Dang,dang.huut.524@gmail.com,2006-07-17,Can Tho,0.5,9.6,6.6,students_202601191651.txt,,5.57,Trung Bình
+SV525,Thi D Trinh,trinh.thid.525@gmail.com,2003-07-27,Unknown,2.7,6.7,8.5,students_202601191651.txt,,5.97,Trung Bình
+SV526,Thi B Pham,fake_email_526@not-exist-domain.com,2002-05-01,Son La,6.8,0.6,9.5,students_202601191651.txt,,5.63,Trung Bình
+SV527,Tuan G Vu,vu.tuang.527@gmail.com,2000-11-01,Ha Noi,4.7,3.3,0.0,students_202601191651.txt,,2.67,Yếu
+SV528,Tieu I Pham,pham.tieui.528@gmail.com,2001-03-01,Thanh Hoa,0.3,2.3,0.0,students_202601191651.txt,,0.87,Yếu
+SV529,Minh E Vu,vu.minhe.529@gmail.com,2001-07-29,Hai Phong,9.9,6.5,0.0,students_202601191651.txt,,5.47,Trung Bình
+SV530,Tuan G Vu,vu.tuang.530@gmail.com,2003-08-19,N/A,0.3,0.2,0.3,students_202601191651.txt,,0.27,Yếu
+SV531,Van C Trinh,fake_email_531@not-exist-domain.com,2002-02-26,Tp.Hcm,4.2,1.0,4.0,students_202601191651.txt,,3.07,Yếu
+SV532,Ngoc F Hoang,hoang.ngocf.532@gmail.com,2006-08-25,Can Tho,3.6,2.6,9.1,students_202601191651.txt,,5.1,Trung Bình
+SV533,Thi B Dinh,dinh.thib.533@gmail.com,2002-12-27,Thanh Hoa,6.4,6.7,5.8,students_202601191651.txt,,6.3,Trung Bình
+SV534,Thi B Unknown,fake_email_534@not-exist-domain.com,2006-11-10,Ha Noi,4.3,6.1,7.7,students_202601191651.txt,,6.03,Trung Bình
+SV535,Thi D Unknown,unknown.thid.535@gmail.com,2002-06-10,Nghe An,4.0,8.5,4.4,students_202601191651.txt,,5.63,Trung Bình
+SV536,Tuan G Tran,fake_email_536@not-exist-domain.com,2005-07-29,Unknown,3.5,4.0,6.8,students_202601191651.txt,,4.77,Yếu
+SV537,Thi B Unknown,unknown.thib.537@gmail.com,2001-08-30,N/A,1.6,3.6,2.3,students_202601191651.txt,,2.5,Yếu
+SV538,Ngoc F Tran,tran.ngocf.538@gmail.com,2000-06-27,Da Nang,3.0,9.2,9.0,students_202601191651.txt,,7.07,Khá
+SV539,Huu T Tran,tran.huut.539@gmail.com,2001-01-23,Nghe An,4.1,3.5,0.5,students_202601191651.txt,,2.7,Yếu
+SV540,Tieu I Le,le.tieui.540@gmail.com,2006-03-28,Son La,8.2,1.5,5.2,students_202601191651.txt,,4.97,Yếu
+SV541,Ngoc F Pham,pham.ngocf.541@gmail.com,2007-06-11,Hai Phong,1.3,2.6,7.7,students_202601191651.txt,,3.87,Yếu
+SV542,Thi B Le,fake_email_542@not-exist-domain.com,2002-07-29,Nghe An,8.3,9.7,0.0,students_202601191651.txt,,6.0,Trung Bình
+SV543,Duc H Hoang,hoang.duch.543@gmail.com,2001-02-13,Unknown,3.8,7.5,5.5,students_202601191651.txt,,5.6,Trung Bình
+SV544,Van C Hoang,hoang.vanc.544@gmail.com,2004-07-16,Son La,5.5,9.9,0.0,students_202601191651.txt,,5.13,Trung Bình
+SV545,Duc H Pham,pham.duch.545@gmail.com,2004-09-01,Tp.Hcm,3.6,3.6,0.0,students_202601191651.txt,,2.4,Yếu
+SV546,Thi B Nguyen,nguyen.thib.546@gmail.com,2004-04-06,Tp.Hcm,2.4,9.4,3.5,students_202601191651.txt,,5.1,Trung Bình
+SV547,Thi B Tieu,tieu.thib.547@gmail.com,2000-12-31,Unknown,8.3,2.7,5.3,students_202601191651.txt,,5.43,Trung Bình
+SV548,Thi B Dinh,dinh.thib.548@gmail.com,2005-10-15,Can Tho,7.9,6.1,5.3,students_202601191651.txt,,6.43,Trung Bình
+SV549,Ngoc F Dang,dang.ngocf.549@gmail.com,2003-05-15,Nghe An,2.1,1.2,7.2,students_202601191651.txt,,3.5,Yếu
+SV550,Minh E Pham,pham.minhe.550@gmail.com,2006-07-22,Unknown,2.0,5.0,8.0,students_202601191651.txt,,5.0,Trung Bình
+SV551,Minh E Tran,fake_email_551@not-exist-domain.com,2001-02-04,Nghe An,9.6,2.1,4.8,students_202601191651.txt,,5.5,Trung Bình
+SV552,Ngoc F Tieu,tieu.ngocf.552@gmail.com,2004-06-16,Son La,4.3,0.7,0.0,students_202601191651.txt,,1.67,Yếu
+SV553,Van A Tieu,tieu.vana.553@gmail.com,2005-12-29,Son La,4.3,5.8,9.5,students_202601191651.txt,,6.53,Khá
+SV554,Duc H Tieu,tieu.duch.554@gmail.com,2000-01-31,Hai Phong,2.0,7.1,6.0,students_202601191651.txt,,5.03,Trung Bình
+SV555,Tuan G Pham,pham.tuang.555@gmail.com,2007-06-13,Da Nang,7.5,1.3,1.6,students_202601191651.txt,,3.47,Yếu
+SV556,Ngoc F Trinh,trinh.ngocf.556@gmail.com,2001-10-27,Can Tho,6.1,2.3,8.1,students_202601191651.txt,,5.5,Trung Bình
+SV557,Tuan G Bui,fake_email_557@not-exist-domain.com,2000-05-28,Unknown,2.1,3.6,6.3,students_202601191651.txt,,4.0,Yếu
+SV558,Van C Bui,bui.vanc.558@gmail.com,2002-05-08,Da Nang,1.3,1.2,5.2,students_202601191651.txt,,2.57,Yếu
+SV559,Thi D Unknown,unknown.thid.559@gmail.com,2004-11-16,Ha Noi,5.0,9.2,1.3,students_202601191651.txt,,5.17,Trung Bình
+SV560,Thi B Pham,pham.thib.560@gmail.com,2003-12-24,Hai Phong,2.8,5.1,3.3,students_202601191651.txt,,3.73,Yếu
+SV561,Van C Vu,fake_email_561@not-exist-domain.com,2004-11-04,Unknown,6.8,5.8,0.0,students_202601191651.txt,,4.2,Yếu
+SV562,Tieu I Pham,pham.tieui.562@gmail.com,2007-12-02,Son La,8.9,5.7,5.8,students_202601191651.txt,,6.8,Khá
+SV563,Thi D Nguyen,nguyen.thid.563@gmail.com,2006-06-10,Hai Phong,6.4,0.9,0.0,students_202601191651.txt,,2.43,Yếu
+SV564,Van A Le,le.vana.564@gmail.com,2005-05-24,Da Nang,1.6,7.1,0.0,students_202601191651.txt,,2.9,Yếu
+SV565,Thi B Dang,dang.thib.565@gmail.com,2005-07-09,Hai Phong,7.1,0.1,0.0,students_202601191651.txt,,2.4,Yếu
+SV566,Minh E Tran,tran.minhe.566@gmail.com,2005-05-15,Son La,9.4,2.6,9.8,students_202601191651.txt,,7.27,Khá
+SV567,Thi D Bui,bui.thid.567@gmail.com,2001-03-28,Son La,8.4,6.1,0.0,students_202601191651.txt,,4.83,Yếu
+SV568,Thi D Dinh,fake_email_568@not-exist-domain.com,2004-03-10,N/A,8.1,7.0,0.1,students_202601191651.txt,,5.07,Trung Bình
+SV569,Van A Tieu,tieu.vana.569@gmail.com,2005-03-24,Tp.Hcm,4.0,0.2,9.3,students_202601191651.txt,,4.5,Yếu
+SV570,Thi D Pham,pham.thid.570@gmail.com,2001-09-29,Da Nang,1.0,4.7,6.1,students_202601191651.txt,,3.93,Yếu
+SV571,Van A Dang,fake_email_571@not-exist-domain.com,2002-02-12,Unknown,5.4,3.1,9.5,students_202601191651.txt,,6.0,Trung Bình
+SV572,Minh E Vu,fake_email_572@not-exist-domain.com,2007-07-25,Ha Noi,6.9,2.5,2.0,students_202601191651.txt,,3.8,Yếu
+SV573,Van A Pham,pham.vana.573@gmail.com,2000-03-20,Can Tho,7.7,2.3,1.7,students_202601191651.txt,,3.9,Yếu
+SV574,Minh E Vu,vu.minhe.574@gmail.com,2007-10-13,Tp.Hcm,8.8,2.1,0.0,students_202601191651.txt,,3.63,Yếu
+SV575,Minh E Trinh,fake_email_575@not-exist-domain.com,2001-05-14,N/A,5.7,0.8,2.2,students_202601191651.txt,,2.9,Yếu
+SV576,Tuan G Pham,pham.tuang.576@gmail.com,2005-02-16,Can Tho,7.7,7.9,5.7,students_202601191651.txt,,7.1,Khá
+SV577,Van C Pham,pham.vanc.577@gmail.com,2004-01-18,Hai Phong,7.4,9.7,5.2,students_202601191651.txt,,7.43,Khá
+SV578,Duc H Unknown,unknown.duch.578@gmail.com,2005-01-22,Can Tho,8.8,1.4,5.1,students_202601191651.txt,,5.1,Trung Bình
+SV579,Ngoc F Pham,pham.ngocf.579@gmail.com,2007-01-01,Ha Noi,4.2,9.8,7.5,students_202601191651.txt,,7.17,Khá
+SV580,Tuan G Dinh,dinh.tuang.580@gmail.com,2002-02-12,Unknown,3.8,4.4,0.0,students_202601191651.txt,,2.73,Yếu
+SV581,Van C Pham,pham.vanc.581@gmail.com,2004-12-20,Unknown,0.2,2.9,3.7,students_202601191651.txt,,2.27,Yếu
+SV582,Ngoc F Hoang,fake_email_582@not-exist-domain.com,2002-12-08,Tp.Hcm,8.6,4.4,9.6,students_202601191651.txt,,7.53,Khá
+SV583,Thi D Hoang,fake_email_583@not-exist-domain.com,2007-11-20,Tp.Hcm,9.7,6.5,0.7,students_202601191651.txt,,5.63,Trung Bình
+SV584,Tuan G Trinh,trinh.tuang.584@gmail.com,2007-07-18,N/A,3.7,9.2,7.8,students_202601191651.txt,,6.9,Khá
+SV585,Van A Vu,vu.vana.585@gmail.com,2003-12-19,Unknown,7.6,5.7,2.7,students_202601191651.txt,,5.33,Trung Bình
+SV586,Thi D Tran,tran.thid.586@gmail.com,2006-12-19,Unknown,0.1,7.4,0.0,students_202601191651.txt,,2.5,Yếu
+SV587,Van A Hoang,hoang.vana.587@gmail.com,2007-01-22,Can Tho,6.2,1.2,7.8,students_202601191651.txt,,5.07,Trung Bình
+SV588,Thi D Le,fake_email_588@not-exist-domain.com,2002-01-13,Hai Phong,3.3,0.2,0.0,students_202601191651.txt,,1.17,Yếu
+SV589,Van C Unknown,fake_email_589@not-exist-domain.com,2007-06-10,Son La,3.4,9.9,2.8,students_202601191651.txt,,5.37,Trung Bình
+SV590,Duc H Tieu,fake_email_590@not-exist-domain.com,2002-04-19,Can Tho,4.0,3.6,0.0,students_202601191651.txt,,2.53,Yếu
+SV591,Tieu I Trinh,trinh.tieui.591@gmail.com,2005-07-06,Da Nang,7.3,7.5,0.0,students_202601191651.txt,,4.93,Yếu
+SV592,Van A Bui,fake_email_592@not-exist-domain.com,2001-07-05,Nghe An,8.4,6.1,4.0,students_202601191651.txt,,6.17,Trung Bình
+SV593,Ngoc F Vu,fake_email_593@not-exist-domain.com,2004-10-13,Hai Phong,9.9,4.5,2.6,students_202601191651.txt,,5.67,Trung Bình
+SV594,Van A Nguyen,nguyen.vana.594@gmail.com,2001-06-09,Thanh Hoa,5.0,3.7,6.1,students_202601191651.txt,,4.93,Yếu
+SV595,Tieu I Vu,vu.tieui.595@gmail.com,2007-07-23,Hai Phong,8.1,7.8,3.9,students_202601191651.txt,,6.6,Khá
+SV596,Thi B Hoang,hoang.thib.596@gmail.com,2004-08-02,N/A,5.1,3.1,8.8,students_202601191651.txt,,5.67,Trung Bình
+SV597,Thi D Trinh,fake_email_597@not-exist-domain.com,2003-12-15,N/A,2.5,5.0,0.0,students_202601191651.txt,,2.5,Yếu
+SV598,Van A Tran,tran.vana.598@gmail.com,2002-08-12,Ha Noi,7.7,7.6,9.9,students_202601191651.txt,,8.4,Giỏi
+SV599,Duc H Dang,fake_email_599@not-exist-domain.com,2007-02-25,Thanh Hoa,0.6,4.1,7.3,students_202601191651.txt,,4.0,Yếu
+SV600,Van A Nguyen,fake_email_600@not-exist-domain.com,2005-01-31,Thanh Hoa,1.9,3.2,7.0,students_202601191651.txt,,4.03,Yếu
+SV601,Minh E Tran,tran.minhe.601@gmail.com,2003-04-13,Nghe An,6.0,6.3,0.0,students_202601191651.txt,,4.1,Yếu
+SV602,Minh E Tran,tran.minhe.602@gmail.com,2002-12-09,Unknown,8.9,5.7,2.1,students_202601191651.txt,,5.57,Trung Bình
+SV603,Thi D Vu,vu.thid.603@gmail.com,2003-01-15,Da Nang,8.4,2.8,0.7,students_202601191651.txt,,3.97,Yếu
+SV604,Minh E Vu,vu.minhe.604@gmail.com,2005-05-14,Tp.Hcm,9.5,3.4,4.7,students_202601191651.txt,,5.87,Trung Bình
+SV605,Thi D Nguyen,nguyen.thid.605@gmail.com,2004-05-31,Unknown,2.8,7.0,2.5,students_202601191651.txt,,4.1,Yếu
+SV606,Van A Le,fake_email_606@not-exist-domain.com,2001-11-10,Tp.Hcm,5.9,5.6,4.4,students_202601191651.txt,,5.3,Trung Bình
+SV607,Ngoc F Pham,pham.ngocf.607@gmail.com,2003-04-01,Can Tho,4.3,3.8,2.6,students_202601191651.txt,,3.57,Yếu
+SV608,Minh E Tran,fake_email_608@not-exist-domain.com,2000-01-30,Ha Noi,8.9,6.2,0.0,students_202601191651.txt,,5.03,Trung Bình
+SV609,Thi B Le,le.thib.609@gmail.com,2006-07-01,Ha Noi,4.6,4.8,9.0,students_202601191651.txt,,6.13,Trung Bình
+SV610,Tuan G Dinh,fake_email_610@not-exist-domain.com,2005-11-12,Unknown,3.6,9.3,0.5,students_202601191651.txt,,4.47,Yếu
+SV611,Minh E Le,le.minhe.611@gmail.com,2000-07-30,Can Tho,0.9,9.1,0.0,students_202601191651.txt,,3.33,Yếu
+SV612,Ngoc F Le,le.ngocf.612@gmail.com,2005-02-20,Unknown,2.5,0.6,9.4,students_202601191651.txt,,4.17,Yếu
+SV613,Van C Vu,vu.vanc.613@gmail.com,2005-01-31,Nghe An,8.6,6.8,7.3,students_202601191651.txt,,7.57,Khá
+SV614,Duc H Trinh,fake_email_614@not-exist-domain.com,2003-03-14,Can Tho,2.8,8.9,0.0,students_202601191651.txt,,3.9,Yếu
+SV615,Thi B Pham,fake_email_615@not-exist-domain.com,2007-09-01,Ha Noi,0.3,1.3,0.0,students_202601191651.txt,,0.53,Yếu
+SV616,Thi B Dang,dang.thib.616@gmail.com,2007-04-17,Da Nang,7.2,9.4,2.6,students_202601191651.txt,,6.4,Trung Bình
+SV617,Thi B Vu,vu.thib.617@gmail.com,2001-02-12,Hai Phong,3.0,3.6,2.6,students_202601191651.txt,,3.07,Yếu
+SV618,Duc H Trinh,trinh.duch.618@gmail.com,2005-08-25,Da Nang,3.6,3.9,2.1,students_202601191651.txt,,3.2,Yếu
+SV619,Minh E Le,le.minhe.619@gmail.com,2007-07-14,Hai Phong,3.5,3.5,9.1,students_202601191651.txt,,5.37,Trung Bình
+SV620,Ngoc F Nguyen,nguyen.ngocf.620@gmail.com,2005-10-07,Nghe An,6.0,7.5,4.1,students_202601191651.txt,,5.87,Trung Bình
+SV621,Thi B Dang,dang.thib.621@gmail.com,2005-09-17,Da Nang,8.3,5.0,8.8,students_202601191651.txt,,7.37,Khá
+SV622,Huu T Le,le.huut.622@gmail.com,2007-06-11,Unknown,6.3,7.3,7.0,students_202601191651.txt,,6.87,Khá
+SV623,Ngoc F Tran,fake_email_623@not-exist-domain.com,2003-06-27,Tp.Hcm,1.4,2.8,7.7,students_202601191651.txt,,3.97,Yếu
+SV624,Tuan G Vu,vu.tuang.624@gmail.com,2000-02-26,N/A,0.7,8.0,6.3,students_202601191651.txt,,5.0,Trung Bình
+SV625,Van A Pham,pham.vana.625@gmail.com,2000-08-18,Son La,0.5,6.3,5.4,students_202601191651.txt,,4.07,Yếu
+SV626,Van A Unknown,unknown.vana.626@gmail.com,2004-01-01,Unknown,3.7,1.1,0.0,students_202601191651.txt,,1.6,Yếu
+SV627,Tieu I Le,fake_email_627@not-exist-domain.com,2001-11-12,Can Tho,1.0,2.9,3.2,students_202601191651.txt,,2.37,Yếu
+SV628,Thi D Dang,fake_email_628@not-exist-domain.com,2003-09-14,Unknown,9.6,4.5,2.4,students_202601191651.txt,,5.5,Trung Bình
+SV629,Duc H Dang,dang.duch.629@gmail.com,2003-07-13,Tp.Hcm,4.5,0.9,4.6,students_202601191651.txt,,3.33,Yếu
+SV630,Thi B Vu,vu.thib.630@gmail.com,2003-05-07,Hai Phong,6.9,8.6,2.3,students_202601191651.txt,,5.93,Trung Bình
+SV631,Huu T Dang,fake_email_631@not-exist-domain.com,2001-12-11,Hai Phong,5.0,1.1,9.9,students_202601191651.txt,,5.33,Trung Bình
+SV632,Tieu I Nguyen,nguyen.tieui.632@gmail.com,2002-04-14,Tp.Hcm,6.6,5.9,9.0,students_202601191651.txt,,7.17,Khá
+SV633,Thi D Bui,bui.thid.633@gmail.com,2001-12-09,Ha Noi,7.1,7.5,6.2,students_202601191651.txt,,6.93,Khá
+SV634,Ngoc F Unknown,unknown.ngocf.634@gmail.com,2000-08-19,Son La,2.9,0.8,6.0,students_202601191651.txt,,3.23,Yếu
+SV635,Duc H Nguyen,fake_email_635@not-exist-domain.com,2004-11-07,Son La,5.8,1.1,0.0,students_202601191651.txt,,2.3,Yếu
+SV636,Thi B Pham,pham.thib.636@gmail.com,2006-03-13,Nghe An,7.7,8.2,0.6,students_202601191651.txt,,5.5,Trung Bình
+SV637,Tuan G Dang,dang.tuang.637@gmail.com,2003-04-17,Thanh Hoa,1.5,3.1,2.8,students_202601191651.txt,,2.47,Yếu
+SV638,Tieu I Hoang,hoang.tieui.638@gmail.com,2006-09-14,Ha Noi,7.2,4.0,8.4,students_202601191651.txt,,6.53,Khá
+SV639,Van A Le,fake_email_639@not-exist-domain.com,2001-01-04,Unknown,4.7,4.2,5.5,students_202601191651.txt,,4.8,Yếu
+SV640,Duc H Dinh,dinh.duch.640@gmail.com,2001-11-15,Hai Phong,7.2,5.3,7.8,students_202601191651.txt,,6.77,Khá
+SV641,Minh E Pham,fake_email_641@not-exist-domain.com,2000-08-02,Hai Phong,6.5,3.4,4.7,students_202601191651.txt,,4.87,Yếu
+SV642,Thi D Dinh,dinh.thid.642@gmail.com,2004-08-23,N/A,9.7,8.9,0.0,students_202601191651.txt,,6.2,Trung Bình
+SV643,Thi B Le,fake_email_643@not-exist-domain.com,2001-08-13,Hai Phong,1.1,7.6,0.0,students_202601191651.txt,,2.9,Yếu
+SV644,Tuan G Trinh,trinh.tuang.644@gmail.com,2005-10-20,Ha Noi,2.4,1.1,0.4,students_202601191651.txt,,1.3,Yếu
+SV645,Van C Nguyen,nguyen.vanc.645@gmail.com,2002-04-02,Thanh Hoa,5.0,5.4,0.0,students_202601191651.txt,,3.47,Yếu
+SV646,Minh E Pham,pham.minhe.646@gmail.com,2000-10-25,Da Nang,8.2,0.4,7.4,students_202601191651.txt,,5.33,Trung Bình
+SV647,Minh E Unknown,fake_email_647@not-exist-domain.com,2003-06-22,Tp.Hcm,0.8,8.3,6.2,students_202601191651.txt,,5.1,Trung Bình
+SV648,Ngoc F Tieu,tieu.ngocf.648@gmail.com,2002-01-29,Son La,7.7,7.3,1.0,students_202601191651.txt,,5.33,Trung Bình
+SV649,Ngoc F Trinh,trinh.ngocf.649@gmail.com,2002-01-02,Hai Phong,7.7,8.3,8.2,students_202601191651.txt,,8.07,Giỏi
+SV650,Tieu I Dinh,dinh.tieui.650@gmail.com,2003-06-17,N/A,1.4,9.0,1.4,students_202601191651.txt,,3.93,Yếu
+SV651,Tieu I Hoang,fake_email_651@not-exist-domain.com,2003-12-29,Thanh Hoa,0.4,8.4,0.0,students_202601191651.txt,,2.93,Yếu
+SV652,Tuan G Vu,vu.tuang.652@gmail.com,2005-05-07,Thanh Hoa,6.9,1.0,4.7,students_202601191651.txt,,4.2,Yếu
+SV653,Van C Hoang,fake_email_653@not-exist-domain.com,2005-03-19,Nghe An,1.8,1.4,8.5,students_202601191651.txt,,3.9,Yếu
+SV654,Van C Hoang,fake_email_654@not-exist-domain.com,2004-02-17,Da Nang,6.8,4.2,5.0,students_202601191651.txt,,5.33,Trung Bình
+SV655,Van A Dang,dang.vana.655@gmail.com,2005-01-16,Nghe An,0.4,6.1,9.0,students_202601191651.txt,,5.17,Trung Bình
+SV656,Thi D Pham,pham.thid.656@gmail.com,2007-02-20,Can Tho,2.8,1.0,0.0,students_202601191651.txt,,1.27,Yếu
+SV657,Thi D Bui,bui.thid.657@gmail.com,2001-05-28,Unknown,0.5,7.9,8.6,students_202601191651.txt,,5.67,Trung Bình
+SV658,Van A Dinh,dinh.vana.658@gmail.com,2000-05-16,Ha Noi,8.7,1.3,1.8,students_202601191651.txt,,3.93,Yếu
+SV659,Thi D Nguyen,nguyen.thid.659@gmail.com,2003-01-21,Unknown,9.4,3.8,0.0,students_202601191651.txt,,4.4,Yếu
+SV660,Thi B Pham,fake_email_660@not-exist-domain.com,2007-04-16,Thanh Hoa,6.7,4.5,1.5,students_202601191651.txt,,4.23,Yếu
+SV661,Huu T Vu,fake_email_661@not-exist-domain.com,2007-05-06,Can Tho,4.0,5.2,0.0,students_202601191651.txt,,3.07,Yếu
+SV662,Van C Vu,vu.vanc.662@gmail.com,2000-10-31,Son La,4.5,2.0,0.0,students_202601191651.txt,,2.17,Yếu
+SV663,Tieu I Nguyen,nguyen.tieui.663@gmail.com,2007-04-05,Tp.Hcm,5.7,0.6,1.3,students_202601191651.txt,,2.53,Yếu
+SV664,Minh E Tieu,tieu.minhe.664@gmail.com,2007-07-17,Tp.Hcm,2.2,7.6,3.8,students_202601191651.txt,,4.53,Yếu
+SV665,Van A Pham,pham.vana.665@gmail.com,2000-11-03,Nghe An,0.5,2.8,6.1,students_202601191651.txt,,3.13,Yếu
+SV666,Minh E Dang,fake_email_666@not-exist-domain.com,2004-02-20,Tp.Hcm,3.2,1.0,0.1,students_202601191651.txt,,1.43,Yếu
+SV667,Van A Pham,pham.vana.667@gmail.com,2002-08-05,Son La,6.0,2.9,2.5,students_202601191651.txt,,3.8,Yếu
+SV668,Thi D Dinh,fake_email_668@not-exist-domain.com,2001-12-10,Hai Phong,3.8,6.7,9.0,students_202601191651.txt,,6.5,Khá
+SV669,Van A Le,le.vana.669@gmail.com,2004-05-29,Ha Noi,9.4,7.6,7.3,students_202601191651.txt,,8.1,Giỏi
+SV670,Tuan G Le,le.tuang.670@gmail.com,2006-03-23,Hai Phong,0.4,3.7,9.8,students_202601191651.txt,,4.63,Yếu
+SV671,Van A Tieu,fake_email_671@not-exist-domain.com,2000-08-08,Da Nang,7.3,4.4,7.9,students_202601191651.txt,,6.53,Khá
+SV672,Van A Pham,pham.vana.672@gmail.com,2005-09-17,Can Tho,5.0,3.9,3.3,students_202601191651.txt,,4.07,Yếu
+SV673,Duc H Unknown,unknown.duch.673@gmail.com,2007-07-13,Tp.Hcm,4.9,8.3,0.0,students_202601191651.txt,,4.4,Yếu
+SV674,Thi D Dinh,fake_email_674@not-exist-domain.com,2006-03-03,Can Tho,4.9,7.5,2.0,students_202601191651.txt,,4.8,Yếu
+SV675,Duc H Nguyen,nguyen.duch.675@gmail.com,2001-05-14,Unknown,5.1,4.2,7.7,students_202601191651.txt,,5.67,Trung Bình
+SV676,Tieu I Dinh,dinh.tieui.676@gmail.com,2006-04-16,Tp.Hcm,5.9,0.1,0.5,students_202601191651.txt,,2.17,Yếu
+SV677,Tieu I Nguyen,nguyen.tieui.677@gmail.com,2003-11-01,Nghe An,2.4,3.4,7.8,students_202601191651.txt,,4.53,Yếu
+SV678,Tieu I Pham,pham.tieui.678@gmail.com,2007-11-21,Da Nang,3.1,4.9,1.3,students_202601191651.txt,,3.1,Yếu
+SV679,Huu T Dang,fake_email_679@not-exist-domain.com,2001-03-22,Can Tho,4.7,8.2,2.7,students_202601191651.txt,,5.2,Trung Bình
+SV680,Huu T Le,le.huut.680@gmail.com,2000-12-21,Can Tho,7.1,9.3,3.3,students_202601191651.txt,,6.57,Khá
+SV681,Ngoc F Pham,pham.ngocf.681@gmail.com,2000-08-25,N/A,9.5,1.4,0.0,students_202601191651.txt,,3.63,Yếu
+SV682,Huu T Bui,bui.huut.682@gmail.com,2007-02-22,Unknown,2.9,3.5,3.5,students_202601191651.txt,,3.3,Yếu
+SV683,Minh E Le,le.minhe.683@gmail.com,2005-01-29,Hai Phong,4.2,5.9,1.0,students_202601191651.txt,,3.7,Yếu
+SV684,Tieu I Tieu,fake_email_684@not-exist-domain.com,2005-03-01,Thanh Hoa,3.0,2.2,4.5,students_202601191651.txt,,3.23,Yếu
+SV685,Minh E Dang,dang.minhe.685@gmail.com,2006-04-15,Unknown,0.2,9.1,9.0,students_202601191651.txt,,6.1,Trung Bình
+SV686,Huu T Unknown,unknown.huut.686@gmail.com,2000-12-08,Hai Phong,4.9,5.3,0.0,students_202601191651.txt,,3.4,Yếu
+SV687,Thi B Le,le.thib.687@gmail.com,2005-02-19,Tp.Hcm,1.0,1.9,6.4,students_202601191651.txt,,3.1,Yếu
+SV688,Ngoc F Tieu,tieu.ngocf.688@gmail.com,2005-05-15,Hai Phong,7.9,6.0,5.7,students_202601191651.txt,,6.53,Khá
+SV689,Tuan G Unknown,fake_email_689@not-exist-domain.com,2000-04-04,Thanh Hoa,2.4,7.1,6.9,students_202601191651.txt,,5.47,Trung Bình
+SV690,Duc H Dang,fake_email_690@not-exist-domain.com,2007-08-28,Hai Phong,5.0,8.6,0.1,students_202601191651.txt,,4.57,Yếu
+SV691,Tuan G Dang,dang.tuang.691@gmail.com,2004-12-12,Hai Phong,0.5,0.3,1.6,students_202601191651.txt,,0.8,Yếu
+SV692,Thi D Nguyen,nguyen.thid.692@gmail.com,2006-01-13,Ha Noi,2.0,1.8,0.6,students_202601191651.txt,,1.47,Yếu
+SV693,Duc H Bui,fake_email_693@not-exist-domain.com,2006-05-20,Nghe An,2.7,5.0,0.4,students_202601191651.txt,,2.7,Yếu
+SV694,Huu T Tieu,tieu.huut.694@gmail.com,2003-10-22,Nghe An,5.4,9.1,1.0,students_202601191651.txt,,5.17,Trung Bình
+SV695,Thi B Tran,tran.thib.695@gmail.com,2007-05-24,Unknown,6.2,5.8,7.9,students_202601191651.txt,,6.63,Khá
+SV696,Thi D Tran,tran.thid.696@gmail.com,2005-01-21,Unknown,7.7,1.2,9.9,students_202601191651.txt,,6.27,Trung Bình
+SV697,Van C Vu,fake_email_697@not-exist-domain.com,2000-05-06,Thanh Hoa,5.0,2.9,5.8,students_202601191651.txt,,4.57,Yếu
+SV698,Minh E Bui,fake_email_698@not-exist-domain.com,2006-07-24,Da Nang,0.4,1.4,0.0,students_202601191651.txt,,0.6,Yếu
+SV699,Van A Vu,vu.vana.699@gmail.com,2000-12-25,N/A,8.3,3.7,7.1,students_202601191651.txt,,6.37,Trung Bình
+SV700,Tuan G Bui,fake_email_700@not-exist-domain.com,2001-07-22,Son La,9.2,1.1,8.8,students_202601191651.txt,,6.37,Trung Bình
+SV701,Van C Pham,fake_email_701@not-exist-domain.com,2001-03-13,Hai Phong,2.8,0.5,3.5,students_202601191651.txt,,2.27,Yếu
+SV702,Tieu I Pham,pham.tieui.702@gmail.com,2000-05-03,Hai Phong,8.3,4.5,5.1,students_202601191651.txt,,5.97,Trung Bình
+SV703,Huu T Hoang,fake_email_703@not-exist-domain.com,2003-01-15,Hai Phong,9.6,6.6,9.9,students_202601191651.txt,,8.7,Giỏi
+SV704,Tieu I Dinh,fake_email_704@not-exist-domain.com,2006-04-28,Hai Phong,4.5,4.1,9.4,students_202601191651.txt,,6.0,Trung Bình
+SV705,Thi B Unknown,fake_email_705@not-exist-domain.com,2005-03-16,Son La,3.3,3.2,2.5,students_202601191651.txt,,3.0,Yếu
+SV706,Duc H Vu,vu.duch.706@gmail.com,2005-07-26,Can Tho,5.0,9.0,4.9,students_202601191651.txt,,6.3,Trung Bình
+SV707,Tieu I Pham,pham.tieui.707@gmail.com,2004-05-02,N/A,2.3,8.3,0.0,students_202601191651.txt,,3.53,Yếu
+SV708,Tieu I Tieu,tieu.tieui.708@gmail.com,2001-12-24,Can Tho,7.0,7.7,2.4,students_202601191651.txt,,5.7,Trung Bình
+SV709,Tuan G Nguyen,fake_email_709@not-exist-domain.com,2004-09-26,Unknown,9.0,1.0,2.9,students_202601191651.txt,,4.3,Yếu
+SV710,Van C Unknown,unknown.vanc.710@gmail.com,2000-01-22,Da Nang,0.7,5.5,3.4,students_202601191651.txt,,3.2,Yếu
+SV711,Tieu I Nguyen,nguyen.tieui.711@gmail.com,2003-07-12,Tp.Hcm,0.0,9.6,4.0,students_202601191651.txt,,4.53,Yếu
+SV712,Duc H Tieu,fake_email_712@not-exist-domain.com,2006-08-21,Tp.Hcm,0.0,8.6,8.2,students_202601191651.txt,,5.6,Trung Bình
+SV713,Minh E Hoang,hoang.minhe.713@gmail.com,2000-10-05,Hai Phong,8.7,3.1,0.0,students_202601191651.txt,,3.93,Yếu
+SV714,Thi D Bui,bui.thid.714@gmail.com,2004-11-03,Can Tho,3.0,3.3,0.0,students_202601191651.txt,,2.1,Yếu
+SV715,Tuan G Hoang,hoang.tuang.715@gmail.com,2006-02-13,Nghe An,1.0,9.5,6.5,students_202601191651.txt,,5.67,Trung Bình
+SV716,Van C Pham,fake_email_716@not-exist-domain.com,2002-08-25,Ha Noi,5.8,1.6,4.1,students_202601191651.txt,,3.83,Yếu
+SV717,Minh E Tran,tran.minhe.717@gmail.com,2001-07-13,Ha Noi,7.1,1.6,6.4,students_202601191651.txt,,5.03,Trung Bình
+SV718,Van A Dang,dang.vana.718@gmail.com,2004-06-20,Hai Phong,3.9,3.0,9.2,students_202601191651.txt,,5.37,Trung Bình
+SV719,Huu T Dinh,fake_email_719@not-exist-domain.com,2004-07-13,Son La,4.4,6.3,9.0,students_202601191651.txt,,6.57,Khá
+SV720,Thi D Tieu,fake_email_720@not-exist-domain.com,2003-03-24,Hai Phong,8.3,0.7,2.2,students_202601191651.txt,,3.73,Yếu
+SV721,Van A Vu,fake_email_721@not-exist-domain.com,2007-05-24,Tp.Hcm,2.8,9.6,3.0,students_202601191651.txt,,5.13,Trung Bình
+SV722,Van A Pham,pham.vana.722@gmail.com,2006-10-23,Unknown,0.6,7.4,0.0,students_202601191651.txt,,2.67,Yếu
+SV723,Duc H Hoang,hoang.duch.723@gmail.com,2003-01-24,Hai Phong,7.5,8.2,0.0,students_202601191651.txt,,5.23,Trung Bình
+SV724,Tieu I Vu,vu.tieui.724@gmail.com,2004-06-11,Tp.Hcm,4.7,9.3,3.5,students_202601191651.txt,,5.83,Trung Bình
+SV725,Ngoc F Pham,pham.ngocf.725@gmail.com,2004-05-15,Tp.Hcm,5.0,4.4,7.8,students_202601191651.txt,,5.73,Trung Bình
+SV726,Ngoc F Tran,fake_email_726@not-exist-domain.com,2004-10-17,Tp.Hcm,4.9,0.8,9.8,students_202601191651.txt,,5.17,Trung Bình
+SV727,Thi D Hoang,fake_email_727@not-exist-domain.com,2002-11-03,Tp.Hcm,4.1,7.1,3.6,students_202601191651.txt,,4.93,Yếu
+SV728,Van A Dinh,dinh.vana.728@gmail.com,2001-10-28,Hai Phong,7.8,2.0,0.0,students_202601191651.txt,,3.27,Yếu
+SV729,Ngoc F Nguyen,nguyen.ngocf.729@gmail.com,2002-05-21,Hai Phong,1.8,5.5,2.9,students_202601191651.txt,,3.4,Yếu
+SV730,Huu T Trinh,trinh.huut.730@gmail.com,2006-05-28,Can Tho,2.9,1.2,0.5,students_202601191651.txt,,1.53,Yếu
+SV731,Duc H Vu,vu.duch.731@gmail.com,2003-05-20,Unknown,7.4,2.9,7.0,students_202601191651.txt,,5.77,Trung Bình
+SV732,Ngoc F Pham,pham.ngocf.732@gmail.com,2007-01-03,Unknown,0.6,4.3,2.4,students_202601191651.txt,,2.43,Yếu
+SV733,Minh E Dang,dang.minhe.733@gmail.com,2000-01-30,Nghe An,1.6,5.8,0.0,students_202601191651.txt,,2.47,Yếu
+SV734,Van A Tieu,fake_email_734@not-exist-domain.com,2000-09-23,N/A,0.5,9.1,4.5,students_202601191651.txt,,4.7,Yếu
+SV735,Thi D Unknown,unknown.thid.735@gmail.com,2004-08-29,Hai Phong,4.6,0.8,0.0,students_202601191651.txt,,1.8,Yếu
+SV736,Minh E Le,fake_email_736@not-exist-domain.com,2003-12-30,Tp.Hcm,1.3,5.0,4.9,students_202601191651.txt,,3.73,Yếu
+SV737,Van C Dang,fake_email_737@not-exist-domain.com,2003-09-07,Unknown,9.6,9.1,0.0,students_202601191651.txt,,6.23,Trung Bình
+SV738,Huu T Dang,dang.huut.738@gmail.com,2004-08-19,Hai Phong,6.3,6.7,8.2,students_202601191651.txt,,7.07,Khá
+SV739,Thi D Nguyen,nguyen.thid.739@gmail.com,2001-07-07,Nghe An,0.1,8.3,7.2,students_202601191651.txt,,5.2,Trung Bình
+SV740,Minh E Unknown,unknown.minhe.740@gmail.com,2005-12-12,Son La,2.0,6.1,0.0,students_202601191651.txt,,2.7,Yếu
+SV741,Duc H Pham,pham.duch.741@gmail.com,2002-11-30,Thanh Hoa,7.6,1.3,1.8,students_202601191651.txt,,3.57,Yếu
+SV742,Thi D Trinh,trinh.thid.742@gmail.com,2005-11-28,Thanh Hoa,2.1,6.7,0.0,students_202601191651.txt,,2.93,Yếu
+SV743,Thi B Unknown,unknown.thib.743@gmail.com,2006-02-06,Tp.Hcm,0.9,7.6,7.3,students_202601191651.txt,,5.27,Trung Bình
+SV744,Tuan G Dinh,dinh.tuang.744@gmail.com,2007-10-12,Son La,6.8,3.6,1.3,students_202601191651.txt,,3.9,Yếu
+SV745,Tieu I Pham,fake_email_745@not-exist-domain.com,2004-04-05,Tp.Hcm,3.2,8.7,9.9,students_202601191651.txt,,7.27,Khá
+SV746,Ngoc F Pham,pham.ngocf.746@gmail.com,2007-05-03,Nghe An,8.7,8.7,0.7,students_202601191651.txt,,6.03,Trung Bình
+SV747,Thi D Dinh,dinh.thid.747@gmail.com,2007-03-12,Tp.Hcm,9.1,6.8,1.9,students_202601191651.txt,,5.93,Trung Bình
+SV748,Ngoc F Tieu,tieu.ngocf.748@gmail.com,2005-12-01,N/A,6.4,1.0,5.2,students_202601191651.txt,,4.2,Yếu
+SV749,Minh E Tieu,tieu.minhe.749@gmail.com,2001-06-12,Thanh Hoa,3.6,9.4,9.4,students_202601191651.txt,,7.47,Khá
+SV750,Van C Vu,fake_email_750@not-exist-domain.com,2001-01-26,Nghe An,9.0,0.2,2.5,students_202601191651.txt,,3.9,Yếu
+SV751,Thi B Bui,bui.thib.751@gmail.com,2004-12-23,Hai Phong,6.1,0.2,0.2,students_202601191651.txt,,2.17,Yếu
+SV752,Minh E Vu,vu.minhe.752@gmail.com,2004-05-02,Tp.Hcm,7.9,3.5,8.6,students_202601191651.txt,,6.67,Khá
+SV753,Minh E Dinh,dinh.minhe.753@gmail.com,2004-09-20,Hai Phong,1.7,9.9,2.8,students_202601191651.txt,,4.8,Yếu
+SV754,Thi B Dinh,dinh.thib.754@gmail.com,2002-02-12,Son La,1.3,1.7,8.2,students_202601191651.txt,,3.73,Yếu
+SV755,Duc H Tran,tran.duch.755@gmail.com,2002-07-07,Unknown,4.7,9.1,9.6,students_202601191651.txt,,7.8,Khá
+SV756,Thi D Unknown,unknown.thid.756@gmail.com,2005-08-18,Can Tho,6.0,7.6,7.2,students_202601191651.txt,,6.93,Khá
+SV757,Tuan G Vu,vu.tuang.757@gmail.com,2007-07-20,Hai Phong,9.5,3.2,0.0,students_202601191651.txt,,4.23,Yếu
+SV758,Huu T Pham,fake_email_758@not-exist-domain.com,2007-07-23,N/A,8.8,4.6,1.1,students_202601191651.txt,,4.83,Yếu
+SV759,Van A Trinh,trinh.vana.759@gmail.com,2001-03-29,Nghe An,9.9,7.3,0.0,students_202601191651.txt,,5.73,Trung Bình
+SV760,Tuan G Trinh,fake_email_760@not-exist-domain.com,2006-08-29,Thanh Hoa,8.4,4.6,4.0,students_202601191651.txt,,5.67,Trung Bình
+SV761,Huu T Pham,pham.huut.761@gmail.com,2003-12-06,Can Tho,1.9,6.6,10.0,students_202601191651.txt,,6.17,Trung Bình
+SV762,Tieu I Bui,bui.tieui.762@gmail.com,2000-09-13,Ha Noi,3.1,5.3,5.0,students_202601191651.txt,,4.47,Yếu
+SV763,Van C Pham,pham.vanc.763@gmail.com,2001-06-19,Tp.Hcm,2.2,4.1,8.0,students_202601191651.txt,,4.77,Yếu
+SV764,Ngoc F Bui,fake_email_764@not-exist-domain.com,2007-03-14,Ha Noi,6.5,9.0,8.6,students_202601191651.txt,,8.03,Giỏi
+SV765,Tuan G Trinh,trinh.tuang.765@gmail.com,2005-08-05,Tp.Hcm,7.0,7.3,4.5,students_202601191651.txt,,6.27,Trung Bình
+SV766,Duc H Pham,fake_email_766@not-exist-domain.com,2007-08-28,Hai Phong,1.9,0.0,1.2,students_202601191651.txt,,1.03,Yếu
+SV767,Minh E Tieu,fake_email_767@not-exist-domain.com,2007-01-11,Da Nang,3.7,4.8,6.0,students_202601191651.txt,,4.83,Yếu
+SV768,Ngoc F Vu,vu.ngocf.768@gmail.com,2005-05-25,Hai Phong,7.1,4.8,5.8,students_202601191651.txt,,5.9,Trung Bình
+SV769,Duc H Nguyen,nguyen.duch.769@gmail.com,2002-06-25,Hai Phong,2.8,2.6,3.1,students_202601191651.txt,,2.83,Yếu
+SV770,Van C Pham,fake_email_770@not-exist-domain.com,2007-09-05,Unknown,4.6,6.5,8.3,students_202601191651.txt,,6.47,Trung Bình
+SV771,Van C Pham,pham.vanc.771@gmail.com,2007-01-14,Hai Phong,0.5,4.4,2.5,students_202601191651.txt,,2.47,Yếu
+SV772,Thi D Bui,bui.thid.772@gmail.com,2004-04-08,N/A,3.0,9.7,5.1,students_202601191651.txt,,5.93,Trung Bình
+SV773,Tieu I Tran,fake_email_773@not-exist-domain.com,2002-11-21,Can Tho,6.5,3.0,3.8,students_202601191651.txt,,4.43,Yếu
+SV774,Tieu I Nguyen,nguyen.tieui.774@gmail.com,2002-06-12,Hai Phong,7.1,6.2,6.8,students_202601191651.txt,,6.7,Khá
+SV775,Van A Vu,vu.vana.775@gmail.com,2004-05-30,Son La,6.1,8.7,0.8,students_202601191651.txt,,5.2,Trung Bình
+SV776,Van C Dang,dang.vanc.776@gmail.com,2004-12-18,Tp.Hcm,6.6,0.4,3.2,students_202601191651.txt,,3.4,Yếu
+SV777,Minh E Le,fake_email_777@not-exist-domain.com,2000-10-08,Hai Phong,9.1,8.9,5.8,students_202601191651.txt,,7.93,Khá
+SV778,Minh E Vu,vu.minhe.778@gmail.com,2002-06-04,N/A,0.3,5.3,4.7,students_202601191651.txt,,3.43,Yếu
+SV779,Tuan G Le,le.tuang.779@gmail.com,2003-08-12,Hai Phong,8.3,1.5,3.4,students_202601191651.txt,,4.4,Yếu
+SV780,Minh E Tieu,tieu.minhe.780@gmail.com,2004-04-15,Can Tho,2.4,4.1,1.3,students_202601191651.txt,,2.6,Yếu
+SV781,Duc H Dang,dang.duch.781@gmail.com,2003-09-28,Tp.Hcm,7.1,0.4,3.2,students_202601191651.txt,,3.57,Yếu
+SV782,Thi D Bui,bui.thid.782@gmail.com,2002-11-28,N/A,3.9,4.3,0.0,students_202601191651.txt,,2.73,Yếu
+SV783,Van C Bui,bui.vanc.783@gmail.com,2003-12-18,Hai Phong,9.5,6.7,0.0,students_202601191651.txt,,5.4,Trung Bình
+SV784,Minh E Unknown,unknown.minhe.784@gmail.com,2005-12-12,Can Tho,0.6,9.3,0.0,students_202601191651.txt,,3.3,Yếu
+SV785,Thi B Dinh,fake_email_785@not-exist-domain.com,2000-09-12,Nghe An,4.3,9.2,0.2,students_202601191651.txt,,4.57,Yếu
+SV786,Duc H Nguyen,nguyen.duch.786@gmail.com,2006-10-23,Thanh Hoa,1.5,6.2,5.4,students_202601191651.txt,,4.37,Yếu
+SV787,Thi B Bui,bui.thib.787@gmail.com,2007-05-18,Can Tho,9.1,7.0,0.0,students_202601191651.txt,,5.37,Trung Bình
+SV788,Van A Dang,dang.vana.788@gmail.com,2005-05-15,Hai Phong,7.0,1.9,6.7,students_202601191651.txt,,5.2,Trung Bình
+SV789,Tuan G Pham,pham.tuang.789@gmail.com,2003-02-16,Da Nang,8.7,0.3,2.3,students_202601191651.txt,,3.77,Yếu
+SV790,Ngoc F Tran,tran.ngocf.790@gmail.com,2003-07-26,Tp.Hcm,6.4,3.9,1.3,students_202601191651.txt,,3.87,Yếu
+SV791,Huu T Dinh,fake_email_791@not-exist-domain.com,2003-01-15,Hai Phong,7.6,7.6,0.8,students_202601191651.txt,,5.33,Trung Bình
+SV792,Minh E Nguyen,fake_email_792@not-exist-domain.com,2004-03-04,Nghe An,0.2,9.8,0.0,students_202601191651.txt,,3.33,Yếu
+SV793,Tuan G Trinh,trinh.tuang.793@gmail.com,2004-05-16,Can Tho,7.8,2.1,0.0,students_202601191651.txt,,3.3,Yếu
+SV794,Thi D Hoang,hoang.thid.794@gmail.com,2003-10-16,Unknown,8.2,3.6,0.0,students_202601191651.txt,,3.93,Yếu
+SV795,Tieu I Vu,vu.tieui.795@gmail.com,2005-04-28,Thanh Hoa,3.7,6.9,0.0,students_202601191651.txt,,3.53,Yếu
+SV796,Tieu I Tieu,fake_email_796@not-exist-domain.com,2002-06-13,Da Nang,8.1,4.3,9.8,students_202601191651.txt,,7.4,Khá
+SV797,Van A Tran,tran.vana.797@gmail.com,2002-03-14,Thanh Hoa,4.5,3.3,4.3,students_202601191651.txt,,4.03,Yếu
+SV798,Tieu I Bui,fake_email_798@not-exist-domain.com,2002-07-08,Hai Phong,9.1,5.8,1.5,students_202601191651.txt,,5.47,Trung Bình
+SV799,Huu T Unknown,unknown.huut.799@gmail.com,2007-02-18,Son La,9.6,9.4,0.1,students_202601191651.txt,,6.37,Trung Bình
+SV800,Tieu I Pham,fake_email_800@not-exist-domain.com,2000-07-25,Nghe An,8.1,4.6,0.0,students_202601191651.txt,,4.23,Yếu
+SV801,Minh E Pham,fake_email_801@not-exist-domain.com,2003-10-26,Hai Phong,7.0,9.8,7.0,students_202601191651.txt,,7.93,Khá
+SV802,Huu T Dang,dang.huut.802@gmail.com,2001-07-03,Ha Noi,9.6,9.2,6.3,students_202601191651.txt,,8.37,Giỏi
+SV803,Van C Dinh,fake_email_803@not-exist-domain.com,2005-01-20,Tp.Hcm,8.1,1.9,1.7,students_202601191651.txt,,3.9,Yếu
+SV804,Van A Tieu,fake_email_804@not-exist-domain.com,2005-12-06,Can Tho,4.0,2.5,0.0,students_202601191651.txt,,2.17,Yếu
+SV805,Thi D Tran,fake_email_805@not-exist-domain.com,2004-11-24,N/A,6.3,2.9,6.1,students_202601191651.txt,,5.1,Trung Bình
+SV806,Van A Nguyen,nguyen.vana.806@gmail.com,2002-09-07,Da Nang,1.7,9.0,7.4,students_202601191651.txt,,6.03,Trung Bình
+SV807,Duc H Tran,tran.duch.807@gmail.com,2007-06-30,Da Nang,4.2,0.2,1.5,students_202601191651.txt,,1.97,Yếu
+SV808,Duc H Unknown,unknown.duch.808@gmail.com,2001-11-07,N/A,4.2,2.6,1.1,students_202601191651.txt,,2.63,Yếu
+SV809,Van C Pham,pham.vanc.809@gmail.com,2002-09-17,Unknown,4.0,2.6,2.4,students_202601191651.txt,,3.0,Yếu
+SV810,Tuan G Dinh,fake_email_810@not-exist-domain.com,2002-01-31,N/A,6.5,3.0,1.5,students_202601191651.txt,,3.67,Yếu
+SV811,Minh E Vu,fake_email_811@not-exist-domain.com,2000-07-16,Can Tho,1.4,6.5,0.0,students_202601191651.txt,,2.63,Yếu
+SV812,Thi D Pham,pham.thid.812@gmail.com,2006-08-06,Tp.Hcm,5.0,4.8,0.0,students_202601191651.txt,,3.27,Yếu
+SV813,Thi D Hoang,fake_email_813@not-exist-domain.com,2003-10-21,Hai Phong,9.6,9.5,0.0,students_202601191651.txt,,6.37,Trung Bình
+SV814,Huu T Pham,pham.huut.814@gmail.com,2003-02-19,Can Tho,3.6,0.5,3.2,students_202601191651.txt,,2.43,Yếu
+SV815,Thi D Pham,pham.thid.815@gmail.com,2001-06-05,Da Nang,6.8,5.1,0.0,students_202601191651.txt,,3.97,Yếu
+SV816,Ngoc F Trinh,trinh.ngocf.816@gmail.com,2004-12-05,Can Tho,9.4,2.5,1.6,students_202601191651.txt,,4.5,Yếu
+SV817,Van C Dang,fake_email_817@not-exist-domain.com,2000-02-02,Son La,2.7,7.7,3.7,students_202601191651.txt,,4.7,Yếu
+SV818,Duc H Trinh,trinh.duch.818@gmail.com,2000-11-02,Hai Phong,0.4,9.6,0.0,students_202601191651.txt,,3.33,Yếu
+SV819,Duc H Nguyen,nguyen.duch.819@gmail.com,2003-01-28,Nghe An,4.2,0.8,6.8,students_202601191651.txt,,3.93,Yếu
+SV820,Huu T Dinh,fake_email_820@not-exist-domain.com,2007-02-11,Son La,7.2,1.4,3.0,students_202601191651.txt,,3.87,Yếu
+SV821,Minh E Hoang,hoang.minhe.821@gmail.com,2000-02-19,N/A,8.9,0.8,2.2,students_202601191651.txt,,3.97,Yếu
+SV822,Van A Unknown,unknown.vana.822@gmail.com,2004-01-16,Da Nang,4.7,9.3,3.7,students_202601191651.txt,,5.9,Trung Bình
+SV823,Huu T Dang,dang.huut.823@gmail.com,2002-02-17,Tp.Hcm,7.9,8.5,5.0,students_202601191651.txt,,7.13,Khá
+SV824,Van C Dinh,fake_email_824@not-exist-domain.com,2005-05-20,N/A,9.2,9.1,5.7,students_202601191651.txt,,8.0,Giỏi
+SV825,Van A Vu,vu.vana.825@gmail.com,2001-09-23,Tp.Hcm,2.1,4.8,2.1,students_202601191651.txt,,3.0,Yếu
+SV826,Minh E Le,le.minhe.826@gmail.com,2001-05-15,Hai Phong,8.3,4.6,7.8,students_202601191651.txt,,6.9,Khá
+SV827,Van A Bui,bui.vana.827@gmail.com,2002-05-15,Unknown,6.5,3.9,7.2,students_202601191651.txt,,5.87,Trung Bình
+SV828,Thi D Pham,pham.thid.828@gmail.com,2003-10-29,Can Tho,1.6,3.5,5.2,students_202601191651.txt,,3.43,Yếu
+SV829,Tieu I Unknown,unknown.tieui.829@gmail.com,2003-06-13,Hai Phong,2.8,6.8,2.9,students_202601191651.txt,,4.17,Yếu
+SV830,Van A Pham,fake_email_830@not-exist-domain.com,2000-04-26,Thanh Hoa,3.9,8.1,0.5,students_202601191651.txt,,4.17,Yếu
+SV831,Van A Trinh,trinh.vana.831@gmail.com,2005-12-23,Nghe An,3.5,1.7,2.0,students_202601191651.txt,,2.4,Yếu
+SV832,Tuan G Bui,fake_email_832@not-exist-domain.com,2001-04-11,Hai Phong,6.6,8.4,0.1,students_202601191651.txt,,5.03,Trung Bình
+SV833,Tieu I Dinh,dinh.tieui.833@gmail.com,2007-04-12,Thanh Hoa,4.2,0.2,0.0,students_202601191651.txt,,1.47,Yếu
+SV834,Thi D Dinh,fake_email_834@not-exist-domain.com,2005-01-25,Thanh Hoa,7.2,8.5,3.7,students_202601191651.txt,,6.47,Trung Bình
+SV835,Huu T Pham,pham.huut.835@gmail.com,2000-10-14,Hai Phong,3.8,5.3,6.1,students_202601191651.txt,,5.07,Trung Bình
+SV836,Thi B Dinh,dinh.thib.836@gmail.com,2001-03-10,Nghe An,8.0,5.2,1.6,students_202601191651.txt,,4.93,Yếu
+SV837,Thi B Dang,fake_email_837@not-exist-domain.com,2006-09-18,N/A,0.7,2.4,8.5,students_202601191651.txt,,3.87,Yếu
+SV838,Van A Le,le.vana.838@gmail.com,2002-05-02,Thanh Hoa,8.6,4.5,0.0,students_202601191651.txt,,4.37,Yếu
+SV839,Van A Tran,tran.vana.839@gmail.com,2006-01-07,Thanh Hoa,4.7,0.7,5.2,students_202601191651.txt,,3.53,Yếu
+SV840,Minh E Vu,vu.minhe.840@gmail.com,2002-05-18,Da Nang,3.1,9.6,4.7,students_202601191651.txt,,5.8,Trung Bình
+SV841,Ngoc F Tieu,fake_email_841@not-exist-domain.com,2002-02-06,Thanh Hoa,1.9,1.3,6.9,students_202601191651.txt,,3.37,Yếu
+SV842,Duc H Tran,fake_email_842@not-exist-domain.com,2005-05-21,Ha Noi,9.2,5.5,5.9,students_202601191651.txt,,6.87,Khá
+SV843,Thi B Dang,fake_email_843@not-exist-domain.com,2001-09-01,Hai Phong,2.7,7.2,0.0,students_202601191651.txt,,3.3,Yếu
+SV844,Van A Tran,tran.vana.844@gmail.com,2004-06-15,Thanh Hoa,4.1,8.2,9.7,students_202601191651.txt,,7.33,Khá
+SV845,Duc H Bui,bui.duch.845@gmail.com,2001-12-28,Hai Phong,2.6,7.8,0.0,students_202601191651.txt,,3.47,Yếu
+SV846,Thi B Tran,fake_email_846@not-exist-domain.com,2007-07-16,N/A,1.5,3.7,1.4,students_202601191651.txt,,2.2,Yếu
+SV847,Van C Tieu,fake_email_847@not-exist-domain.com,2002-08-18,Son La,4.6,9.6,0.0,students_202601191651.txt,,4.73,Yếu
+SV848,Duc H Tieu,tieu.duch.848@gmail.com,2007-07-18,Da Nang,7.5,1.0,7.7,students_202601191651.txt,,5.4,Trung Bình
+SV849,Duc H Unknown,unknown.duch.849@gmail.com,2004-01-28,Tp.Hcm,5.7,3.0,5.7,students_202601191651.txt,,4.8,Yếu
+SV850,Thi D Trinh,trinh.thid.850@gmail.com,2007-05-01,Unknown,0.9,5.8,0.0,students_202601191651.txt,,2.23,Yếu
+SV851,Tuan G Hoang,fake_email_851@not-exist-domain.com,2004-05-16,Thanh Hoa,3.0,6.4,7.4,students_202601191651.txt,,5.6,Trung Bình
+SV852,Thi D Pham,pham.thid.852@gmail.com,2003-09-30,Son La,9.9,5.2,8.2,students_202601191651.txt,,7.77,Khá
+SV853,Thi B Pham,fake_email_853@not-exist-domain.com,2007-05-29,Hai Phong,5.9,3.9,8.3,students_202601191651.txt,,6.03,Trung Bình
+SV854,Thi B Unknown,fake_email_854@not-exist-domain.com,2003-04-22,Hai Phong,2.1,4.2,1.1,students_202601191651.txt,,2.47,Yếu
+SV855,Tieu I Nguyen,nguyen.tieui.855@gmail.com,2002-11-09,Da Nang,3.1,5.2,8.4,students_202601191651.txt,,5.57,Trung Bình
+SV856,Thi D Trinh,fake_email_856@not-exist-domain.com,2006-10-04,Hai Phong,8.7,5.9,1.4,students_202601191651.txt,,5.33,Trung Bình
+SV857,Tieu I Pham,pham.tieui.857@gmail.com,2000-07-08,Son La,5.9,3.6,5.4,students_202601191651.txt,,4.97,Yếu
+SV858,Minh E Bui,bui.minhe.858@gmail.com,2004-11-10,Tp.Hcm,1.7,4.4,1.9,students_202601191651.txt,,2.67,Yếu
+SV859,Huu T Dang,dang.huut.859@gmail.com,2005-04-21,N/A,6.3,6.6,8.5,students_202601191651.txt,,7.13,Khá
+SV860,Thi B Le,le.thib.860@gmail.com,2003-01-24,N/A,2.5,8.0,0.0,students_202601191651.txt,,3.5,Yếu
+SV861,Ngoc F Unknown,unknown.ngocf.861@gmail.com,2005-10-05,Tp.Hcm,9.5,4.1,0.6,students_202601191651.txt,,4.73,Yếu
+SV862,Ngoc F Pham,pham.ngocf.862@gmail.com,2004-04-30,Hai Phong,5.3,5.0,0.0,students_202601191651.txt,,3.43,Yếu
+SV863,Huu T Dinh,fake_email_863@not-exist-domain.com,2004-08-22,Can Tho,6.8,3.2,1.1,students_202601191651.txt,,3.7,Yếu
+SV864,Duc H Tran,tran.duch.864@gmail.com,2003-02-27,Tp.Hcm,7.0,0.5,3.4,students_202601191651.txt,,3.63,Yếu
+SV865,Ngoc F Vu,vu.ngocf.865@gmail.com,2003-09-17,Son La,5.0,4.4,2.3,students_202601191651.txt,,3.9,Yếu
+SV866,Thi B Pham,fake_email_866@not-exist-domain.com,2001-08-15,Tp.Hcm,3.7,9.5,7.1,students_202601191651.txt,,6.77,Khá
+SV867,Tuan G Pham,pham.tuang.867@gmail.com,2005-08-07,Ha Noi,4.9,7.9,0.1,students_202601191651.txt,,4.3,Yếu
+SV868,Huu T Unknown,unknown.huut.868@gmail.com,2004-02-05,Hai Phong,9.1,7.8,0.2,students_202601191651.txt,,5.7,Trung Bình
+SV869,Thi D Pham,fake_email_869@not-exist-domain.com,2002-05-21,Can Tho,4.6,1.7,0.0,students_202601191651.txt,,2.1,Yếu
+SV870,Minh E Tieu,fake_email_870@not-exist-domain.com,2006-06-01,Nghe An,7.4,4.4,0.0,students_202601191651.txt,,3.93,Yếu
+SV871,Minh E Tran,tran.minhe.871@gmail.com,2001-11-12,N/A,5.8,1.8,5.3,students_202601191651.txt,,4.3,Yếu
+SV872,Duc H Pham,pham.duch.872@gmail.com,2003-04-30,Son La,4.1,3.4,1.7,students_202601191651.txt,,3.07,Yếu
+SV873,Minh E Nguyen,nguyen.minhe.873@gmail.com,2002-03-13,Tp.Hcm,8.6,7.4,2.2,students_202601191651.txt,,6.07,Trung Bình
+SV874,Minh E Tran,tran.minhe.874@gmail.com,2002-04-10,Can Tho,4.4,9.7,6.3,students_202601191651.txt,,6.8,Khá
+SV875,Ngoc F Tieu,tieu.ngocf.875@gmail.com,2006-06-24,Da Nang,3.4,7.7,0.0,students_202601191651.txt,,3.7,Yếu
+SV876,Minh E Unknown,fake_email_876@not-exist-domain.com,2004-05-25,Ha Noi,6.3,6.7,3.6,students_202601191651.txt,,5.53,Trung Bình
+SV877,Ngoc F Nguyen,nguyen.ngocf.877@gmail.com,2005-11-30,Son La,1.5,8.6,3.2,students_202601191651.txt,,4.43,Yếu
+SV878,Van C Nguyen,fake_email_878@not-exist-domain.com,2003-11-05,Hai Phong,6.2,6.4,3.6,students_202601191651.txt,,5.4,Trung Bình
+SV879,Thi D Le,le.thid.879@gmail.com,2002-05-17,Ha Noi,6.2,2.4,0.0,students_202601191651.txt,,2.87,Yếu
+SV880,Duc H Tran,tran.duch.880@gmail.com,2001-03-18,Can Tho,2.3,7.5,4.8,students_202601191651.txt,,4.87,Yếu
+SV881,Duc H Trinh,trinh.duch.881@gmail.com,2002-07-09,N/A,8.9,0.7,2.7,students_202601191651.txt,,4.1,Yếu
+SV882,Van C Pham,fake_email_882@not-exist-domain.com,2003-08-05,Hai Phong,9.4,0.2,5.7,students_202601191651.txt,,5.1,Trung Bình
+SV883,Minh E Unknown,unknown.minhe.883@gmail.com,2004-06-10,Tp.Hcm,6.9,7.1,7.9,students_202601191651.txt,,7.3,Khá
+SV884,Thi D Vu,fake_email_884@not-exist-domain.com,2003-02-10,Thanh Hoa,0.7,2.2,4.5,students_202601191651.txt,,2.47,Yếu
+SV885,Van A Hoang,hoang.vana.885@gmail.com,2000-04-11,Son La,1.3,6.0,5.1,students_202601191651.txt,,4.13,Yếu
+SV886,Minh E Dinh,fake_email_886@not-exist-domain.com,2003-05-04,Nghe An,8.9,6.4,2.5,students_202601191651.txt,,5.93,Trung Bình
+SV887,Duc H Tran,tran.duch.887@gmail.com,2005-09-14,Can Tho,6.2,4.5,2.4,students_202601191651.txt,,4.37,Yếu
+SV888,Huu T Unknown,unknown.huut.888@gmail.com,2005-03-27,N/A,4.1,7.3,5.2,students_202601191651.txt,,5.53,Trung Bình
+SV889,Van A Pham,pham.vana.889@gmail.com,2006-09-06,Thanh Hoa,5.4,3.8,7.1,students_202601191651.txt,,5.43,Trung Bình
+SV890,Tuan G Unknown,fake_email_890@not-exist-domain.com,2002-03-31,Tp.Hcm,6.3,6.2,0.0,students_202601191651.txt,,4.17,Yếu
+SV891,Tuan G Vu,fake_email_891@not-exist-domain.com,2003-05-13,N/A,6.0,9.3,4.6,students_202601191651.txt,,6.63,Khá
+SV892,Thi B Le,le.thib.892@gmail.com,2003-08-29,Hai Phong,0.9,6.9,9.6,students_202601191651.txt,,5.8,Trung Bình
+SV893,Tuan G Tran,fake_email_893@not-exist-domain.com,2006-01-03,Nghe An,2.8,8.5,7.2,students_202601191651.txt,,6.17,Trung Bình
+SV894,Tieu I Pham,pham.tieui.894@gmail.com,2005-01-11,Son La,6.9,2.2,8.1,students_202601191651.txt,,5.73,Trung Bình
+SV895,Minh E Pham,fake_email_895@not-exist-domain.com,2007-03-25,Thanh Hoa,2.7,4.6,9.0,students_202601191651.txt,,5.43,Trung Bình
+SV896,Thi D Hoang,hoang.thid.896@gmail.com,2007-08-25,N/A,8.3,1.3,7.7,students_202601191651.txt,,5.77,Trung Bình
+SV897,Minh E Tran,fake_email_897@not-exist-domain.com,2003-08-24,Unknown,3.2,0.9,9.5,students_202601191651.txt,,4.53,Yếu
+SV898,Tieu I Dinh,dinh.tieui.898@gmail.com,2006-07-16,Unknown,1.1,0.6,9.6,students_202601191651.txt,,3.77,Yếu
+SV899,Van C Pham,fake_email_899@not-exist-domain.com,2002-10-01,Da Nang,8.2,0.9,7.8,students_202601191651.txt,,5.63,Trung Bình
+SV900,Huu T Tran,tran.huut.900@gmail.com,2006-09-16,N/A,2.1,5.4,5.6,students_202601191651.txt,,4.37,Yếu
+SV901,Van C Le,le.vanc.901@gmail.com,2007-01-21,Hai Phong,6.3,7.5,0.0,students_202601191651.txt,,4.6,Yếu
+SV902,Van A Vu,vu.vana.902@gmail.com,2001-10-25,Son La,8.2,7.8,8.2,students_202601191651.txt,,8.07,Giỏi
+SV903,Tieu I Trinh,fake_email_903@not-exist-domain.com,2000-04-24,Son La,5.3,4.1,3.3,students_202601191651.txt,,4.23,Yếu
+SV904,Van A Pham,pham.vana.904@gmail.com,2001-05-19,Can Tho,8.3,3.9,0.0,students_202601191651.txt,,4.07,Yếu
+SV905,Huu T Pham,pham.huut.905@gmail.com,2006-02-12,Can Tho,4.8,8.3,0.0,students_202601191651.txt,,4.37,Yếu
+SV906,Thi B Dang,dang.thib.906@gmail.com,2005-12-30,Hai Phong,7.0,5.2,2.3,students_202601191651.txt,,4.83,Yếu
+SV907,Huu T Trinh,trinh.huut.907@gmail.com,2000-05-13,Hai Phong,2.1,1.1,0.1,students_202601191651.txt,,1.1,Yếu
+SV908,Thi B Trinh,trinh.thib.908@gmail.com,2000-12-30,N/A,3.3,3.7,0.2,students_202601191651.txt,,2.4,Yếu
+SV909,Tuan G Tieu,tieu.tuang.909@gmail.com,2005-09-28,Can Tho,6.4,7.0,8.6,students_202601191651.txt,,7.33,Khá
+SV910,Ngoc F Dang,fake_email_910@not-exist-domain.com,2002-11-07,Ha Noi,7.8,2.5,7.1,students_202601191651.txt,,5.8,Trung Bình
+SV911,Tuan G Tieu,tieu.tuang.911@gmail.com,2006-04-27,Ha Noi,4.8,8.2,0.0,students_202601191651.txt,,4.33,Yếu
+SV912,Thi B Pham,pham.thib.912@gmail.com,2007-01-21,Hai Phong,9.2,2.8,6.7,students_202601191651.txt,,6.23,Trung Bình
+SV913,Thi D Pham,pham.thid.913@gmail.com,2004-12-18,Tp.Hcm,2.9,2.9,7.8,students_202601191651.txt,,4.53,Yếu
+SV914,Van C Pham,fake_email_914@not-exist-domain.com,2007-02-02,Son La,1.9,9.3,5.8,students_202601191651.txt,,5.67,Trung Bình
+SV915,Van C Dang,fake_email_915@not-exist-domain.com,2001-12-21,Hai Phong,7.5,2.1,0.0,students_202601191651.txt,,3.2,Yếu
+SV916,Thi B Bui,fake_email_916@not-exist-domain.com,2002-01-18,Can Tho,1.3,8.5,0.0,students_202601191651.txt,,3.27,Yếu
+SV917,Tieu I Trinh,trinh.tieui.917@gmail.com,2004-09-23,Da Nang,8.7,4.6,2.0,students_202601191651.txt,,5.1,Trung Bình
+SV918,Huu T Tieu,fake_email_918@not-exist-domain.com,2006-04-10,Hai Phong,1.8,1.4,7.5,students_202601191651.txt,,3.57,Yếu
+SV919,Ngoc F Tieu,tieu.ngocf.919@gmail.com,2004-12-30,Nghe An,7.0,8.6,6.4,students_202601191651.txt,,7.33,Khá
+SV920,Tuan G Pham,fake_email_920@not-exist-domain.com,2005-06-01,Thanh Hoa,7.6,1.0,0.6,students_202601191651.txt,,3.07,Yếu
+SV921,Thi B Tieu,tieu.thib.921@gmail.com,2003-05-24,Da Nang,5.1,6.5,1.3,students_202601191651.txt,,4.3,Yếu
+SV922,Huu T Tran,tran.huut.922@gmail.com,2007-11-01,Ha Noi,4.3,9.2,5.1,students_202601191651.txt,,6.2,Trung Bình
+SV923,Van A Trinh,fake_email_923@not-exist-domain.com,2002-11-22,N/A,9.0,6.9,9.6,students_202601191651.txt,,8.5,Giỏi
+SV924,Duc H Le,le.duch.924@gmail.com,2000-03-12,Thanh Hoa,1.1,9.6,4.1,students_202601191651.txt,,4.93,Yếu
+SV925,Duc H Trinh,trinh.duch.925@gmail.com,2001-04-10,Da Nang,3.6,8.3,2.5,students_202601191651.txt,,4.8,Yếu
+SV926,Thi D Pham,pham.thid.926@gmail.com,2004-06-02,Ha Noi,0.6,7.4,0.0,students_202601191651.txt,,2.67,Yếu
+SV927,Tuan G Dang,dang.tuang.927@gmail.com,2001-12-01,Da Nang,2.8,2.7,7.3,students_202601191651.txt,,4.27,Yếu
+SV928,Tieu I Tran,tran.tieui.928@gmail.com,2004-05-26,Son La,8.3,7.5,1.0,students_202601191651.txt,,5.6,Trung Bình
+SV929,Van C Unknown,fake_email_929@not-exist-domain.com,2000-07-27,Tp.Hcm,8.4,7.1,2.5,students_202601191651.txt,,6.0,Trung Bình
+SV930,Tieu I Tran,fake_email_930@not-exist-domain.com,2005-10-21,Can Tho,7.6,0.1,5.0,students_202601191651.txt,,4.23,Yếu
+SV931,Tuan G Unknown,unknown.tuang.931@gmail.com,2001-01-25,Can Tho,3.8,0.7,9.5,students_202601191651.txt,,4.67,Yếu
+SV932,Tieu I Trinh,trinh.tieui.932@gmail.com,2003-02-03,Hai Phong,6.5,5.0,5.5,students_202601191651.txt,,5.67,Trung Bình
+SV933,Van A Unknown,unknown.vana.933@gmail.com,2004-06-15,Unknown,7.5,0.2,10.0,students_202601191651.txt,,5.9,Trung Bình
+SV934,Van C Tran,tran.vanc.934@gmail.com,2001-05-16,Ha Noi,2.0,9.0,8.1,students_202601191651.txt,,6.37,Trung Bình
+SV935,Duc H Le,le.duch.935@gmail.com,2001-05-13,Da Nang,0.7,6.7,4.5,students_202601191651.txt,,3.97,Yếu
+SV936,Tuan G Dinh,fake_email_936@not-exist-domain.com,2001-03-04,Unknown,1.4,2.0,2.6,students_202601191651.txt,,2.0,Yếu
+SV937,Thi B Hoang,fake_email_937@not-exist-domain.com,2002-04-19,Hai Phong,1.4,2.4,8.4,students_202601191651.txt,,4.07,Yếu
+SV938,Tieu I Dinh,dinh.tieui.938@gmail.com,2001-04-08,Son La,5.4,2.2,9.9,students_202601191651.txt,,5.83,Trung Bình
+SV939,Tieu I Tran,fake_email_939@not-exist-domain.com,2002-08-25,Son La,0.7,2.4,6.4,students_202601191651.txt,,3.17,Yếu
+SV940,Thi B Nguyen,nguyen.thib.940@gmail.com,2001-09-12,Unknown,5.7,2.6,4.0,students_202601191651.txt,,4.1,Yếu
+SV941,Thi B Dang,dang.thib.941@gmail.com,2001-09-18,Son La,7.6,0.5,0.6,students_202601191651.txt,,2.9,Yếu
+SV942,Duc H Bui,bui.duch.942@gmail.com,2000-03-01,Ha Noi,0.3,1.1,1.9,students_202601191651.txt,,1.1,Yếu
+SV943,Tuan G Nguyen,nguyen.tuang.943@gmail.com,2007-05-26,Can Tho,2.9,1.1,3.8,students_202601191651.txt,,2.6,Yếu
+SV944,Ngoc F Hoang,hoang.ngocf.944@gmail.com,2004-12-14,Nghe An,4.5,6.2,1.8,students_202601191651.txt,,4.17,Yếu
+SV945,Ngoc F Tieu,fake_email_945@not-exist-domain.com,2006-07-01,Hai Phong,8.6,1.7,1.7,students_202601191651.txt,,4.0,Yếu
+SV946,Van A Bui,fake_email_946@not-exist-domain.com,2007-06-20,Nghe An,7.4,5.7,9.8,students_202601191651.txt,,7.63,Khá
+SV947,Duc H Tran,tran.duch.947@gmail.com,2003-12-23,Da Nang,4.7,7.5,0.0,students_202601191651.txt,,4.07,Yếu
+SV948,Huu T Pham,fake_email_948@not-exist-domain.com,2004-02-03,Can Tho,7.3,3.0,9.9,students_202601191651.txt,,6.73,Khá
+SV949,Van C Unknown,fake_email_949@not-exist-domain.com,2006-08-04,Tp.Hcm,6.2,6.4,3.9,students_202601191651.txt,,5.5,Trung Bình
+SV950,Van A Tran,fake_email_950@not-exist-domain.com,2001-01-09,Tp.Hcm,2.0,0.4,0.0,students_202601191651.txt,,0.8,Yếu
+SV951,Van A Pham,fake_email_951@not-exist-domain.com,2001-11-05,Tp.Hcm,6.1,9.6,5.1,students_202601191651.txt,,6.93,Khá
+SV952,Duc H Dinh,fake_email_952@not-exist-domain.com,2003-11-10,Tp.Hcm,7.4,7.5,2.9,students_202601191651.txt,,5.93,Trung Bình
+SV953,Minh E Tieu,tieu.minhe.953@gmail.com,2000-11-21,Can Tho,7.8,7.2,7.6,students_202601191651.txt,,7.53,Khá
+SV954,Thi D Dang,dang.thid.954@gmail.com,2000-03-16,Thanh Hoa,7.2,1.2,7.4,students_202601191651.txt,,5.27,Trung Bình
+SV955,Thi B Le,le.thib.955@gmail.com,2002-04-19,Thanh Hoa,7.7,0.7,0.0,students_202601191651.txt,,2.8,Yếu
+SV956,Van C Tieu,tieu.vanc.956@gmail.com,2006-08-02,Hai Phong,1.8,5.3,9.3,students_202601191651.txt,,5.47,Trung Bình
+SV957,Van C Tieu,tieu.vanc.957@gmail.com,2007-07-06,Thanh Hoa,6.9,3.6,0.0,students_202601191651.txt,,3.5,Yếu
+SV958,Minh E Tieu,tieu.minhe.958@gmail.com,2000-01-16,Hai Phong,6.3,2.9,0.0,students_202601191651.txt,,3.07,Yếu
+SV959,Van C Unknown,unknown.vanc.959@gmail.com,2001-05-14,Nghe An,1.8,8.8,8.4,students_202601191651.txt,,6.33,Trung Bình
+SV960,Ngoc F Hoang,hoang.ngocf.960@gmail.com,2002-12-28,Thanh Hoa,8.1,0.8,8.5,students_202601191651.txt,,5.8,Trung Bình
+SV961,Tieu I Trinh,fake_email_961@not-exist-domain.com,2004-11-22,Unknown,9.9,6.8,0.0,students_202601191651.txt,,5.57,Trung Bình
+SV962,Ngoc F Pham,fake_email_962@not-exist-domain.com,2004-10-23,Can Tho,2.7,1.4,0.7,students_202601191651.txt,,1.6,Yếu
+SV963,Van A Dinh,dinh.vana.963@gmail.com,2002-06-22,Nghe An,4.9,3.2,7.5,students_202601191651.txt,,5.2,Trung Bình
+SV964,Huu T Le,le.huut.964@gmail.com,2001-01-13,Can Tho,7.3,5.1,5.0,students_202601191651.txt,,5.8,Trung Bình
+SV965,Tieu I Unknown,unknown.tieui.965@gmail.com,2006-03-01,Hai Phong,4.2,0.8,8.7,students_202601191651.txt,,4.57,Yếu
+SV966,Tieu I Bui,bui.tieui.966@gmail.com,2005-05-16,N/A,5.4,2.5,9.6,students_202601191651.txt,,5.83,Trung Bình
+SV967,Huu T Unknown,fake_email_967@not-exist-domain.com,2000-02-27,Da Nang,9.3,6.2,3.2,students_202601191651.txt,,6.23,Trung Bình
+SV968,Van C Hoang,hoang.vanc.968@gmail.com,2001-09-24,Can Tho,8.1,6.8,8.6,students_202601191651.txt,,7.83,Khá
+SV969,Tuan G Dinh,dinh.tuang.969@gmail.com,2005-03-20,Unknown,3.0,1.3,4.5,students_202601191651.txt,,2.93,Yếu
+SV970,Huu T Hoang,hoang.huut.970@gmail.com,2005-12-16,Nghe An,8.2,6.9,0.0,students_202601191651.txt,,5.03,Trung Bình
+SV971,Tieu I Bui,fake_email_971@not-exist-domain.com,2000-10-07,N/A,3.6,4.6,9.2,students_202601191651.txt,,5.8,Trung Bình
+SV972,Van C Bui,fake_email_972@not-exist-domain.com,2001-07-28,Hai Phong,8.9,2.9,8.4,students_202601191651.txt,,6.73,Khá
+SV973,Huu T Le,le.huut.973@gmail.com,2002-07-28,N/A,2.6,6.6,8.8,students_202601191651.txt,,6.0,Trung Bình
+SV974,Tuan G Le,le.tuang.974@gmail.com,2000-05-02,N/A,0.4,2.5,9.5,students_202601191651.txt,,4.13,Yếu
+SV975,Thi B Dang,fake_email_975@not-exist-domain.com,2002-11-15,Da Nang,9.3,2.7,6.2,students_202601191651.txt,,6.07,Trung Bình
+SV976,Ngoc F Tran,tran.ngocf.976@gmail.com,2002-05-21,Tp.Hcm,6.8,7.0,5.7,students_202601191651.txt,,6.5,Khá
+SV977,Tieu I Dinh,dinh.tieui.977@gmail.com,2002-11-13,Da Nang,4.1,8.1,2.7,students_202601191651.txt,,4.97,Yếu
+SV978,Thi B Pham,pham.thib.978@gmail.com,2003-01-26,Unknown,0.5,7.2,1.6,students_202601191651.txt,,3.1,Yếu
+SV979,Huu T Bui,bui.huut.979@gmail.com,2005-01-07,Tp.Hcm,7.1,7.7,3.6,students_202601191651.txt,,6.13,Trung Bình
+SV980,Minh E Dinh,dinh.minhe.980@gmail.com,2002-12-27,Da Nang,4.3,9.9,2.9,students_202601191651.txt,,5.7,Trung Bình
+SV981,Tuan G Dinh,fake_email_981@not-exist-domain.com,2005-04-12,Nghe An,9.6,1.5,3.2,students_202601191651.txt,,4.77,Yếu
+SV982,Van C Nguyen,nguyen.vanc.982@gmail.com,2003-01-21,Tp.Hcm,4.2,4.4,6.8,students_202601191651.txt,,5.13,Trung Bình
+SV983,Van A Vu,vu.vana.983@gmail.com,2002-11-01,N/A,2.1,3.5,0.0,students_202601191651.txt,,1.87,Yếu
+SV984,Minh E Trinh,trinh.minhe.984@gmail.com,2005-06-30,Son La,2.9,4.1,2.9,students_202601191651.txt,,3.3,Yếu
+SV985,Minh E Pham,pham.minhe.985@gmail.com,2003-09-17,Hai Phong,5.7,6.5,7.2,students_202601191651.txt,,6.47,Trung Bình
+SV986,Minh E Pham,fake_email_986@not-exist-domain.com,2005-07-07,Ha Noi,4.7,4.2,8.3,students_202601191651.txt,,5.73,Trung Bình
+SV987,Ngoc F Tieu,fake_email_987@not-exist-domain.com,2004-08-23,Can Tho,4.5,8.3,5.9,students_202601191651.txt,,6.23,Trung Bình
+SV988,Minh E Dinh,dinh.minhe.988@gmail.com,2004-06-27,Unknown,2.5,7.6,2.7,students_202601191651.txt,,4.27,Yếu
+SV989,Van C Le,le.vanc.989@gmail.com,2001-04-06,Ha Noi,0.6,6.4,9.6,students_202601191651.txt,,5.53,Trung Bình
+SV990,Tieu I Dinh,dinh.tieui.990@gmail.com,2004-01-13,Thanh Hoa,7.8,9.7,2.2,students_202601191651.txt,,6.57,Khá
+SV991,Huu T Trinh,trinh.huut.991@gmail.com,2000-01-01,Son La,8.0,5.9,0.0,students_202601191651.txt,,4.63,Yếu
+SV992,Tieu I Dinh,dinh.tieui.992@gmail.com,2001-03-29,Unknown,1.0,0.3,2.0,students_202601191651.txt,,1.1,Yếu
+SV993,Van A Le,le.vana.993@gmail.com,2000-03-09,Ha Noi,4.6,5.2,6.2,students_202601191651.txt,,5.33,Trung Bình
+SV994,Thi B Dang,dang.thib.994@gmail.com,2002-11-28,Son La,3.8,0.3,4.6,students_202601191651.txt,,2.9,Yếu
+SV995,Duc H Vu,fake_email_995@not-exist-domain.com,2000-05-24,Tp.Hcm,0.7,6.3,4.8,students_202601191651.txt,,3.93,Yếu
+SV996,Tuan G Trinh,fake_email_996@not-exist-domain.com,2001-04-10,Tp.Hcm,8.5,7.7,8.8,students_202601191651.txt,,8.33,Giỏi
+SV997,Ngoc F Bui,fake_email_997@not-exist-domain.com,2001-10-16,Hai Phong,3.5,5.1,3.0,students_202601191651.txt,,3.87,Yếu
+SV998,Ngoc F Bui,bui.ngocf.998@gmail.com,2007-02-18,N/A,7.7,2.3,0.0,students_202601191651.txt,,3.33,Yếu
+SV999,Thi D Le,le.thid.999@gmail.com,2006-03-11,N/A,2.5,6.7,8.5,students_202601191651.txt,,5.9,Trung Bình
