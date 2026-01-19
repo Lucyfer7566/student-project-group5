@@ -144,7 +144,7 @@ def visualize_data(df, output_path):
             colors = plt.cm.RdYlGn(norm(geo_stats.values))
 
             plt.barh(geo_stats.index, geo_stats.values, color=colors)
-            plt.xlabel('Điểm Trung Bình')
+            plt.xlabel('Tổng điểm 3 môn Toán - Ngữ Văn - Tiếng Anh')
             plt.title('Top 20 Tỉnh/Thành có điểm cao nhất')
             plt.gca().invert_yaxis() # Đảo ngược để hạng 1 lên đầu
             
@@ -200,6 +200,84 @@ def visualize_data(df, output_path):
             
     except Exception as e:
         print(f"   ❌ Lỗi vẽ chart 4: {e}")
+
+        # --- 5. MA TRẬN TƯƠNG QUAN ĐIỂM SỐ ---
+    try:
+        plt.figure(figsize=(8, 6))
+        corr = df[['math', 'literature', 'english', 'avg_score']].corr()
+        sns.heatmap(
+            corr,
+            annot=True,
+            cmap="coolwarm",
+            fmt=".2f",
+            linewidths=0.5
+        )
+        plt.title("Ma Trận Tương Quan Giữa Các Môn")
+        plt.tight_layout()
+        plt.savefig(os.path.join(img_dir, "5_correlation_heatmap.png"))
+        plt.close()
+        print("   ✅ [5] Đã vẽ Heatmap tương quan.")
+
+    except Exception as e:
+        print(f"   ❌ Lỗi chart 5: {e}")
+
+        # --- 6. ẢNH HƯỞNG TOÁN ĐẾN ĐIỂM TRUNG BÌNH ---
+    try:
+        plt.figure(figsize=(8, 6))
+        sns.regplot(
+            x='math',
+            y='avg_score',
+            data=df,
+            scatter_kws={'alpha': 0.5},
+            line_kws={'color': 'red'}
+        )
+        plt.xlabel("Điểm Toán")
+        plt.ylabel("Điểm Trung Bình")
+        plt.title("Ảnh Hưởng Của Toán Đến Điểm Trung Bình")
+        plt.tight_layout()
+        plt.savefig(os.path.join(img_dir, "6_math_vs_avg_score.png"))
+        plt.close()
+        print("   ✅ [6] Đã vẽ Scatter + Regression (Toán vs TB).")
+
+    except Exception as e:
+        print(f"   ❌ Lỗi chart 6: {e}")
+
+        # --- 7. XẾP LOẠI THEO QUÊ QUÁN (STACKED BAR) ---
+    try:
+        top_hometowns = df['hometown'].value_counts().head(10).index
+        df_top = df[df['hometown'].isin(top_hometowns)]
+
+        crosstab = pd.crosstab(df_top['hometown'], df_top['rank'])
+        crosstab.plot(kind='bar', stacked=True, figsize=(12, 7))
+
+        plt.xlabel("Quê Quán")
+        plt.ylabel("Số Lượng Sinh Viên")
+        plt.title("Phân Bố Xếp Loại Theo Quê Quán (Top 10)")
+        plt.legend(title="Xếp loại")
+        plt.tight_layout()
+        plt.savefig(os.path.join(img_dir, "7_rank_by_hometown.png"))
+        plt.close()
+        print("   ✅ [7] Đã vẽ Stacked Bar (Rank theo quê quán).")
+
+    except Exception as e:
+        print(f"   ❌ Lỗi chart 7: {e}")
+
+        # --- 8. PHÂN TÁN ĐIỂM TRUNG BÌNH THEO XẾP LOẠI ---
+    try:
+        plt.figure(figsize=(8, 6))
+        sns.boxplot(x='rank', y='avg_score', data=df, palette='Set3')
+        plt.xlabel("Xếp Loại")
+        plt.ylabel("Điểm Trung Bình")
+        plt.title("Phân Bố Điểm Trung Bình Theo Xếp Loại")
+        plt.tight_layout()
+        plt.savefig(os.path.join(img_dir, "8_box_avg_by_rank.png"))
+        plt.close()
+        print("   ✅ [8] Đã vẽ Boxplot (Avg score theo rank).")
+    
+    except Exception as e:
+        print(f"   ❌ Lỗi chart 8: {e}")
+
+
 
 # ================= MAIN PROGRAM =================
 if __name__ == "__main__":
